@@ -79,32 +79,11 @@ WSGI_APPLICATION = 'Take-out.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         'NAME': 'Take_out',
         'PORT': 3306,
         'USER': 'root',
         'PASSWORD': '1',
         'HOST': '127.0.0.1',
-=======
-        'NAME': 'waimai',
-	'PORT':3306,
-=======
-        'NAME': 'Take_out',
-=======
-        'NAME': 'Take_OUT',
->>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
-	    'PORT':3306,
->>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
-        'USER':'root',
-<<<<<<< HEAD
-        'PASSWORD':'admin',
-=======
-        'PASSWORD':'test',
->>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
-        'HOST':'localhost',
->>>>>>> 9a52cebf62d17fe90275716243159a0a719ae9ef
     }
 }
 
@@ -143,17 +122,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-<<<<<<< HEAD
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
-=======
-STATICFILES_DIRS=[
-    os.path.join(BASE_DIR,'static')
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 9a52cebf62d17fe90275716243159a0a719ae9ef
-=======
->>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
-=======
->>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
 ]

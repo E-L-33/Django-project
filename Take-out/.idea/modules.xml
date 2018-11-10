@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/../Take-out/.idea/Take-out.iml" filepath="$PROJECT_DIR$/../Take-out/.idea/Take-out.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/.idea/Take-out.iml" filepath="$PROJECT_DIR$/.idea/Take-out.iml" />
-      <module fileurl="file://$USER_HOME$/Take-out/.idea/food.iml" filepath="$USER_HOME$/Take-out/.idea/food.iml" />
->>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
     </modules>
   </component>
 </project>

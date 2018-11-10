@@ -1,62 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
 <module type="PYTHON_MODULE" version="4">
-=======
-<module version="4">
->>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
-=======
-<module type="PYTHON_MODULE" version="4">
->>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
   <component name="FacetManager">
     <facet type="django" name="Django">
       <configuration>
         <option name="rootFolder" value="$MODULE_DIR$" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <option name="settingsModule" value="Take_out/settings.py" />
-        <option name="manageScript" value="manage.py" />
-=======
         <option name="settingsModule" value="Take-out/settings.py" />
         <option name="manageScript" value="$MODULE_DIR$/manage.py" />
->>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
-=======
-        <option name="settingsModule" value="Take-out/settings.py" />
-        <option name="manageScript" value="$MODULE_DIR$/manage.py" />
->>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
         <option name="environment" value="&lt;map/&gt;" />
         <option name="doNotUseTestRunner" value="false" />
         <option name="trackFilePattern" value="migrations" />
       </configuration>
     </facet>
   </component>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
-<<<<<<< HEAD
-=======
->>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
-=======
->>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/templates" />
+      </list>
+    </option>
   </component>
   <component name="TestRunnerService">
-<<<<<<< HEAD
-<<<<<<< HEAD
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
-=======
-    <option name="projectConfiguration" value="Twisted Trial" />
-    <option name="PROJECT_TEST_RUNNER" value="Twisted Trial" />
->>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
-=======
-    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
->>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
   </component>
 </module>
