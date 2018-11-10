@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding:0;
+				border:0;
+				margin:0;
+				list-style:none;
+				font-family:"微软雅黑";
+			}
+			#wjj_box{
+				width:16rem;
+				overflow:hidden;
+				position:relative;
+			}
+			header{
+				width:16rem;
+				height:2.5rem;
+				background:#000000;
+				position:fixed;
+			}
+			header p{
+				color:#ffffff;
+				font-size:0.75rem;
+				margin-left:0.875rem;
+				line-height:2.5rem;
+			}
+			header p span{
+				color:#ffffff;
+				font-size:rem;
+				margin-left:0.75rem;
+			}
+			#wjj_logo{
+				width:16rem;
+				height:2.025rem;
+				margin-top:2.5rem;
+				border-bottom:0.025rem solid #f0f0f0;
+				position:fixed;
+			}
+			#wjj_logo p{
+				width:3.2rem;
+				height:1.175rem;
+				border:0.025rem solid #dddddd;
+				margin-left:0.45rem;
+				border-radius:0.9rem;
+				line-height:1.175rem;
+				text-align:center;
+				color:#757575;
+				float:left;
+				margin-top:0.425rem;
+				font-size:0.525rem;
+				
+			}
+			#wjj_logo p:hover{
+				color:#0b83fa;
+				border:0.025rem solid #2695ff;
+				background:#ebf5fe;
+			}
+			#wjj_content1{
+				width:8.175rem;
+				height:11.7rem;
+				margin-top:5.25rem;
+				margin-left:0.925rem;
+			}
+			#wjj_content1 img{
+				width:8.175rem;
+				height:8.2rem;
+			}
+			#mc{
+				color:#151515;
+				font-size:0.625rem;
+				margin-top:0.475rem;
+				margin-left:0.225rem;
+			}
+			#qian{
+				color:#f2651a;
+				font-size:0.625rem;
+				margin-top:0.65rem;
+				margin-left:0.225rem;
+				float:left;
+			}
+			#qian span{
+				color:#b0b0b0;
+				font-size:0.45rem;
+				margin-left:0.275rem;
+				display:inline-block;
+				text-decoration:line-through;
+			}
+			#qiang{
+				width:1.925rem;
+				height:1.225rem;
+				background:#f74942;
+				color:#ffffff;
+				line-height:1.225rem;
+				font-size:0.625rem;
+				text-align:center;
+				float:right;
+				margin-top:0.4rem;
+			}
+			#wjj_content2{
+				width:8.175rem;
+				height:11.7rem;
+				
+				margin-left:0.925rem;
+			}
+			#wjj_content2 img{
+				width:8.175rem;
+				height:8.2rem;
+			}
+			#mc2{
+				color:#151515;
+				font-size:0.625rem;
+				margin-top:0.475rem;
+				margin-left:0.225rem;
+			}
+			#qian2{
+				color:#f2651a;
+				font-size:0.625rem;
+				margin-top:0.65rem;
+				margin-left:0.225rem;
+				float:left;
+			}
+			#qian2 span{
+				color:#b0b0b0;
+				font-size:0.45rem;
+				margin-left:0.275rem;
+				display:inline-block;
+				text-decoration:line-through;
+			}
+			#qiang2{
+				width:1.925rem;
+				height:1.225rem;
+				background:#f74942;
+				color:#ffffff;
+				line-height:1.225rem;
+				font-size:0.625rem;
+				text-align:center;
+				float:right;
+				margin-top:0.4rem;
+			}
+			#dz2{
+				width:1.55rem;
+				height:0.7rem;
+				color:#f7f7f7;
+				font-size:0.4rem;
+				background:#4c4c4c;
+				line-height:0.7rem;
+				text-align:center;
+				clear:both;
+				margin-top:2.5rem;
+				margin-left:0.45rem;
+			}
+			#wjj_content3{
+				width:8.175rem;
+				height:11.7rem;
+				
+				margin-left:0.925rem;
+			}
+			#wjj_content3 img{
+				width:8.175rem;
+				height:8.2rem;
+			}
+			#mc3{
+				color:#151515;
+				font-size:0.625rem;
+				margin-top:0.475rem;
+				margin-left:0.225rem;
+			}
+			#qian3{
+				color:#f2651a;
+				font-size:0.625rem;
+				margin-top:0.65rem;
+				margin-left:0.225rem;
+				float:left;
+			}
+			#qian3 span{
+				color:#b0b0b0;
+				font-size:0.45rem;
+				margin-left:0.275rem;
+				display:inline-block;
+				text-decoration:line-through;
+			}
+			#qiang3{
+				width:1.925rem;
+				height:1.225rem;
+				background:#f74942;
+				color:#ffffff;
+				line-height:1.225rem;
+				font-size:0.625rem;
+				text-align:center;
+				float:right;
+				margin-top:0.4rem;
+			}
+			#wjj_content4{
+				width:8.175rem;
+				height:11.7rem;
+				
+				margin-left:0.925rem;
+			}
+			#wjj_content4 img{
+				width:8.175rem;
+				height:8.2rem;
+			}
+			#mc4{
+				color:#151515;
+				font-size:0.625rem;
+				margin-top:0.475rem;
+				margin-left:0.225rem;
+			}
+			#qian4{
+				color:#f2651a;
+				font-size:0.625rem;
+				margin-top:0.65rem;
+				margin-left:0.225rem;
+				float:left;
+			}
+			#qian4 span{
+				color:#b0b0b0;
+				font-size:0.45rem;
+				margin-left:0.275rem;
+				display:inline-block;
+				text-decoration:line-through;
+			}
+			#qiang4{
+				width:1.925rem;
+				height:1.225rem;
+				background:#f74942;
+				color:#ffffff;
+				line-height:1.225rem;
+				font-size:0.625rem;
+				text-align:center;
+				float:right;
+				margin-top:0.4rem;
+			}
+			#wjj_content5{
+				width:8.175rem;
+				height:11.7rem;
+				
+				margin-left:0.925rem;
+			}
+			#wjj_content5 img{
+				width:8.175rem;
+				height:8.2rem;
+			}
+			#mc5{
+				color:#151515;
+				font-size:0.625rem;
+				margin-top:0.475rem;
+				margin-left:0.225rem;
+			}
+			#qian5{
+				color:#f2651a;
+				font-size:0.625rem;
+				margin-top:0.65rem;
+				margin-left:0.225rem;
+				float:left;
+			}
+			#qian5 span{
+				color:#b0b0b0;
+				font-size:0.45rem;
+				margin-left:0.275rem;
+				display:inline-block;
+				text-decoration:line-through;
+			}
+			#qiang5{
+				width:1.925rem;
+				height:1.225rem;
+				background:#f74942;
+				color:#ffffff;
+				line-height:1.225rem;
+				font-size:0.625rem;
+				text-align:center;
+				float:right;
+				margin-top:0.4rem;
+			}
+			#wjj_content6{
+				width:8.175rem;
+				height:11.7rem;
+				
+				margin-left:0.925rem;
+			}
+			#wjj_content6 img{
+				width:8.175rem;
+				height:8.2rem;
+			}
+			#mc6{
+				color:#151515;
+				font-size:0.625rem;
+				margin-top:0.475rem;
+				margin-left:0.225rem;
+			}
+			#qian6{
+				color:#f2651a;
+				font-size:0.625rem;
+				margin-top:0.65rem;
+				margin-left:0.225rem;
+				float:left;
+			}
+			#qian6 span{
+				color:#b0b0b0;
+				font-size:0.45rem;
+				margin-left:0.275rem;
+				display:inline-block;
+				text-decoration:line-through;
+			}
+			#qiang6{
+				width:1.925rem;
+				height:1.225rem;
+				background:#f74942;
+				color:#ffffff;
+				line-height:1.225rem;
+				font-size:0.625rem;
+				text-align:center;
+				float:right;
+				margin-top:0.4rem;
+			}
+		</style>
+	</head>
+	<body>
+	    <div id="wjj_box">
+		   <header>
+			   <p>X  <span>天天特价</span></p> 
+			</header>
+			<div id="wjj_logo">
+				<p>全部</p>
+				<p>火爆特惠</p>
+				<p>下午茶不贵</p>
+				<p>商超百货</p>
+			</div>
+			<div id="wjj_content1">
+				<img src="images/tu1.png">
+				<p id="mc">番茄肥牛米线+雀巢芒C</p>
+				<p id="qian">￥38.4<span>￥48</span></p>
+				<p id="qiang">抢</p>
+			</div>
+			<div id="wjj_content2">
+				<img src="images/tu1.png">
+				<p id="mc2">番茄肥牛米线+雀巢芒C</p>
+				<p id="qian2">￥38.4<span>￥48</span></p>
+				<p id="qiang2">抢</p>
+				
+			</div>
+			<div id="wjj_content3">
+				<img src="images/tu3.png">
+				<p id="mc3">地三鲜</p>
+				<p id="qian3">￥15.4<span>￥22</span></p>
+				<p id="qiang3">抢</p>
+			</div>
+			<div id="wjj_content4">
+				<img src="images/tu4.png">
+				<p id="mc4">辣汁牛肉模+泰镇米啤</p>
+				<p id="qian4">￥10.5<span>￥21</span></p>
+				<p id="qiang4">抢</p>
+			</div>
+			<div id="wjj_content5">
+				<img src="images/tu5.png">
+				<p id="mc5">咖喱鸡肉+熊烧鸡肉双人套餐</p>
+				<p id="qian5">￥49<span>￥73</span></p>
+				<p id="qiang5">抢</p>
+			</div>
+			<div id="wjj_content6">
+				<img src="images/tu5-06.png">
+				<p id="mc6">下午茶单人套餐</p>
+				<p id="qian6">￥19.5<span>￥29.5</span></p>
+				<p id="qiang6">抢</p>
+			</div>
+	    </div>
+		<script type="text/javascript">
+	      document.documentElement.style.fontSize = innerWidth/16+'px';
+	      onresize = function(){
+		         document.documentElement.style.fontSize = innerWidth/16+'px';
+	        };
+	    </script>
+	</body>
+</html>

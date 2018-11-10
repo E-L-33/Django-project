@@ -16,14 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url,include
-
+from Order import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     url('Order/', include('Order.urls')),
-    url('Order_dinner/', include('Order_dinner.urls')),
-    url('Person/', include('Person.urls')),
-    url('Payment/', include('payment.urls')),
-    url('Comment/', include('Comment.urls')),
-    url('Delicious/', include('Delicious.urls')),
+    url('dingdan/', views.O_index)
+    #url('Order_dinner/', include('Order_dinner.urls')),
+    #url('Person/', include('Person.urls')),
+    #url('Payment/', include('payment.urls')),
+    #url('Comment/', include('Comment.urls')),
+    #url('Delicious/', include('Delicious.urls')),
 
 ]

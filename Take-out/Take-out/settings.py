@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Delicious',
     'Order',
-    'Order_dinner'
+    'Order_dinner',
     'Payment',
     'Person',
     'Comment'
@@ -83,9 +83,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'waimai',
-	    'PORT':3306,
+	'PORT':3306,
         'USER':'root',
-        'PASSWORD':'qwd',
+        'PASSWORD':'admin',
         'HOST':'localhost',
     }
 }

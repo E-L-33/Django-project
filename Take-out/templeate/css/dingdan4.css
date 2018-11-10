@@ -1,0 +1,117 @@
+body,ul,ol,li,dl,dt,dd,table,p,input,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+body{font-size:0.025rem;font-family:Arial,"微软雅黑";}
+a:link,a:visited{text-decoration:none;outline:none;color:#5E5E5E;}
+a img{border:none;}
+ul,li{list-style:none;}
+a:hover{color:#1C468E;}
+input{vertical-align:middle;}
+.left {
+	float: left;
+	display: inline;
+}
+
+.right {
+	float: right;
+	display: inline;
+}
+
+.clear:after {
+	clear: both;
+	display: block;
+	content: '';
+}
+
+.clear {
+	zoom: 1;
+}
+
+.a {
+	text-decoration: none;
+}
+
+body {
+	font-family: "微软雅黑", "宋体", sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 3.5rem;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.yf_box{width: 100%;height: 100rem;}
+.yf_header{width: 100%;height: 2.825rem;background: #045DAE;float: left;}
+.yf_headerleft{height: 0.525rem;height: 1.925rem;float: left;margin-top: 0.435rem;margin-left: 1.657rem;}
+.yf_headerleft img{width: 100%;height: 100%;}
+.yf_header span{color: #FFFFFF;font-size: 1rem;line-height: 2.825rem;margin-left: 1.625rem;}
+.yf_headerright{width: 2.525rem;height: 2.295rem;float: right;color: #FFFFFF;font-size: 1rem;line-height: 2.925rem;margin-right: 0.775rem;}
+.yf_banner{width: 100%;height: 5.25rem;float: left;}
+.yf_banner img{width: 100%;height: 100%;}
+.yf_first{width: 100%;height: 3.5rem;float: left;}
+.yf_firstleft{width: 5.625rem;float: left;height: 1.75rem;margin-top: 0.975rem;margin-left: 2.175rem;}
+.yf_firstleft span{color: #000;font-size: 1.2rem;line-height: 1.75rem;}
+.yf_firstleft img{margin-left: 0.475rem;}
+.yf_firstright{width: 9.95rem;height: 2.275rem;float: right;margin-top: 0.625rem;margin-right: 1.675rem;}
+.yf_firstright input{width: 95%;height: 2.075rem;border-radius: 5px;float: left;background: #E7E7E7;border: none;margin-left: 0.225rem;margin-top: 0.125rem;text-indent: 1.075rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
