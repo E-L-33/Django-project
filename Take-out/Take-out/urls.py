@@ -26,4 +26,3 @@ urlpatterns = [
     path('Comment/', include('Comment.urls')),
     path('Delicious/', include('Delicious.urls'))
 ]
-

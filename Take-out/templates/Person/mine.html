@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+    {% load staticfiles %}
 	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
-	<script src="js/app.js"></script>
-	<link rel="stylesheet" href="css/style.css">
+	<script src="{% static 'app.js' %}"></script>
+	<link rel="stylesheet" href="{% static 'Person/css/style.css' %}">
 </head>
 <body>
 	<div class="main">
@@ -13,23 +14,23 @@
 		<div class="header">
 			<div class="JUZ">
 				<p>我的</p>
-				<a href="notice.html" ><img src="images/tu_06.png"></a>
-				<a href="install.html"><img src="images/tu_03.png"></a>
+				<a href="notice.html" ><img src="{% static 'Person/images/tu_06.png' %}"></a>
+				<a href="install.html"><img src="{% static 'Person/images/tu_03.png' %}"></a>
 			</div>
 		</div>
 		<!-- 头部结束 -->
 		<!-- 登入 -->
 		<div class="login" onclick="window.location.href='change.html'">
 				<div class="JUZ">
-					<img src="images/tu_11.png" alt="">
+					<img src="{% static 'Person/images/tu_11.png' %}" alt="">
 					<div class="Lore">
 						<p>4191360gf</p>
 						<br>
-						<img src="images/tu_17.png" alt="">
+						<img src="{% static 'Person/images/tu_17.png' %}" alt="">
 						<span>176****9535</span>
 					</div>
 				</div>
-				<img src="images/tu_14.png">
+				<img src="{% static 'Person/images/tu_14.png' %}">
 		</div>
 		<!-- 登入结束 -->
 		<!-- 内容 -->
@@ -59,11 +60,11 @@
 				<div class="lists-t">
 					<ul>
 						<li onclick="window.location.href='address.html'">
-							<img src="images/tu_22.png">
+							<img src="{% static 'Person/images/tu_22.png' %}">
 							<p>收货地址</p>
 						</li>
 						<li onclick="window.location.href='collection.html'">
-							<img src="images/tu_25.png">
+							<img src="{% static 'Person/images/tu_25.png' %}">
 							<p>我的收藏</p>
 						</li>
 					</ul>
@@ -72,22 +73,22 @@
 				<div class="lists-t">
 					<ul>
 						<li>
-							<img src="images/tu_28.png">
+							<img src="{% static 'Person/images/tu_28.png' %}">
 							<p>推荐有奖</p>
 							<span>5元现金</span>
 						</li>
 						<li onclick="window.location.href='integral.html'">
-							<img src="images/tu_31.png">
+							<img src="{% static 'Person/images/tu_31.png' %}">
 							<p>积分商城</p>
 							<span>0元好物在这里</span>
 						</li>
 						<li onclick="window.location.href='member.html'">
-							<img src="images/tu_35.png">
+							<img src="{% static 'Person/images/tu_35.png' %}">
 							<p>饿了就吃会员卡</p>
 							<span>会员剩余：28天</span>
 						</li>
 						<li onclick="window.location.href='choice.html'">
-							<img src="images/tu_39.png">
+							<img src="{% static 'Person/images/tu_39.png' %}">
 							<p>每日精选</p>
 							<span>一元起秒杀</span>
 						</li>

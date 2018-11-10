@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>EVIC|登录</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="{% static 'Person/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'Person/css/bootstrap.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'Person/css/demo.css' %}" />
+    <link rel="stylesheet" href="{% static 'Person/css/templatemo-style.css' %}">
+
+    <script type="text/javascript" src="{% static 'Person/js/modernizr.custom.86080.js' %}"></script>
+</head>
+    <body>
+        <div id="particles-js"></div>
+            <ul class="cb-slideshow">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="container-fluid">
+                <div class="row cb-slideshow-text-container ">
+                    <div class= "tm-content col-xl-6 col-sm-8 col-xs-8 ml-auto section">
+                    <header class="mb-5"><h1>Login</h1></header>
+                    
+                    
+                    <form action="" method="POST" class="subscribe-form">
+                        <div class="row form-section">
+                            {% csrf_token %}
+                            <div class="col-md-7 col-sm-7 col-xs-7">
+                                {% for field in forms %}      <!-- 这里需要注释 -->
+                                    <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+
+                                    {{ field }}
+                                    <p class="text-danger">{{ field.errors.as_text }}</p>
+                                {% endfor %}
+                                <span class="pull-left text-danger">{{ forms.non_field_errors }}</span>
+                                <br>
+                                <input type="submit" value="注入灵魂" class="btn btn-primary tm-btn-subscribe">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="tm-social-icons-container text-xs-center">
+                        <a href="#" class="tm-social-link"><i class="fa fa-qq"></i></a>
+                        <a href="#" class="tm-social-link"><i class="fa fa-github"></i></a>
+                        <a href="#" class="tm-social-link"><i class="fa fa-weixin"></i></a>
+                        <a href="#" class="tm-social-link"><i class="fa fa-weibo"></i></a>
+                    </div>
+
+                    <P class="mb-5">
+                        还没有账号？那先<a href="{% url 'register' %} " style="color: yellow;">注册</a>吧
+                    </P>
+                    
+                    
+
+                    </div>
+                </div>  
+                <div class="footer-link">
+                    <p>CopyRight&copy; <a rel="nofollow" href="{% url 'home' %}" target="_parent">EVIC个人博客</a>·记录·生活·学习</p>
+                </div>
+            </div>  
+    </body>
+
+    <script type="text/javascript" src="{% static 'Person/js/particles.js' %}"></script>
+    <script type="text/javascript" src="{% static 'Person/js/app.js' %}"></script>
+</html>

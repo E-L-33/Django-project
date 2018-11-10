@@ -3,23 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+    {% load staticfiles %}
 	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
-	<link rel="stylesheet" href="css/style10.css">
-	<script src="js/app.js"></script>
+	<link rel="stylesheet" href="{% static 'Person/css/style10.css' %}">
+	<script src="{% static 'app.js' %}"></script>
 </head>
 <body>
 	<div class="main">
 		<!-- 头部 -->
 		<div class="header">
 			<div class="JUZ">
-				<a href="mine.html"><img src="images/tong_03.png"></a>
+				<a href="mine.html"><img src="{% static 'Person/images/tong_03.png' %}"></a>
 				<p>我的收藏</p>
 			</div>
 		</div>
 		<!-- 头部结束 -->
 		<!-- content -->
 		<div class="content">
-			<img src="images/cang_03.png">
+			<img src="{% static 'Person/images/cang_03.png' %}">
 			<h3>没有收藏</h3>
 			<p>快去收藏喜欢的商家吧</p>
 		</div>
