@@ -80,6 +80,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'NAME': 'Take_out',
         'PORT': 3306,
         'USER': 'root',
@@ -88,6 +89,10 @@ DATABASES = {
 =======
         'NAME': 'waimai',
 	'PORT':3306,
+=======
+        'NAME': 'Take_out',
+	    'PORT':3306,
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
         'USER':'root',
         'PASSWORD':'admin',
         'HOST':'localhost',
@@ -136,5 +141,8 @@ STATICFILES_DIRS = [
 =======
 STATICFILES_DIRS=[
     os.path.join(BASE_DIR,'static')
+<<<<<<< HEAD
 >>>>>>> 9a52cebf62d17fe90275716243159a0a719ae9ef
+=======
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
 ]

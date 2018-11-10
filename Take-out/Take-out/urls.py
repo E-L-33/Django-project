@@ -32,6 +32,7 @@ from django.conf.urls import url,include
 from Order import views
 urlpatterns = [
     path('admin/', admin.site.urls),
+<<<<<<< HEAD
     url('Order/', include('Order.urls')),
     url('dingdan/', views.O_index)
     #url('Order_dinner/', include('Order_dinner.urls')),
@@ -39,6 +40,9 @@ urlpatterns = [
     #url('Payment/', include('payment.urls')),
     #url('Comment/', include('Comment.urls')),
     #url('Delicious/', include('Delicious.urls')),
+=======
+    url('order_dinner/', include('Order_dinner.urls')),
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
 
 >>>>>>> 9a52cebf62d17fe90275716243159a0a719ae9ef
 ]

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d3fc1e-28fe-4172-b464-4f0780f79846" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../Take-out/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Take-out/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Take-out.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Take-out/.idea/Take-out.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/food.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Take-out/.idea/food.iml" afterDir="false" />
@@ -72,6 +73,78 @@
       <change beforePath="$PROJECT_DIR$/templates/Person/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Take-out/templates/Person/service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/Person/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Take-out/templates/Person/user.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/Person/wallet.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Take-out/templates/Person/wallet.html" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Comment/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order_dinner/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Payment/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Person/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Take-out/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Take-out/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Take-out/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Take-out/images/tu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Take-out/images/tu2-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Take-out/images/tu2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Take-out/images/tu3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Take-out/images/tu4-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Take-out/images/tu4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Take-out/images/tu5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Take-out/images/tu999.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/xc_seller.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/新店.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/food.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/food.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comment/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comment/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comment/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comment/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comment/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delicious/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delicious/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delicious/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delicious/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delicious/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delicious/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delicious/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delicious/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order_dinner/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order_dinner/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order_dinner/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order_dinner/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order_dinner/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order_dinner/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order_dinner/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Take-out/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Take-out/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Take-out/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Take-out/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/__init__.py" afterDir="false" />
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,6 +189,7 @@
     <session id="873160353">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.38" value="1" />
@@ -147,40 +221,130 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.30" value="1" />
+=======
+          <entry key="project.open.time.33" value="1" />
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="html" value="1" />
           <entry key="py" value="4" />
+=======
+          <entry key="html" value="3" />
+          <entry key="py" value="13" />
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="HTML" value="1" />
           <entry key="Python" value="4" />
+=======
+          <entry key="HTML" value="3" />
+          <entry key="Python" value="13" />
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="py" value="385" />
+=======
+          <entry key="html" value="64" />
+          <entry key="py" value="1067" />
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="Python" value="385" />
+=======
+          <entry key="HTML" value="64" />
+          <entry key="Python" value="1067" />
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Take-out/Take-out/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Take-out/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="62" column="44" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Order_dinner/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="19" />
+              <folding>
+                <element signature="e#1#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/新店.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="818" column="24" selection-start-line="818" selection-start-column="24" selection-end-line="818" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/xc_seller.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Take-out/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding>
+                <element signature="e#632#664#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Order_dinner/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1541818496126" expanded="true" signature="108:113" ph="..." />
+              </folding>
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
             </state>
           </provider>
         </entry>
@@ -191,15 +355,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Take-out</find>
       <find>_out</find>
     </findStrings>
   </component>
+=======
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -214,6 +382,7 @@
         <option value="$USER_HOME$/Take-out/Take-out/settings.py" />
         <option value="$USER_HOME$/Take-out/Take-out/urls.py" />
         <option value="$USER_HOME$/Take-out/Delicious/models.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Person/admin.py" />
         <option value="$PROJECT_DIR$/Take-out/urls.py" />
         <option value="$PROJECT_DIR$/Order/urls.py" />
@@ -227,6 +396,15 @@
         <option value="$PROJECT_DIR$/Take_out/settings.py" />
         <option value="$PROJECT_DIR$/Person/models.py" />
         <option value="$PROJECT_DIR$/../Take-out/Take-out/settings.py" />
+=======
+        <option value="$PROJECT_DIR$/Take-out/settings.py" />
+        <option value="$PROJECT_DIR$/Order_dinner/models.py" />
+        <option value="$PROJECT_DIR$/Order_dinner/views.py" />
+        <option value="$PROJECT_DIR$/Order_dinner/urls.py" />
+        <option value="$PROJECT_DIR$/Take-out/urls.py" />
+        <option value="$PROJECT_DIR$/templates/xc_seller.html" />
+        <option value="$PROJECT_DIR$/templates/新店.html" />
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
       </list>
     </option>
   </component>
@@ -236,6 +414,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="671" />
     <option name="y" value="219" />
@@ -244,7 +423,15 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="253" />
+    <option name="y" value="305" />
+    <option name="width" value="770" />
+    <option name="height" value="528" />
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -260,7 +447,26 @@
             <path>
               <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
               <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Order_dinner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
             </path>
           </expand>
           <select />
@@ -270,6 +476,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Take-out/Take_out/settings.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -285,6 +492,18 @@
       <recent name="$PROJECT_DIR$/Order" />
     </key>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Comment" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Take-out" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/Payment" />
+      <recent name="$PROJECT_DIR$/Person" />
+      <recent name="$PROJECT_DIR$/Order_dinner" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -297,9 +516,39 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager">
     <configuration name="Take_out" type="Python.DjangoServer" factoryName="Django server">
       <module name="Take-out" />
+=======
+  <component name="RunManager" selected="Django server.Take-out">
+    <configuration name="Take-out" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Take-out" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Take-out.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="food" type="Python.DjangoServer" factoryName="Django server">
+      <module name="food" />
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -322,6 +571,7 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Take_out" type="Python.DjangoServer" factoryName="Django server">
       <module name="Take-out" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -346,6 +596,12 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+=======
+    <list>
+      <item itemvalue="Django server.food" />
+      <item itemvalue="Django server.Take-out" />
+    </list>
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -361,6 +617,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -371,6 +628,18 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32522407" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.47759283" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
+=======
+    <frame x="253" y="305" width="770" height="528" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28983516" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6691358" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -378,7 +647,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3290653" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.0" />
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -395,6 +668,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Take-out/static/__init__.py" />
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/contrib/admin/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -499,10 +773,65 @@
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+=======
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/contrib/admin/__init__.py" />
+    <entry file="file://$USER_HOME$/Take-out/Delicious/urls.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/__init__.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/settings.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/urls.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/wsgi.py" />
+    <entry file="file://$USER_HOME$/Take-out/Delicious/__init__.py" />
+    <entry file="file://$USER_HOME$/Take-out/Delicious/models.py" />
+    <entry file="file://$PROJECT_DIR$/Order_dinner/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <marker date="1541816270547" expanded="true" signature="84:89" ph="..." />
+            <marker date="1541816270547" expanded="true" signature="475:480" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Payment/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Comment/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Take-out/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Person/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Take-out/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="62" column="44" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order_dinner/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1541818496126" expanded="true" signature="108:113" ph="..." />
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../Take-out/Comment/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -514,6 +843,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/Take-out/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order_dinner/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#1#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/xc_seller.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/新店.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="818" column="24" selection-start-line="818" selection-start-column="24" selection-end-line="818" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+>>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
         </state>
       </provider>
     </entry>
