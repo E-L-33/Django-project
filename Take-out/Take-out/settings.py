@@ -39,10 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Delicious',
     'Order',
-    'Order_dinner'
+    'Order_dinner',
     'Payment',
     'Person',
-    'Comment'
+    'Comment',
 ]
 
 MIDDLEWARE = [
@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'Take-out.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'waimai',
+        'NAME': 'Take_out',
 	    'PORT':3306,
         'USER':'root',
         'PASSWORD':'qwd',

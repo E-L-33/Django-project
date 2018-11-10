@@ -19,11 +19,6 @@ from django.conf.urls import url,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url('Order/', include('Order.urls')),
-    url('Order_dinner/', include('Order_dinner.urls')),
-    url('Person/', include('Person.urls')),
-    url('Payment/', include('payment.urls')),
-    url('Comment/', include('Comment.urls')),
-    url('Delicious/', include('Delicious.urls')),
+    url('order_dinner/', include('Order_dinner.urls')),
 
 ]
