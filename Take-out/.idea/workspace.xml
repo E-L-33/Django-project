@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d3fc1e-28fe-4172-b464-4f0780f79846" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Comment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -337,7 +337,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="139" y="249" width="1301" height="607" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2613185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
