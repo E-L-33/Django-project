@@ -2,67 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d3fc1e-28fe-4172-b464-4f0780f79846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Comment/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Delicious/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order_dinner/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Payment/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Person/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/.idea/Take-out.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Take-out.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/.idea/food.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/food.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Take-out/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Comment/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Comment/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Comment/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Comment/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Comment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Comment/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Comment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Delicious/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Delicious/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Delicious/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Delicious/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Delicious/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Delicious/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Delicious/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Delicious/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order_dinner/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order_dinner/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order_dinner/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order_dinner/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order_dinner/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order_dinner/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Order_dinner/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Payment/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Payment/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Payment/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Payment/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Payment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Payment/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Payment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Person/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Person/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Person/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Person/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Person/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Person/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Person/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Take-out/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Take_out/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Take-out/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Take_out/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Take-out/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Take_out/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/Take-out/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Take_out/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Take-out/static/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/__init__.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,10 +84,64 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="382" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="382" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Person/address.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Person/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1541824713578" expanded="true" signature="209:312" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/db/models/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -183,6 +180,7 @@
         <option value="$PROJECT_DIR$/Take-out/settings.py" />
         <option value="$PROJECT_DIR$/Take-out/settings.py" />
         <option value="$PROJECT_DIR$/Take_out/settings.py" />
+        <option value="$PROJECT_DIR$/Person/models.py" />
       </list>
     </option>
   </component>
@@ -193,10 +191,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="185" />
-    <option name="y" value="171" />
-    <option name="width" value="1301" />
-    <option name="height" value="536" />
+    <option name="x" value="671" />
+    <option name="y" value="219" />
+    <option name="width" value="1299" />
+    <option name="height" value="500" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -212,6 +210,11 @@
             <path>
               <item name="Take_out" type="b2602c69:ProjectViewProjectNode" />
               <item name="Take_out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Take_out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Take_out" type="462c0819:PsiDirectoryNode" />
+              <item name="Person" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,14 +315,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1537" height="912" extended-state="6" />
+    <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2196919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32522407" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290653" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47759283" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,6 +436,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="534" selection-start-line="534" selection-end-line="534" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Person/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1541824713578" expanded="true" signature="209:312" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
