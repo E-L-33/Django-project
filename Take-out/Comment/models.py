@@ -10,4 +10,5 @@ class Elaluate(models.Model):
 	content=models.CharField(max_length=120)
 	image=models.ImageField()
 	isshow=models.BooleanField()
+	####
 
