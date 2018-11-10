@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="57d3fc1e-28fe-4172-b464-4f0780f79846" name="Default Changelist" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../Take-out/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Take-out/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Take-out.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Take-out/.idea/Take-out.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/food.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Take-out/.idea/food.iml" afterDir="false" />
@@ -145,6 +146,9 @@
       <change beforePath="$PROJECT_DIR$/Take-out/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Take-out/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/__init__.py" afterDir="false" />
 >>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
+=======
+      <change beforePath="$PROJECT_DIR$/Comment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/models.py" afterDir="false" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,6 +193,7 @@
     <session id="873160353">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="1" />
@@ -247,10 +252,35 @@
           <entry key="HTML" value="3" />
           <entry key="Python" value="13" />
 >>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
+=======
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="59" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="18" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <entry key="py" value="385" />
 =======
@@ -267,11 +297,15 @@
           <entry key="HTML" value="64" />
           <entry key="Python" value="1067" />
 >>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
+=======
+          <entry key="py" value="59" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="true">
@@ -286,11 +320,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="39">
               <caret line="62" column="44" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="49" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Comment/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Order_dinner/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -298,10 +341,17 @@
               <folding>
                 <element signature="e#1#41#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/Take-out/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-195">
+              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/新店.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -309,12 +359,36 @@
               <caret line="818" column="24" selection-start-line="818" selection-start-column="24" selection-end-line="818" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Take-out/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#631#1" />
+                <element signature="e#632#664#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Comment/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#631#1" />
+                <element signature="e#632#664#0" expanded="true" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/templates/xc_seller.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -347,6 +421,35 @@
 >>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
             </state>
           </provider>
+=======
+        <entry file="file://$PROJECT_DIR$/Delicious/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Delicious/admin.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Comment/admin.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Comment/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Person/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Payment/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
         </entry>
       </file>
     </leaf>
@@ -360,6 +463,7 @@
     </option>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Take-out</find>
@@ -368,6 +472,8 @@
   </component>
 =======
 >>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
+=======
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -382,6 +488,7 @@
         <option value="$USER_HOME$/Take-out/Take-out/settings.py" />
         <option value="$USER_HOME$/Take-out/Take-out/urls.py" />
         <option value="$USER_HOME$/Take-out/Delicious/models.py" />
+<<<<<<< HEAD
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/Person/admin.py" />
         <option value="$PROJECT_DIR$/Take-out/urls.py" />
@@ -405,6 +512,12 @@
         <option value="$PROJECT_DIR$/templates/xc_seller.html" />
         <option value="$PROJECT_DIR$/templates/新店.html" />
 >>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
+=======
+        <option value="$PROJECT_DIR$/Take-out/urls.py" />
+        <option value="$PROJECT_DIR$/Comment/urls.py" />
+        <option value="$PROJECT_DIR$/Take-out/settings.py" />
+        <option value="$PROJECT_DIR$/Comment/models.py" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
       </list>
     </option>
   </component>
@@ -425,11 +538,18 @@
     <ConfirmationsSetting value="1" id="Add" />
 =======
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="253" />
     <option name="y" value="305" />
     <option name="width" value="770" />
     <option name="height" value="528" />
 >>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
+=======
+    <option name="x" value="139" />
+    <option name="y" value="249" />
+    <option name="width" value="1301" />
+    <option name="height" value="607" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -446,6 +566,7 @@
             </path>
             <path>
               <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="Take-out" type="462c0819:PsiDirectoryNode" />
 <<<<<<< HEAD
               <item name="Take-out" type="462c0819:PsiDirectoryNode" />
@@ -467,6 +588,44 @@
               <item name="Take-out" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
 >>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
+=======
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+              <item name="Comment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+              <item name="Delicious" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+              <item name="Order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+              <item name="Order_dinner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+              <item name="Payment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+              <item name="Person" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
             </path>
           </expand>
           <select />
@@ -517,10 +676,13 @@
     </option>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="RunManager">
     <configuration name="Take_out" type="Python.DjangoServer" factoryName="Django server">
       <module name="Take-out" />
 =======
+=======
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
   <component name="RunManager" selected="Django server.Take-out">
     <configuration name="Take-out" type="Python.DjangoServer" factoryName="Django server">
       <module name="Take-out" />
@@ -528,7 +690,10 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+<<<<<<< HEAD
         <env name="DJANGO_SETTINGS_MODULE" value="Take-out.settings" />
+=======
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -572,6 +737,7 @@
       <method v="2" />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <configuration name="Take_out" type="Python.DjangoServer" factoryName="Django server">
       <module name="Take-out" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -597,11 +763,16 @@
       <method v="2" />
     </configuration>
 =======
+=======
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
     <list>
       <item itemvalue="Django server.food" />
       <item itemvalue="Django server.Take-out" />
     </list>
+<<<<<<< HEAD
 >>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
+=======
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -617,6 +788,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
     <editor active="true" />
@@ -635,6 +807,14 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28983516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+=======
+    <frame x="139" y="249" width="1301" height="607" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2613185" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6691358" />
@@ -646,12 +826,17 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
 <<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3290653" />
 =======
       <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.0" />
 >>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
+=======
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" visible="true" weight="0.3264463" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.3264463" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -668,6 +853,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Take-out/static/__init__.py" />
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/contrib/admin/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -789,10 +975,65 @@
           <folding>
             <marker date="1541816270547" expanded="true" signature="84:89" ph="..." />
             <marker date="1541816270547" expanded="true" signature="475:480" ph="..." />
+=======
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/contrib/admin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Take-out/Delicious/urls.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/__init__.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/settings.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/urls.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/wsgi.py" />
+    <entry file="file://$USER_HOME$/Take-out/Delicious/__init__.py" />
+    <entry file="file://$USER_HOME$/Take-out/Delicious/models.py" />
+    <entry file="file://$PROJECT_DIR$/Person/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Person/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Comment/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Comment/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Comment/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Comment/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Person/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Payment/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Take-out/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#631#1" />
+            <element signature="e#632#664#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Comment/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#631#1" />
+            <element signature="e#632#664#0" expanded="true" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Payment/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -879,6 +1120,25 @@
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
           </folding>
 >>>>>>> 945be238c71e9e76dd43db4d8302bd9bdf15cf2a
+=======
+    <entry file="file://$PROJECT_DIR$/Delicious/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delicious/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Take-out/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Comment/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+>>>>>>> 52d19066715bc8a5f3a8c9cdf4e858ecd94d69bc
         </state>
       </provider>
     </entry>
