@@ -1,0 +1,40 @@
+*{margin: 0;padding: 0;font-family:"微软雅黑";list-style: none;text-decoration: none;}
+.main{
+	width: 100%;
+}
+.JUZ{
+    width: 8.75rem;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 1.375rem;
+	background: #2196ff;
+	line-height: 1.375rem;
+}
+.header img{
+	width: 0.53125rem;
+	height: 0.53125rem;
+	float: left;
+	margin: 0.42188rem 0.46875rem 0 0;
+}
+.header p{
+	font-size: 0.54688rem;
+	color: #fff;
+}
+.content{
+	width: 100%;
+	height: 16.39063rem;
+	background: #f7f7f7;
+	text-align: center;
+}
+.content img{
+	width: 3.10938rem;
+	height: 2.04688rem;
+	float: left;
+	margin: 5.29688rem 3.6375rem 0.26875rem ;
+}
+.content p{
+	font-size: 0.46875rem;
+	color: #636563;
+}
