@@ -1,0 +1,124 @@
+body,ul,ol,li,dl,dt,dd,table,p,input,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+body{font-size:0.025rem;font-family:Arial,"微软雅黑";}
+a:link,a:visited{text-decoration:none;outline:none;color:#5E5E5E;}
+a img{border:none;}
+ul,li{list-style:none;}
+a:hover{color:#1C468E;}
+input{vertical-align:middle;}
+.left {
+	float: left;
+	display: inline;
+}
+
+.right {
+	float: right;
+	display: inline;
+}
+
+.clear:after {
+	clear: both;
+	display: block;
+	content: '';
+}
+
+.clear {
+	zoom: 1;
+}
+
+.a {
+	text-decoration: none;
+}
+
+body {
+	font-family: "微软雅黑", "宋体", sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 3.5rem;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.yf_box{width: 100%;background: #EEEEEE;}
+.yf_header{width: 100%;height: 2.4rem;float: left;background: #2194FE;}
+.yf_header p{color: #FFFFFF;font-size: 0.9rem;line-height: 2.4rem;text-indent: 1.325rem;}
+.yf_active{width: 100%;height: 11.025rem;float: left;background: #FFFFFF;}
+.yf_active_top{width: 100%;height: 6.975rem;float: left;border-bottom: 0.05rem solid #EEEEEE;}
+.yf_active_topleft{width: 49.8%;height: 6.975rem;float: left;border-right: 0.05rem solid #EEEEEE;}
+.yf_active_topleft_font{width: 6.55rem;height: 2.3rem;float: left;margin-top: 0.825rem;margin-left: 2.225rem;}
+.yf_active_topleft_font p:first-of-type{color: orange;font-size: 1.1rem;}
+.yf_active_topleft_font p:last-of-type{color: #5E5E5E;font-size: 0.6rem;}
+.yf_active_topleft_img{width: 3.025rem;height: 2.9rem;float: left;margin-top: 3.925rem;margin-left: -3.725rem;}
+.yf_active_topleft_img img{width: 100%;height: 100%;}
+.yf_active_topright{width: 49.8%;height: 6.975rem;float: right;}
+.yf_active_toprightfirst{width: 100%;height: 49.7%;float: left;border-bottom: 0.05rem solid #EEEEEE;}
+.yf_active_topleft_font1{width: 6.55rem;height: 2.3rem;float: left;margin-top: 0.525rem;margin-left: 1.225rem;}
+.yf_active_topleft_font1 p:first-of-type{color: #F6313A;font-size: 1.1rem;}
+.yf_active_topleft_font1 p:last-of-type{color: #5E5E5E;font-size: 0.6rem;}
+.yf_active_toprightfirst_img{width: 2.6rem;height: 2.525rem;float: right;margin-right: 1.425rem;margin-top: 0.625rem;}
+.yf_active_toprightfirst_img img{width: 100%;height: 100%;}
+.yf_active_bottom{width: 100%;height: 4.05rem;float: left;}
+.yf_active_bottomleft{width: 49.8%;height: 100%;float: left;border-bottom: 0.05rem solid #EEEEEE;} 
+.yf_active_bottomleft_img{width: 1.95rem;height: 1.95rem;float: right;margin-top: 1.075rem;margin-right: 1.975rem;}
+.yf_active_bottomleft_img img{width: 100%;height: 100%;}
+.yf_banner{width: 100%;height: 3.7rem;float: left;margin-top: 1.275rem;}
+.yf_banner img{width: 100%;height: 100%;}
+.yf_first{width: 100%;height: 14.325rem;float: left;background: #FFFFFF;margin-top: 1.275rem;}
+.yf_first_top{width: 100%;height: 1.925rem;float: left;margin-top: 0.875rem;}
+.yf_first_topfont{width: 8.875rem;height: 0.975rem;float: left;margin-left: 30%;}
+.yf_first_topfont img{width: 100%;height: 100%;}
+.yf_first_topfont p{text-indent: 1.275rem;}
+.yf_first_cen{width: 100%;height: 9.6rem;float: left;margin-top: 0.975rem;}
+.yf_first_cen_first{width: 31%;height: 100%;float: left;margin-left: 0.425rem;}
+.yf_first_cen_first_img{width: 100%;height: 6.925rem;float: left;}
+.yf_first_cen_first_img img{width: 100%;height: 100%;}
+.yf_first_cen_first p:first-of-type{font-size: 1.2rem;}
+.yf_first_cen_first p:last-of-type{font-size: 1.0rem;}
+.yf_first_cen_first p span:first-of-type{font-size: 1.2rem;color: red;}
+.footer{
+	width: 100%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	background:#fff;
+	overflow:hidden;
+	border-top:1px solid #cecbce;
+}
+.footer ul li{
+	float: left;
+	width: 25%;
+	height: 2.9rem;
+	text-align: center;
+}
+.footer ul li img{
+	width: 1rem;
+	height: 1rem;
+	float: left;
+	margin: 0.6rem 1.95rem 0.195rem;
+}
+.footer ul li p{
+	float: left;
+	font-size: 0.5rem;
+	color: #6b6d6b;
+	margin-left: 1.7rem;
+}

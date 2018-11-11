@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+		<meta charset="UTF-8">
+		<title>店铺</title>
+		<style type="text/css">
+			*{
+				padding:0;
+				margin:0;
+				border:0;
+				list-style:none;
+				font-family:"微软雅黑";
+			}
+			#wjj_box{
+				width:16rem;
+				overflow:hidden;
+			}
+			header{
+				width:16rem;
+				height:3.125rem;
+				background:url(images/logo1.png) no-repeat;
+				background-size:100% 100%;
+				position:relative;
+			}
+			#wjj_back{
+				width:0.775rem;
+				height:0.725rem;
+				margin-top:1rem;
+				margin-left:1.5rem;
+			}
+			#wjj_banner{
+				width:2.65rem;
+				height:2.675rem;
+				margin-top:-3.325rem;
+				margin-left:6.65rem;
+				position:absolute;
+				z-index:99;
+			}
+			#wjj_mc{
+				text-align:center;
+				margin-top:2.125rem;
+				color:#000000;
+				font-size:0.725rem;
+			}
+			#wjj_jj{
+				width:10.2rem;
+				height:1.575rem;
+				margin-left:2.7rem;
+				margin-top:0.625rem;
+			}
+			#wjj_jj img{
+				float:left;
+				width:0.9rem;
+				height:0.825rem;
+				margin-left:0.1rem;
+			}
+			#wjj_jj p{
+				color:#000205;
+				font-size:0.6rem;
+				float:left;
+				margin-left:0.475rem;
+			}
+			#hy{
+				color:#000103;
+				font-size:0.6rem;
+				text-align:center;
+			}
+			#left1{
+				width:4.35rem;
+				height:3.825rem;
+				float:left;
+				margin-left:3.225rem;
+				margin-top:0.675rem;
+				display:inline-block;
+			}
+			#right1{
+				width:4.1rem;
+				height:3.825rem;
+				float:left;
+				margin-left:0.8rem;
+				margin-top:0.675rem;
+				display:inline-block;
+			}
+			#wjj_content2{
+				width:16rem;
+				height:12.525rem;
+				background:#f7f7f7;
+				margin-top:6.15rem;
+				padding-top:0.6rem;
+			}
+			#content_first{
+				width:14.45rem;
+				height:5.45rem;
+				background:#ffffff;
+				margin:0 auto;
+				
+			}
+			#wjj_ps{
+				color:#000000;
+				font-size:0.6rem;
+				padding-top:0.575rem;
+				margin-left:0.75rem;
+			}
+			#wjj_zs{
+				color:#232323;
+				font-size:0.45rem;
+			}
+			#wjj_zs span{
+				display:inline-block;
+				color:#f6fafd;
+				font-size:rem;
+				width:1.95rem;
+				height:0.625rem;
+				background:#1f94fd;
+				margin-left:0.925rem;
+				margin-right:0.65rem;
+				margin-top:0.375rem;
+				text-align:center;
+			}
+			#zsd{
+				color:#232323;
+				font-size:0.45rem;
+			}
+			#zsd span{
+				display:inline-block;
+				color:#60aafd;
+				font-size:rem;
+				width:1.95rem;
+				height:0.625rem;
+				border:0.025rem solid #1f94fd;
+				margin-left:0.925rem;
+				margin-right:0.65rem;
+				margin-top:0.375rem;
+				text-align:center;
+			}
+			#py{
+				color:#232323;
+				font-size:0.45rem;
+				margin-top:0.375rem;
+				margin-left:0.925rem;
+			}
+			#content_two{
+				width:14.45rem;
+				height:5.95rem;
+				background:#ffffff;
+				margin:0 auto;
+				margin-top:0.55rem;
+			}
+			#hd{
+				color:#000000;
+				font-size:0.6rem;
+				padding-top:0.575rem;
+				margin-left:0.75rem;
+			}
+			#jian{
+				color:#232323;
+				font-size:0.45rem;
+				margin-top:0.525rem;
+			}
+			#jian span{
+				display:inline-block;
+				color:#fffefe;
+				font-size:rem;
+				width:0.5rem;
+				height:0.45rem;
+			
+				margin-left:0.925rem;
+				margin-right:0.3rem;
+				line-height:0.45rem;
+				text-align:center;
+				background:#f27f7c;
+			}
+			#xin{
+				color:#232323;
+				font-size:0.45rem;
+				margin-top:0.425rem;
+			}
+			#xin span{
+				display:inline-block;
+				color:#fffefe;
+				font-size:rem;
+				width:0.5rem;
+				height:0.45rem;
+			
+				margin-left:0.925rem;
+				margin-right:0.3rem;
+				line-height:0.45rem;
+				text-align:center;
+				background:#7cb847;
+			}
+			#te{
+				color:#232323;
+				font-size:0.45rem;
+				margin-top:0.425rem;
+			}
+			#te span{
+				display:inline-block;
+				color:#fffefe;
+				font-size:rem;
+				width:0.5rem;
+				height:0.45rem;
+			
+				margin-left:0.925rem;
+				margin-right:0.3rem;
+				line-height:0.45rem;
+				text-align:center;
+				background:#ef8a44;
+			}
+			#cu{
+				color:#232323;
+				font-size:0.45rem;
+				margin-top:0.425rem;
+			}
+			#cu span{
+				display:inline-block;
+				color:#000000;
+				font-size:rem;
+				width:0.5rem;
+				height:0.45rem;
+			
+				margin-left:0.925rem;
+				margin-right:0.3rem;
+				line-height:0.45rem;
+				text-align:center;
+				border:0.025rem solid #e0dedc;
+			}
+		///343/////
+			#wjj_content4{
+				width:16rem;
+				height:5.57rem;
+				margin-top:0.925rem;
+				}
+			#wjj_left4{
+				float:left;
+				width:4.7rem;
+				height:4.775rem;
+				margin-top:rem;
+				margin-left:0.55rem;
+				}
+			#wjj_right4{
+				float:left;
+				width:9.95rem;
+				height:5.375rem;
+				margin-left:0.425rem;
+				border-bottom:0.025rem solid #ededed;
+			}
+			#tit4{
+				color:#404040;
+				font-size:0.625rem;
+			}
+			#wjj_ys4{
+				width:9.95rem;
+				height:0.85rem;
+				margin-top:0.4rem;
+			}
+			#huo4{
+				float:left;
+				width:0.4rem;
+				height:0.525rem;
+			}
+
+			#ys4{
+				float:left;
+				color:#9e9e9e;
+				font-size:0.425rem;
+				margin-left:0.275rem;
+			}
+			#ys4 span{
+				color:#ee5d00;
+				margin-left:0.2rem;
+			}
+			#zan4{
+				float:left;
+				width:0.5rem;
+				height:0.5rem;
+				margin-left:0.475rem;
+			}
+			#hp4{
+				float:left;
+				color:#9e9e9e;
+				font-size:0.425rem;
+				margin-left:0.275rem;
+			}
+			#hp4 span{
+				color:#ee5d00;
+				margin-left:0.2rem;
+			}
+			#wjj_dm4{
+				width:9.95rem;
+				height:0.85rem;
+				
+			}
+			#wjj_dm4 img{
+				float:left;
+				width:0.525rem;
+				height:0.5rem;
+			}
+			#wjj_dm4 p{
+				color:#b5b5b5;
+				font-size:0.4rem;
+				float:left;
+				margin-left:0.2rem;
+			}
+			#money4{
+				width:9.9rem;
+				height:1.525rem;
+			}
+			#mon4{
+				float:left;
+				color:#ff4e00;
+				font-size:0.65rem;
+				width:4.45rem;
+				height:0.85rem;
+			}
+			#mon4 span{
+				display:inline-block;
+				width:2.025rem;
+				height:0.575rem;
+				background:#f5f5f5;
+				color:#a9a9a9;
+				margin-left:0.25rem;
+				font-size:0.35rem;
+				line-height:0.575rem;
+				text-align:center;
+				
+			}
+			#btn4{
+				width:3.075rem;
+				height:1.4rem;
+				float:right;
+				border:0.025rem solid #df312b;
+				color:#df312b;
+				font-size:0.5rem;
+				text-align:center;
+				line-height:1.4rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wjj_box">
+			<header>
+				<img src="/static/Order-dinner/xc_images/logo6.png" id="wjj_back">
+				
+			</header>
+			<div id="wjj_content1">
+				<img src="/static/Order-dinner/xc_images/logo7.png" id="wjj_banner">
+				<p id="wjj_mc">小媳妇儿凉皮</p>
+				<div id="wjj_jj">
+					<img src="/static/Order-dinner/xc_images/logo2.png">
+
+					<p>4.5</p>
+					<p>月售1008单</p>
+				</div>
+				<p id="hy" >欢迎光临，用餐高峰期请提前订单</p>
+				<img src="/static/Order-dinner/xc_images/logo4.png" id="left1">
+				<img src="/static/Order-dinner/xc_images/logo5.png" id="right1">
+			</div>
+			<div id="wjj_content2">
+				<div id="content_first">
+					<p id="wjj_ps">配送信息</p>
+					<p id="wjj_zs"><span>蜂鸟专送</span>预计越22分钟送达，距离929Ｍ</p>
+					<p id="zsd"><span>准时达</span>准时必达，超时１０分钟立享赔付</p>
+					<p id="py">配用费￥５</p>
+				</div>
+				<div id="content_two">
+					<p id="hd">活动与服务</p>
+					<p id="jian"><span>减</span>满28减14，满48减17，满60减20</p>
+					<p id="xin"><span>新</span>新用户下单立减23.0元（不与其他活动共享）</p>
+					<p id="te"><span>特</span>每天9.9</p>
+					<p id="cu"><span>促</span>已加入“外面促” 食品安全有保障</p>
+				</div>
+			</div>
+		</div>
+			</div>
+
+			<div id="wjj_content4">
+				<img src="/static/Order-dinner/xc_images/tu7.png" id="wjj_left4">
+				<div id="wjj_right4">
+					<p id="tit4">小份微辣黄焖鸡+米饭+饮料</p>
+					<div id="wjj_ys4">
+						<img src="/static/Order-dinner/xc_images/tu2.png" id="huo4">
+						<p id="ys4">月售<span>345</span></p>
+						<img src="/static/Order-dinner/xc_images/tu4.png" id="zan4">
+						<p id="hp4">好评率<span>90%</span></p>
+					</div>
+					<div id="wjj_dm4">
+						<img src="/static/Order-dinner/xc_images/tu3.png">
+						<p>杨铭宇黄焖鸡米饭</p>
+					</div>
+					<div id="money4">
+					   <p id="mon4">￥23.8<span>满26减8</span></p>
+					   <a href=""><p id="btn4">+</p></a>
+					</div>
+			    </div>
+			</div>
+
+            {% for Food in food %}
+                    <div id="wjj_content4">
+                    <img src="/static/Order-dinner/xc_imge/{{ Food.photo }}" id="wjj_left4">
+                    <div id="wjj_right4">
+                        <p id="tit4">{{ Food.Fname }}</p>
+                        <div id="wjj_ys4">
+                            <img src="/static/Order-dinner/xc_images/tu2.png" id="huo4">
+                            <p id="ys4">月售<span>{{ Food.msq }}</span></p>
+                            <img src="/static/Order-dinner/xc_images/tu4.png" id="zan4">
+                            <p id="hp4">好评率<span>90%</span></p>
+                        </div>
+                        <div id="wjj_dm4">
+{#                            <img src="/static/Order-dinner/xc_images/tu3.png">#}
+                            <p>{{ Food.food_type }}</p>
+                        </div>
+                        <div id="money4">
+
+                           <p id="mon4">￥{{ Food.price }}</p>
+
+                           <a href=""><p id="btn4">+</p></a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+
+
+
+
+
+
+		<script type="text/javascript">
+	      document.documentElement.style.fontSize = innerWidth/16+'px';
+	      onresize = function(){
+		         document.documentElement.style.fontSize = innerWidth/16+'px';
+	        };
+	    </script>
+	</body>
+</html>
