@@ -13,7 +13,7 @@
 		<!-- 头部 -->
 		<div class="header">
 			<div class="JUZ">
-				<a href="mine.html"><img src="{% static 'Person/images/tong_03.png' %}"></a>
+				<a href="{% url 'mine' %}"><img src="{% static 'Person/images/tong_03.png' %}"></a>
 				<p>账户与安全</p>
 			</div>
 		</div>
@@ -28,7 +28,7 @@
 							<img src="{% static 'Person/images/change_03.png' %}">
 						</div>
 					</li>
-					<li style="height:1.171875rem;" onclick="window.location.href='user.html'">
+					<li style="height:1.171875rem;" onclick="window.location.href='{% url "mine" %}'">
 						<div class="JUZ">
 							<p style="line-height: 1.171875rem;">用户名</p>
 							<span id="aspan">4191360bf</span>

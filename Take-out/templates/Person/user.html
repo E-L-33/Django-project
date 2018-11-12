@@ -13,7 +13,7 @@
 		<!-- 头部 -->
 		<div class="header">
 			<div class="JUZ">
-				<a href="change.html"><img src="{% static 'Person/images/tong_03.png' %}"></a>
+				<a href="{% url 'change' %}"><img src="{% static 'Person/images/tong_03.png' %}"></a>
 				<p>用户名</p>
 			</div>
 		</div>
@@ -38,7 +38,7 @@
 			
 		}
 		bg.onclick=function(){
-			window.location.href="change.html";
+			window.location.href="{% url 'change' %}";
 			String.prototype.sd=inp.value;
 			window.localStorage.value=String.prototype.sd;
 		}

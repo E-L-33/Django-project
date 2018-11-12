@@ -45,3 +45,51 @@ def ulogin(request):
     context = {}
     context['forms'] = forms
     return render(request, 'Person/login.html', context)
+
+
+def umine(request):
+    return render(request, 'Person/mine.html')
+
+
+def uaddress(request):
+    return render(request, 'Person/address.html')
+
+
+def uchange(request):
+    return render(request, 'Person/change.html')
+
+
+def ucollection(request):
+    return render(request, 'Person/collection.html')
+
+
+def uinstall(request):
+    return render(request, 'Person/install.html')
+
+
+def uintegral(request):
+    return render(request, 'Person/integral.html')
+
+
+def umember(request):
+    return render(request, 'Person/member.html')
+
+
+def unotice(request):
+    return render(request, 'Person/notice.html')
+
+
+def uservice(request):
+    return render(request, 'Person/service.html')
+
+
+def uuser(request):
+    return render(request, 'Person/user.html')
+
+
+def uwallet(request):
+    return render(request, 'Person/wallet.html')
+
+
+def uchoice(request):
+    return render(request, 'Person/choice.html')
