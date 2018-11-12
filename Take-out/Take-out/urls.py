@@ -15,7 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+<<<<<<< HEAD
 from .views import helps
+=======
+from django.conf.urls import url
+from . import views
+
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,5 +31,17 @@ urlpatterns = [
     path('Person/', include('Person.urls')),
     path('Payment/', include('Payment.urls')),
     path('Comment/', include('Comment.urls')),
-    path('Delicious/', include('Delicious.urls'))
+    path('Delicious/', include('Delicious.urls')),
+    url(r'^index/',views.xp_index,),
+    url(r'^find/$',views.xp_find,),
+    url('order/',views.xp_order,),
+    url('mine/',views.xp_mine,),
+    url('meisi/',views.xp_deli),
+    url('search/',views.xp_search),
+    url('drink/',views.xp_drink),
+    url('supermarkete/',views.xp_supermarket),
+    url('nearmeisi/',views.xp_near_deli),
+    url('hotsa/',views.xp_hot_sale),
+    url('order_show/',views.xp_order_show),
+
 ]

@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 import os
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+# Build paths inside the project like this: os.path.join(BASE_DIR, static.)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
@@ -82,8 +82,13 @@ DATABASES = {
         'NAME': 'Take_out',
         'PORT': 3306,
         'USER': 'root',
+<<<<<<< HEAD
         'PASSWORD': 'admin',
         'HOST': 'localhost',
+=======
+        'PASSWORD': 'qwd',
+        'HOST': '127.0.0.1',
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
     }
 }
 
