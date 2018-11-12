@@ -82,13 +82,8 @@ DATABASES = {
         'NAME': 'Take_out',
         'PORT': 3306,
         'USER': 'root',
-<<<<<<< HEAD
-        'PASSWORD': 'admin',
+        'PASSWORD': '1',
         'HOST': 'localhost',
-=======
-        'PASSWORD': 'qwd',
-        'HOST': '127.0.0.1',
->>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
     }
 }
 

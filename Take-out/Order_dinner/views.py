@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-from django.shortcuts import render,redirect
-=======
 from django.shortcuts import render, redirect
->>>>>>> f877d2c119dece777796e6a8dab78bc04d5f4853
 from .models import *
 
 
 # Create your views here.
-<<<<<<< HEAD
-=======
-
 def xc_xindian(request):
     bos = Seller.objects.all()
     context = {'seller': bos}
@@ -76,7 +69,7 @@ def xc_cate(request):
     context = {'seller': bos}
     bos = Food.objects.all()
     conten = {'food': bos}
-    return render(request, 'Order_dinner/小媳妇儿凉皮.html',conten,context)
+    return render(request, 'Order_dinner/小媳妇儿凉皮.html', conten, context)
 
 
 def xc_food(request):
@@ -103,4 +96,3 @@ def xc_food(request):
     food.Commodity_type = Commodity_type
     food.save()
     return redirect('/order_dinner/xc_cate')
->>>>>>> f877d2c119dece777796e6a8dab78bc04d5f4853
