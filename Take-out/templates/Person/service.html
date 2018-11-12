@@ -3,16 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+    {% load staticfiles %}
 	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
-	<link rel="stylesheet" href="css/style5.css">
-	<script src="js/app.js"></script>
+	<link rel="stylesheet" href="{% static 'Person/css/style5.css' %}">
+	<script src="{% static 'app.js' %}"></script>
 </head>
 <body>
 	<div class="main">
 		<!-- 头部 -->
 		<div class="header">
 			<div class="JUZ">
-				<a href="mine.html"><img src="images/qian_03.png"></a>
+				<a href="{% url 'mine' %}"><img src="{% static 'Person/images/qian_03.png' %}"></a>
 				<p>服务中心</p>
 			</div>
 		</div>
@@ -21,11 +22,11 @@
 		<div class="nav">
 			<ul>
 				<li style="border-right:0.015625rem solid #dedfde">
-					<img src="images/fuwu_03.png">
+					<img src="{% static 'Person/images/fuwu_03.png' %}">
 					<p>在线客服</p>
 				</li>
 				<li>
-					<img src="images/fuwu_05.png">
+					<img src="{% static 'Person/images/fuwu_05.png' %}">
 					<p>客服热线</p>
 				</li>
 			</ul>
@@ -39,35 +40,35 @@
 					</li>
 					<li>
 						<p>准时达问题</p>
-						<img src="images/qian_09.png">
+						<img src="{% static 'Person/images/qian_09.png' %}">
 					</li>
 					<li>
 						<p>支付问题</p>
-						<img src="images/qian_09.png">
+						<img src="{% static 'Person/images/qian_09.png' %}">
 					</li>
 					<li>
 						<p>余额问题</p>
-						<img src="images/qian_09.png">
+						<img src="{% static 'Person/images/qian_09.png' %}">
 					</li>
 					<li>
 						<p>红包问题</p>
-						<img src="images/qian_09.png">
+						<img src="{% static 'Person/images/qian_09.png' %}">
 					</li>
 					<li>
 						<p>积分问题</p>
-						<img src="images/qian_09.png">
+						<img src="{% static 'Person/images/qian_09.png' %}">
 					</li>
 					<li>
 						<p>会员问题</p>
-						<img src="images/qian_09.png">
+						<img src="{% static 'Person/images/qian_09.png' %}">
 					</li>
 					<li>
 						<p>活动问题</p>
-						<img src="images/qian_09.png">
+						<img src="{% static 'Person/images/qian_09.png' %}">
 					</li>
 					<li>
 						<p>其他问题</p>
-						<img src="images/qian_09.png">
+						<img src="{% static 'Person/images/qian_09.png' %}">
 					</li>
 				</ul>
 	

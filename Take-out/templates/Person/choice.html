@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    {% load staticfiles %}
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	<link rel="stylesheet" href="{% static 'Person/css/style7.css' %}">
+	<script src="{% static 'app.js' %}"></script>
+</head>
+<body>
+	<div class="main">
+		<!-- 头部 -->
+		<div class="header">
+			<div class="JUZ">
+				<a href="{% url 'mine'%}"><img src="{% static 'Person/images/qian_03.png' %}"></a>
+				<p>每日精选</p>
+			</div>
+		</div>
+		<!-- 头部结束 -->
+		<!-- banner -->
+		<div class="banner">
+			<img src="{% static 'Person/images/mei_02.png' %}">
+		</div>
+		<!-- banner结束 -->
+		<!-- nav导航 -->
+		<div class="nav">
+			<div class="JUZ">
+				<ul>
+					<li><a href="#" style="color:#ff3829;">上新</a></li>
+					<li><a href="#">就爱吃</a></li>
+					<li><a href="#">男士</a></li>
+					<li><a href="#">女士</a></li>
+					<li><a href="#">美妆</a></li>
+					<li style="float:right;">
+						<a href="#" style="border-left: 0.015625rem solid #ccc;display: block;width: 0.640625rem;height: 0.53125rem;margin-top:0.328125rem;float:right;"><img src="{% static 'Person/images/mei_05.png' %}"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- nav结束 -->
+		<!-- 内容 -->
+		<div class="content">
+			<div class="JUZ">
+				<ul>
+					<li>
+						<img src="{% static 'Person/images/mei_12.png' %}">
+						<img src="{% static 'Person/images/mei_09.png' %}" style="width:1.765625rem;height:2.5625rem;float:right;margin:0;">
+						<h3>0元体验  满意在付款</h3>
+						<p>已抢26万件</p>
+						<br/>
+						<p style="color:#ff3829;font-size:0.3125rem;float:left;margin-top:0.5rem;margin-bottom:0;margin-left:-1.9rem;">优惠价￥99</p>
+						<span>￥498</span>
+					</li>
+					<li>
+						<img src="{% static 'Person/images/mei_18.png' %}">
+						<img src="{% static 'Person/images/mei_16.png' %}" style="width:1.765625rem;height:2.5625rem;float:right;margin:0;">
+						<h3 style="color:#313031;">3D虚拟VR软件</h3>
+						<p>已抢1935件</p>
+						<br/>
+						<p style="color:#ff3829;font-size:0.3125rem;float:left;margin-top:0.5rem;margin-bottom:0;margin-left:-1.9rem;">劵后价￥19.9</p>
+						<span>￥69.9</span>
+					</li>
+					<li>
+						<img src="{% static 'Person/images/mei_26.png' %}">
+						<img src="{% static 'Person/images/mei_16.png' %}" style="width:1.765625rem;height:2.5625rem;float:right;margin:0;">
+						<h3 style="color:#313031;">枕簌康按摩枕头颈椎</h3>
+						<p>已抢2990件</p>
+						<br/>
+						<p style="color:#ff3829;font-size:0.3125rem;float:left;margin-top:0.5rem;margin-bottom:0;margin-left:-1.9rem;">劵后价￥59</p>
+						<span>￥89</span>
+					</li>
+					<li>
+						<img src="{% static 'Person/images/mei_18.png' %}">
+						<img src="{% static 'Person/images/mei_16.png' %}" style="width:1.765625rem;height:2.5625rem;float:right;margin:0;">
+						<h3 style="color:#313031;">3D虚拟VR软件</h3>
+						<p>已抢26万件</p>
+						<br/>
+						<p style="color:#ff3829;font-size:0.3125rem;float:left;margin-top:0.5rem;margin-bottom:0;margin-left:-1.9rem;">劵后价￥59</p>
+						<span>￥498</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 内容结束 -->
+	</div>
+</body>
+</html>

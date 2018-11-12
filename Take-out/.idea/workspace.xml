@@ -2,18 +2,566 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d3fc1e-28fe-4172-b464-4f0780f79846" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Take-out.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Take-out.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu2-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu4-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu999.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Take-out/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Person/css2/templatemo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/Person/css2/templatemo-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Person/images/001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Person/images/002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Person/images/003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Person/img/letter_bg_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/Person/img/letter_bg_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Person/img/letter_bg_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/Person/img/letter_bg_02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Person/img/letter_bg_03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/Person/img/letter_bg_03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/address.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Person/address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/change.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Person/change.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/collection.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Person/collection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/install.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Person/install.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/integral.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Person/integral.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/member.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Person/member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/mine.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Person/mine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/notice.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Person/notice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Person/service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Person/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/wallet.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Person/wallet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/style7.css" beforeDir="false" afterPath="$PROJECT_DIR$/templeate/css/style7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Take_out/.idea/workspace.xml" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/models.py" afterDir="false" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
+=======
+      <change afterPath="$PROJECT_DIR$/Take-out/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/amazeui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/_notes/dwsync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/bj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/mmexport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/amazeui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/iscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/change.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/choice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/faxian.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style10.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style11.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style12.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/waimai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dingdan4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/faxian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/cang_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/change_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/change_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/change_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/change_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/change_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/change_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/faxian_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/fuwu_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/fuwu_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/hui_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/hui_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/hui_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/jifen_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/jifen_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/jifen_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/jifen_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/jifen_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/jifen_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/jifen_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/jifen_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/jifen_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/jifen_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/jifen_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/jifen_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/jifen_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/mei_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/mei_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/mei_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/mei_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/mei_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/mei_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/mei_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/mei_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/mei_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/qian_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/qian_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/qian_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/qian_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/qian_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/shuo_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/shuo_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tong_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tong_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/tu_52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/install.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/integral.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/js/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/js/jquery.mobile.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/member.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/notice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/wallet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/订单/images/footer1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/订单/images/footer2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/订单/images/footer3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/订单/images/footer4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/订单/images/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/订单/images/logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/订单/images/logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/订单/images/logo6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/订单/images/logo7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/订单/images/logo8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/订单/images/logo9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/订单/订单2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/超市/images/content1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/超市/images/content2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/超市/images/content3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/超市/images/content4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/超市/images/content5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/超市/images/content6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/超市/images/content7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/超市/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/饮品/images/tu6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/饮品/images/tu7-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/饮品/images/tu7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/饮品/images/tu8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/饮品/images/tu9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/css/dingdan4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/dd4-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/dd4-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/dd4-3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/dd4-4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/fx-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/fx-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/fx-3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/fx-4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/fx-5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/fx-6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/fx-7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/fx-a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/fx-b.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/fx-banner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/fx-c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/waimai2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm-3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm-4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm-5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm-6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm-7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm-a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm-b.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm-banner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm-c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm-d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm-xing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm_a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm_b.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm_c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/首页 发现/img/wm_d.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Comment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comment/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comment/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delicious/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Delicious/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Delicious/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order_dinner/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order_dinner/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order_dinner/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/templates/新店/images/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/新店/images/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/新店/images/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu1.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/新店/images/tu1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu2-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/新店/images/tu2-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu2.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/美食/images/tu2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu3.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/新店/images/tu3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu4-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/新店/images/tu4-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu4.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/美食/images/tu4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu5.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/新店/images/tu5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/images/tu999.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/新店/images/tu999.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Take-out/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Take-out/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take-out/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Take-out/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/address.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/collection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/install.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/integral.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/member.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/mine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/notice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Person/wallet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/xc_seller.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/新店.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/address.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/change.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/choice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/collection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/dingdan4.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/dingdan4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/faxian.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/faxian.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/style10.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style10.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/style11.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style11.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/style12.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style12.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/style3.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/style4.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/style5.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/style6.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style6.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/style7.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/style8.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style8.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/style9.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style9.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/css/waimai.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/waimai.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/dingdan4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/faxian.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/cang_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/cang_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/change_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/change_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/change_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/change_07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/change_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/change_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/change_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/change_14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/change_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/change_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/change_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/change_18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/faxian_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/faxian_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/fuwu_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/fuwu_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/fuwu_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/fuwu_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/hui_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/hui_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/hui_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/hui_07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/hui_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/hui_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/jifen_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jifen_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/jifen_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jifen_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/jifen_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jifen_08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/jifen_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jifen_13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/jifen_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jifen_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/jifen_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jifen_18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/jifen_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jifen_21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/jifen_27.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jifen_27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/jifen_28.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jifen_28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/jifen_30.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jifen_30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/jifen_31.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jifen_31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/jifen_36.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jifen_36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/jifen_39.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jifen_39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/mei_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/mei_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/mei_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei_09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/mei_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei_12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/mei_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/mei_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei_18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/mei_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei_21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/mei_26.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei_26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/mei_27.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei_27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/qian_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qian_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/qian_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qian_06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/qian_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qian_09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/qian_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qian_13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/qian_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/qian_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/shuo_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/shuo_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/shuo_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/shuo_07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tong_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tong_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tong_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tong_07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_25.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_28.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_31.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_35.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_39.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_43.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_46.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_46.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_49.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_49.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/images/tu_52.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu_52.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/dd4-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/dd4-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/dd4-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/dd4-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/dd4-3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/dd4-3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/dd4-4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/dd4-4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/fx-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/fx-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/fx-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/fx-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/fx-3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/fx-3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/fx-4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/fx-4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/fx-5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/fx-5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/fx-6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/fx-6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/fx-7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/fx-7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/fx-a.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/fx-a.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/fx-b.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/fx-b.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/fx-banner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/fx-banner.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/fx-c.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/fx-c.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/waimai2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/waimai2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm-3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm-3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm-4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm-4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm-5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm-5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm-6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm-6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm-7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm-7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm-a.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm-a.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm-b.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm-b.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm-banner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm-banner.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm-c.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm-c.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm-d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm-d.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm-xing.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm-xing.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm10.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm12.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm8.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm9.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm_a.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm_a.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm_b.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm_b.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm_c.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm_c.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/img/wm_d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/templates/img/wm_d.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/install.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/integral.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/js/jquery-1.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery-1.7.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/js/jquery.mobile.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.mobile.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/member.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/mine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/notice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/wallet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/小媳妇儿凉皮/images/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/images/images/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/小媳妇儿凉皮/images/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/images/images/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/小媳妇儿凉皮/images/logo3.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/images/images/logo3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/小媳妇儿凉皮/images/logo4.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/images/images/logo4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/小媳妇儿凉皮/images/logo5.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/images/images/logo5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/小媳妇儿凉皮/images/logo6.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/images/images/logo6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/小媳妇儿凉皮/images/logo7.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/images/images/logo7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/小媳妇儿凉皮/小媳妇儿凉皮.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/小媳妇儿凉皮/小媳妇儿凉皮.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/新店/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/新店/images/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/新店/images/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/新店/images/tu1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/新店/images/tu2-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu2-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/新店/images/tu2.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/新店/images/tu2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/新店/images/tu3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/新店/images/tu4-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu4-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/新店/images/tu4.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/新店/images/tu4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/新店/images/tu5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/新店/images/tu999.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu999.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/新店/新店.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/新店/新店.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/热卖/images/tu1.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/热卖/images/tu1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/热卖/images/tu2.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/热卖/images/tu2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/热卖/images/tu3.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/热卖/images/tu3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/热卖/images/tu4.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/热卖/images/tu4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/热卖/images/tu5.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/热卖/images/tu5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/热卖/热卖.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/热卖/热卖.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/热卖大牌/images/tu1.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/热卖大牌/images/tu1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/热卖大牌/images/tu2.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/热卖大牌/images/tu2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/热卖大牌/images/tu3.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/热卖大牌/images/tu3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/热卖大牌/images/tu4.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/热卖大牌/images/tu4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/热卖大牌/images/tu5-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/热卖大牌/images/tu5-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/热卖大牌/images/tu5.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/热卖大牌/images/tu5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/热卖大牌/热卖大牌.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/热卖大牌/热卖大牌.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/美食/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/美食/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/美食/images/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/美食/images/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/美食/images/logo3.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/美食/images/logo3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/美食/images/tu1.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/美食/images/tu1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/美食/images/tu2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/美食/images/tu3.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/美食/images/tu3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/美食/images/tu4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/美食/images/tu5.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/美食/images/tu5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/美食/images/tu6.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/美食/images/tu6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/美食/images/tu7.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/美食/images/tu7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/美食/images/tu8.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/美食/images/tu8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/美食/美食.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/美食/美食.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/images/footer1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/footer1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/images/footer2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/footer2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/images/footer3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/footer3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/images/footer4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/footer4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/images/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/订单/images/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/images/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/订单/images/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/images/logo3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/images/logo4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/images/logo5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/images/logo6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/images/logo7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/images/logo8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/images/logo9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/订单/订单.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/订单/订单.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/超市/images/content1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/content1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/超市/images/content2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/content2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/超市/images/content3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/content3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/超市/images/content4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/content4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/超市/images/content5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/content5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/超市/images/content6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/content6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/超市/images/content7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/content7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/超市/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/超市/超市.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/超市/超市.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/附近美食/images/tu1.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/附近美食/images/tu1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/附近美食/images/tu2.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/附近美食/images/tu2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/附近美食/images/tu3.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/附近美食/images/tu3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/附近美食/images/tu4.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/附近美食/images/tu4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/附近美食/images/tu5.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/附近美食/images/tu5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/附近美食/images/tu6.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/附近美食/images/tu6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/附近美食/images/tu7.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/附近美食/images/tu7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/附近美食/images/tu8.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/附近美食/images/tu8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/附近美食/images/tu9.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/附近美食/images/tu9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/附近美食/images/附近美食4_31.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/附近美食/images/附近美食4_31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/附近美食/附近美食.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/附近美食/附近美食.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/饮品/images/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/饮品/images/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/饮品/images/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/饮品/images/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/饮品/images/tu1.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/饮品/images/tu1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/饮品/images/tu2.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/饮品/images/tu2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/饮品/images/tu3.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/饮品/images/tu3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/饮品/images/tu4.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/饮品/images/tu4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/饮品/images/tu5.png" beforeDir="false" afterPath="$PROJECT_DIR$/templates/饮品/images/tu5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/饮品/images/tu6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/饮品/images/tu7-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu7-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/饮品/images/tu7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/饮品/images/tu8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/饮品/images/tu9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tu9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/饮品/饮品.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/饮品/饮品.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/.project" beforeDir="false" afterPath="$PROJECT_DIR$/templates/首页 发现/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/css/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/首页 发现/css/animate.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/css/dingdan4.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/dingdan4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/css/faxian.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/首页 发现/css/faxian.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/css/swiper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/首页 发现/css/swiper.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/css/waimai.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/首页 发现/css/waimai.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/dingdan4.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/首页 发现/dingdan4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/faxian.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/首页 发现/faxian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/dd4-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/dd4-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/dd4-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/dd4-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/dd4-3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/dd4-3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/dd4-4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/dd4-4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/fx-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/fx-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/fx-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/fx-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/fx-3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/fx-3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/fx-4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/fx-4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/fx-5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/fx-5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/fx-6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/fx-6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/fx-7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/fx-7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/fx-a.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/fx-a.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/fx-b.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/fx-b.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/fx-banner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/fx-banner.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/fx-c.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/fx-c.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/waimai2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/waimai2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm-3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm-3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm-4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm-4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm-5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm-5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm-6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm-6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm-7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm-7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm-a.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm-a.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm-b.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm-b.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm-banner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm-banner.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm-c.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm-c.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm-d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm-d.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm-xing.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm-xing.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm10.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm12.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm8.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm9.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm_a.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm_a.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm_b.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm_b.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm_c.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm_c.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/img/wm_d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/wm_d.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/js/swiper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/首页 发现/js/swiper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templeate/首页 发现/waimai.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/首页 发现/waimai.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Take_out/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据库.html" beforeDir="false" afterPath="$PROJECT_DIR$/../数据库.html" afterDir="false" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -52,33 +600,74 @@
     <session id="873160353">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.38" value="1" />
-          <entry key="project.opened" value="3" />
+<<<<<<< HEAD
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.opened" value="5" />
+=======
+          <entry key="project.opened" value="4" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="30" />
+<<<<<<< HEAD
+          <entry key="css" value="15" />
+          <entry key="html" value="43" />
+          <entry key="js" value="9" />
+          <entry key="md" value="2" />
+          <entry key="png" value="1" />
+          <entry key="py" value="46" />
+          <entry key="rnc" value="1" />
+=======
+          <entry key="py" value="57" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="30" />
+<<<<<<< HEAD
+          <entry key="CSS" value="15" />
+          <entry key="HTML" value="43" />
+          <entry key="Image" value="1" />
+          <entry key="JavaScript" value="9" />
+          <entry key="Markdown" value="2" />
+          <entry key="Python" value="46" />
+          <entry key="RNG Compact" value="1" />
+=======
+          <entry key="Python" value="57" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="162" />
+<<<<<<< HEAD
+          <entry key="css" value="45" />
+          <entry key="html" value="808" />
+          <entry key="py" value="2719" />
+=======
+          <entry key="py" value="701" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="162" />
+<<<<<<< HEAD
+          <entry key="CSS" value="45" />
+          <entry key="HTML" value="808" />
+          <entry key="Python" value="2719" />
+=======
+          <entry key="Python" value="701" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
     </session>
     <session id="217217151">
       <usages-collector id="statistics.lifecycle.project">
@@ -110,41 +699,148 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-644643366">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="4" />
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="4" />
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="407" />
+          <entry key="py" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="407" />
+          <entry key="Python" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Take-out/settings.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/Person/mine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
+            <state relative-caret-position="275">
+              <caret line="123" column="63" selection-start-line="123" selection-start-column="63" selection-end-line="123" selection-end-column="63" />
+=======
+=======
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.5/dist-packages/django/apps/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="276">
+              <caret line="139" selection-start-line="139" selection-end-line="139" />
+=======
+            <state relative-caret-position="294">
               <caret line="85" column="28" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Comment/models.py">
+        <entry file="file://$PROJECT_DIR$/Order/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="510">
+              <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Take-out/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#632#664#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Order/models.py">
+        <entry file="file://$PROJECT_DIR$/Take-out/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Comment/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+=======
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/Order/urls.py">
+=======
+        <entry file="file://$PROJECT_DIR$/static/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-516">
+              <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Order/models.py">
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -152,7 +848,18 @@
     <findStrings>
       <find>Take-out</find>
       <find>_out</find>
+      <find>home</find>
+      <find>img</find>
+      <find>image</find>
+      <find>image/</find>
+      <find>letter_bg_02</find>
+      <find>ins</find>
+      <find>html</find>
+      <find>mine</find>
     </findStrings>
+    <replaceStrings>
+      <replace>/static/images</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -168,20 +875,71 @@
         <option value="$USER_HOME$/Take-out/Take-out/settings.py" />
         <option value="$USER_HOME$/Take-out/Take-out/urls.py" />
         <option value="$USER_HOME$/Take-out/Delicious/models.py" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/Person/admin.py" />
-        <option value="$PROJECT_DIR$/Take-out/urls.py" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
         <option value="$PROJECT_DIR$/Order/urls.py" />
+=======
+        <option value="$PROJECT_DIR$/Person/admin.py" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
         <option value="$PROJECT_DIR$/Order_dinner/urls.py" />
         <option value="$PROJECT_DIR$/Payment/urls.py" />
-        <option value="$PROJECT_DIR$/Person/urls.py" />
         <option value="$PROJECT_DIR$/Comment/urls.py" />
         <option value="$PROJECT_DIR$/Delicious/urls.py" />
         <option value="$PROJECT_DIR$/Take_out/settings.py" />
-        <option value="$PROJECT_DIR$/Person/models.py" />
-        <option value="$PROJECT_DIR$/Take-out/settings.py" />
-        <option value="$PROJECT_DIR$/Take-out/settings.py" />
+        <option value="$PROJECT_DIR$/Order/urls.py" />
+        <option value="$PROJECT_DIR$/Inder/urls.py" />
+        <option value="$PROJECT_DIR$/Comment/models.py" />
+        <option value="$PROJECT_DIR$/Take-out/urls.py" />
         <option value="$PROJECT_DIR$/Take-out/settings.py" />
         <option value="$PROJECT_DIR$/Comment/models.py" />
+        <option value="$PROJECT_DIR$/Person/admin.py" />
+        <option value="$PROJECT_DIR$/templates/Person/页面说明.html" />
+        <option value="$PROJECT_DIR$/static/Person/css/templatemo-style.css" />
+        <option value="$PROJECT_DIR$/Take-out/settings.py" />
+        <option value="$PROJECT_DIR$/Take-out/settings.py" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/templates/Person/index.html" />
+        <option value="$PROJECT_DIR$/static/Person/css2/demo.css" />
+        <option value="$PROJECT_DIR$/Person/forms.py" />
+        <option value="$PROJECT_DIR$/templates/Person/login.html" />
+        <option value="$PROJECT_DIR$/templates/Person/register.html" />
+        <option value="$PROJECT_DIR$/Take-out/views.py" />
+        <option value="$PROJECT_DIR$/Take-out/urls.py" />
+        <option value="$PROJECT_DIR$/templates/help.html" />
+        <option value="$PROJECT_DIR$/static/Person/css2/templatemo-style.css" />
+        <option value="$PROJECT_DIR$/Person/urls.py" />
+        <option value="$PROJECT_DIR$/Person/views.py" />
+        <option value="$PROJECT_DIR$/templeate/css/style7.css" />
+        <option value="$PROJECT_DIR$/templates/Person/choice.html" />
+        <option value="$PROJECT_DIR$/templates/Person/address.html" />
+        <option value="$PROJECT_DIR$/templates/Person/change.html" />
+        <option value="$PROJECT_DIR$/templates/Person/collection.html" />
+        <option value="$PROJECT_DIR$/templates/Person/install.html" />
+        <option value="$PROJECT_DIR$/templates/Person/integral.html" />
+        <option value="$PROJECT_DIR$/templates/Person/member.html" />
+        <option value="$PROJECT_DIR$/templates/Person/notice.html" />
+        <option value="$PROJECT_DIR$/templates/Person/service.html" />
+        <option value="$PROJECT_DIR$/templates/Person/user.html" />
+        <option value="$PROJECT_DIR$/templates/Person/wallet.html" />
+        <option value="$PROJECT_DIR$/templates/Person/mine.html" />
+=======
+        <option value="$PROJECT_DIR$/Inder/models.py" />
+        <option value="$PROJECT_DIR$/Order_dinner/models.py" />
+        <option value="$PROJECT_DIR$/Person/models.py" />
+        <option value="$PROJECT_DIR$/Order/models.py" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
+=======
+        <option value="$PROJECT_DIR$/Comment/models.py" />
+        <option value="$PROJECT_DIR$/templates/小媳妇儿凉皮/小媳妇儿凉皮.html" />
+        <option value="$PROJECT_DIR$/templates/小媳妇儿凉皮/1213112.html" />
+        <option value="$PROJECT_DIR$/Take-out/urls.py" />
+        <option value="$PROJECT_DIR$/Take-out/views.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
       </list>
     </option>
   </component>
@@ -191,11 +949,26 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="82" />
+<<<<<<< HEAD
+    <option name="x" value="68" />
+    <option name="y" value="50" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+=======
+    <option name="x" value="69" />
     <option name="y" value="44" />
-    <option name="width" value="1299" />
-    <option name="height" value="500" />
+    <option name="width" value="1297" />
+    <option name="height" value="528" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-66" />
+    <option name="y" value="428" />
+    <option name="width" value="1297" />
+    <option name="height" value="464" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -205,6 +978,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,27 +986,78 @@
               <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
               <item name="Take-out" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <item name="Person" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
+            </path>
+            <path>
+              <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
+            </path>
+            <path>
+              <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="Person" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Order" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
+=======
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$USER_HOME$/An-attempt/mysite" />
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/3-我的项目/meituangouwuche" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <recent name="$PROJECT_DIR$/templates/Person" />
       <recent name="$PROJECT_DIR$/Comment" />
       <recent name="$PROJECT_DIR$/Person" />
       <recent name="$PROJECT_DIR$/Payment" />
       <recent name="$PROJECT_DIR$/Order_dinner" />
-      <recent name="$PROJECT_DIR$/Order" />
+=======
+      <recent name="$PROJECT_DIR$/Inder" />
+      <recent name="$PROJECT_DIR$/Order/migrations" />
+      <recent name="$PROJECT_DIR$/Comment" />
+      <recent name="$PROJECT_DIR$/Person" />
+      <recent name="$PROJECT_DIR$/Payment" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
+=======
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/Comment" />
+      <recent name="$PROJECT_DIR$/Person" />
+      <recent name="$PROJECT_DIR$/Payment" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
     </key>
   </component>
   <component name="RunDashboard">
@@ -247,7 +1072,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.Take-out">
+  <component name="RunManager" selected="JavaScript Debug.1213112.html">
+    <configuration name="1213112.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Take-out/templates/小媳妇儿凉皮/1213112.html">
+      <method v="2" />
+    </configuration>
     <configuration name="Take-out" type="Python.DjangoServer" factoryName="Django server">
       <module name="Take-out" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,7 +1151,13 @@
     <list>
       <item itemvalue="Django server.Take_out" />
       <item itemvalue="Django server.Take-out" />
+      <item itemvalue="JavaScript Debug.1213112.html" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.1213112.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -339,15 +1173,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
+<<<<<<< HEAD
+    <frame x="62" y="-11" width="1305" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22237107" />
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17213663" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23235527" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
+=======
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2319301" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32522407" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.65044814" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290653" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.65044814" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,13 +1205,18 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3290653" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2650231" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32973805" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5639445" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" side_tool="true" weight="0.32962668" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,48 +1226,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Take-out/static/__init__.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/contrib/admin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Take-out/Delicious/urls.py" />
-    <entry file="file://$USER_HOME$/Take-out/Take-out/__init__.py" />
-    <entry file="file://$USER_HOME$/Take-out/Take-out/settings.py" />
-    <entry file="file://$USER_HOME$/Take-out/Take-out/urls.py" />
-    <entry file="file://$USER_HOME$/Take-out/Take-out/wsgi.py" />
-    <entry file="file://$USER_HOME$/Take-out/Delicious/__init__.py" />
-    <entry file="file://$USER_HOME$/Take-out/Delicious/models.py" />
-    <entry file="file://$PROJECT_DIR$/Person/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Person/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Take-out/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="16" selection-start-line="16" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Order/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Comment/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Comment/urls.py" />
     <entry file="file://$PROJECT_DIR$/Delicious/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -428,27 +1242,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Order_dinner/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Payment/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Person/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Order_dinner/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Payment/urls.py" />
     <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/urls/resolvers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -457,34 +1252,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/templates/Person/address.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/db/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="138" selection-start-line="138" selection-end-line="138" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Person/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Take-out/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="85" column="28" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -493,11 +1264,435 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Comment/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="209">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Person/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1541833989508" expanded="true" signature="167:172" ph="..." />
+            <marker date="1541833989508" expanded="true" signature="363:368" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Person/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/页面说明.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="1326" column="16" selection-start-line="1326" selection-start-column="16" selection-end-line="1326" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/页面说明.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Person/js/particles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23085">
+          <caret line="1215" column="11" selection-start-line="1215" selection-start-column="11" selection-end-line="1215" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Person/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="614" column="22" selection-start-line="614" selection-start-column="22" selection-end-line="614" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Person/css/templatemo-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Person/js/modernizr.custom.86080.js">
+=======
+    <entry file="file://$PROJECT_DIR$/Order/urls.py">
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Take-out/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Person/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="20237" selection-start-line="3" selection-start-column="20237" selection-end-line="3" selection-end-column="20237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Person/css2/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Person/css2/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2950">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Person/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1541990749812" expanded="true" signature="136:916" ph="..." />
+            <marker date="1541990749812" expanded="true" signature="945:1128" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Take-out/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <marker date="1541993295285" expanded="true" signature="57:62" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Take-out/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Person/css2/templatemo-style.css">
+=======
+    <entry file="file://$PROJECT_DIR$/templates/Person/address.html" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/db/models/base.py">
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="190" column="32" lean-forward="true" selection-start-line="190" selection-start-column="32" selection-end-line="190" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Person/css/style7.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templeate/css/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="76">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templeate/css/style7.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Person/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="285">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/小媳妇儿凉皮/1213112.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/小媳妇儿凉皮/小媳妇儿凉皮.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="248" column="26" selection-start-line="248" selection-start-column="26" selection-end-line="248" selection-end-column="26" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/choice.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="209">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Person/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+=======
+    <entry file="file://$USER_HOME$/Take-out/static/__init__.py" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/contrib/admin/__init__.py" />
+    <entry file="file://$USER_HOME$/Take-out/Delicious/urls.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/__init__.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/settings.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/urls.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/wsgi.py" />
+    <entry file="file://$USER_HOME$/Take-out/Delicious/__init__.py" />
+    <entry file="file://$USER_HOME$/Take-out/Delicious/models.py" />
+    <entry file="file://$PROJECT_DIR$/Person/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Person/admin.py" />
+    <entry file="file://$PROJECT_DIR$/Delicious/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Take-out/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Payment/urls.py" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/urls/resolvers.py" />
+    <entry file="file://$PROJECT_DIR$/static/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/templates/Person/address.html" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/db/models/base.py" />
+    <entry file="file://$PROJECT_DIR$/Order/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Order/admin.py" />
+    <entry file="file://$PROJECT_DIR$/Order/migrations/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Payment/models.py" />
+    <entry file="file://$PROJECT_DIR$/Inder/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Comment/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Comment/models.py" />
+    <entry file="file://$PROJECT_DIR$/Take-out/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Take-out/settings.py" />
+    <entry file="file://$PROJECT_DIR$/Inder/models.py" />
+    <entry file="file://$PROJECT_DIR$/Order_dinner/models.py" />
+    <entry file="file://$PROJECT_DIR$/Order_dinner/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Person/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Person/models.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/django/apps/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
+=======
+        <state relative-caret-position="294">
+          <caret line="85" column="28" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/install.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Take-out/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Take-out/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Comment/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/templates/Person/address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Person/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#405#873#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/change.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="140" column="19" selection-start-line="140" selection-start-column="15" selection-end-line="140" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/collection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/install.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/integral.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Person/images/hui_03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/member.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/notice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/wallet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Person/mine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="123" column="63" selection-start-line="123" selection-start-column="63" selection-end-line="123" selection-end-column="63" />
+=======
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-516">
+          <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+>>>>>>> 705b8135a6f15b88600ab83f3d133443094af22e
         </state>
       </provider>
     </entry>
