@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	<script src="/static/js/app.js"></script>
+	<link rel="stylesheet" href="/static/css/style11.css">
+</head>
+<body>
+	<div class="main">
+		<!-- 头部 -->
+		<div class="header">
+			<div class="JUZ">
+				<a href="mine.html"><img src="/static/images/tong_03.png"></a>
+				<p>账户与安全</p>
+			</div>
+		</div>
+		<!-- 头部结束 -->
+		<!-- 内容 -->
+		<div class="content">
+			<div class="head">
+				<ul>
+					<li>
+						<div class="JUZ" onclick="log()" style="overflow:hidden;">
+							<p>头像</p>
+							<img src="/static/images/change_03.png">
+						</div>
+					</li>
+					<li style="height:1.171875rem;" onclick="window.location.href='user.html'">
+						<div class="JUZ">
+							<p style="line-height: 1.171875rem;">用户名</p>
+							<span id="aspan">4191360bf</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="zhang_hu">
+				<ul>
+					<li>
+						<div class="JUZ">
+							账户绑定
+						</div>
+					</li>
+					<li>
+						<div class="JUZ">
+							<img src="/static/images/change_07.png" style="width:0.5rem;height:0.8rem;">
+							<p style="margin-left:0.468rem">手机</p>
+							<span>176****9535</span>
+						</div>
+					</li>
+					<li>
+						<div class="JUZ">
+							<img src="/static/images/change_11.png">
+							<p>微信</p>
+							<span style="color:#2196ff;">未绑定</span>
+						</div>
+					</li>
+					<li>
+						<div class="JUZ">
+							<img src="/static/images/change_14.png">
+							<p>QQ</p>
+							<span>已绑定</span>
+						</div>
+					</li>
+					<li>
+						<div class="JUZ">
+							<img src="/static/images/change_16.png">
+							<p>微博</p>
+							<span style="color:#2196ff;">未绑定</span>
+						</div>
+					</li>
+					<li>
+						<div class="JUZ">
+							<img src="/static/images/change_18.png">
+							<p>淘宝</p>
+							<span style="color:#2196ff;">未绑定</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="zhang_hu">
+				<ul>
+					<li>
+						<div class="JUZ">
+							安全设置
+						</div>
+					</li>
+					<li>
+						<div class="JUZ">
+							<p style="margin:0;">登入密码</p>
+							<span style="color:#2196ff;">修改</span>
+						</div>
+					</li>
+					<li>
+						<div class="JUZ">
+							<p style="margin:0;">支付密码</p>
+							<span style="color:#2196ff;">未设置</span>
+						</div>
+					</li>
+					<li>
+						<div class="JUZ">
+							<p style="margin:0;">小额免密支付</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 内容结束 -->
+
+	</div>
+	<div id="btn">
+	
+	</div>
+	<div class="logo" id="logo">
+		<ul>
+			<li>
+				<h3>上传头像</h3>
+			</li>
+			<li>
+				<p>拍照</p>
+			</li>
+			<li>
+				<p>从手机相册选择</p>
+			</li>
+		</ul>
+	</div>
+	<script>
+	var a=true;
+	function log(){
+			btn.style.display="block";
+			btn.style.opacity=0.4;
+			logo.style.display="block";
+			btn.onclick=function(){
+				this.style.display="none";
+				logo.style.display="none";
+			}
+		
+	}
+	aspan.innerHTML=window.localStorage.value;
+	</script>
+</body>
+</html>
