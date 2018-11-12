@@ -48,6 +48,8 @@ def ulogin(request):
 
 
 def umine(request):
+
+
     return render(request, 'Person/mine.html')
 
 
