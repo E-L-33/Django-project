@@ -1,0 +1,83 @@
+*{margin: 0;padding: 0;font-family:"微软雅黑";list-style: none;text-decoration: none;}
+.main{
+	width: 100%;
+}
+.JUZ{
+    width: 8.75rem;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 1.375rem;
+	background: #2196ff;
+	line-height: 1.375rem;
+}
+.header img{
+	width: 0.53125rem;
+	height: 0.53125rem;
+	float: left;
+	margin: 0.42188rem 0.46875rem 0 0;
+}
+.header p{
+	font-size: 0.54688rem;
+	color: #fff;
+}
+.content{
+	width: 100%;
+	height: 16.39063rem;
+	background: #f7f7f7;
+}
+.content-t{
+	width: 100%;
+	height: 2.35938rem;
+	background: #fff;
+	margin-top: 0.39063rem;
+}
+.content-t ul li{
+	float: left;
+	width: 100%;
+	height: 1.17188rem;
+	border-bottom: 1px solid #d6d3d6;
+	line-height: 1.17188rem;
+}
+.content-t ul li p{
+	float: left;
+	margin-left:0.625rem;
+	font-size: 0.375rem;
+	color: #313031;
+}
+.content-t ul li span{
+	float: right;
+	margin-right:0.625rem;
+	color: #9c9a9c;
+	font-size: 0.28125rem;
+}
+.content-c{
+	width: 100%;
+	height: 1.17188rem;
+	border-bottom: 1px solid #d6d3d6;
+	line-height: 1.17188rem;
+	margin: 0.39063rem 0 0.39063rem;
+	background: #fff;
+}
+.content-c p{
+	font-size: 0.375rem;
+	color: #313031;
+	margin-left: 0.625rem;
+}
+.content-b{
+	width: 100%;
+	height: 1.17188rem;
+	border-top:1px solid #d6d3d6;
+	border-bottom: 1px solid #d6d3d6;
+	line-height: 1.17188rem;
+	text-align: center;
+	background: #fff;
+}
+.content-b p{
+	font-size: 0.375rem;
+	font-weight: bold;
+}
+.content-b a{
+	color: #d6594a;
+}
