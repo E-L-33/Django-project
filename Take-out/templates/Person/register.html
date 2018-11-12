@@ -1,77 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Register</title>
+    <title>Register</title>
     {% load staticfiles %}
-<!-- 
-Letter Template 
-http://www.templatemo.com/tm-510-letter
--->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
-  <link rel="stylesheet" href="{% static 'Person/css2/font-awesome.min.css' %}">
-  <link rel="stylesheet" href="{% static 'Person/css2/bootstrap.min.css' %}">
-  
-  <link rel="stylesheet" href="{% static 'Person/css2/demo.css' %}" />
-  <link rel="stylesheet" href="{% static 'Person/css2/templatemo-style.css' %}">
-  
-  <script type="text/javascript" src="{% static 'Person/js2/modernizr.custom.86080.js' %}j"></script>
-		
-	</head>
+    <!--
+    Letter Template
+    http://www.templatemo.com/tm-510-letter
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="{% static 'Person/css2/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'Person/css2/bootstrap.min.css' %}">
 
-	<body>
+    <link rel="stylesheet" href="{% static 'Person/css2/demo.css' %}"/>
+    <link rel="stylesheet" href="{% static 'Person/css2/templatemo-style.css' %}">
 
-			<div id="particles-js"></div>
-		
-			<ul class="cb-slideshow">
-	            <li></li>
-	            <li></li>
-	            <li></li>
-	            <li></li>
-	            <li></li>
-	            <li></li>
-	        </ul>
+    <script type="text/javascript" src="{% static 'Person/js2/modernizr.custom.86080.js' %}j"></script>
 
-			<div class="container-fluid">
-				<div class="row cb-slideshow-text-container ">
-					<div class= "tm-content col-xl-6 col-sm-8 col-xs-8 ml-auto section">
-					<header class="mb-5"><h1>注册</h1></header>
-                    <form action="" method="POST">
-                        <div class="row">
-                            {% csrf_token %}
-                            <div class="col-md-7 col-sm-7 col-xs-7">
-                                {% for field in register %}
-                                    <label for="{{ field.id_for_label }}">{{ field.label }}</label>
-                                    {{ field }}
-                                    <p class="text-danger">{{ field.errors.as_text }}</p>
-                                {% endfor %}
-                                <span class="pull-left text-danger">{{ register.non_field_errors }}</span>
-                                <br>
-                                <input type="submit" value="寻找答案" class="btn btn-primary tm-btn-subscribe">
-                            </div>
-                        </div>
-                    </form>
-                    <div class="tm-social-icons-container text-xs-center">
-                        <a href="#" class="tm-social-link"><i class="fa fa-qq"></i></a>
-                        <a href="#" class="tm-social-link"><i class="fa fa-github"></i></a>
-                        <a href="#" class="tm-social-link"><i class="fa fa-weixin"></i></a>
-                        <a href="#" class="tm-social-link"><i class="fa fa-weibo"></i></a>
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+<ul class="cb-slideshow">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<div class="container-fluid">
+    <div class="row cb-slideshow-text-container ">
+        <div class="tm-content col-xl-6 col-sm-8 col-xs-8 ml-auto section">
+            <header class="mb-5"><h1>注册</h1></header>
+            <form action="" method="POST">
+                <div class="row">
+                    {% csrf_token %}
+                    <div class="col-md-7 col-sm-7 col-xs-7">
+                        {% for field in register %}
+                            <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                            {{ field }}
+                            <p class="text-danger">{{ field.errors.as_text }}</p>
+                        {% endfor %}
+                        <span class="pull-left text-danger">{{ register.non_field_errors }}</span>
+                        <br>
+                        <input type="submit" value="寻找答案" class="btn btn-primary tm-btn-subscribe">
                     </div>
-                    <P class="mb-5">
-                        已有账号？那直接<a href="{% url 'login' %} " style="color: yellow;">登录</a>吧
-                    </P>
-					</div>
-				</div>	
-				<div class="footer-link">
-					<p>Copyright © 2018 Take-out:
-                        <a rel="nofollow" href="#" target="_parent">吃外卖</a></p>
-				</div>
-			</div>	
-	</body>
+                </div>
+            </form>
+            <div class="tm-social-icons-container text-xs-center">
+                <a href="#" class="tm-social-link"><i class="fa fa-qq"></i></a>
+                <a href="#" class="tm-social-link"><i class="fa fa-github"></i></a>
+                <a href="#" class="tm-social-link"><i class="fa fa-weixin"></i></a>
+                <a href="#" class="tm-social-link"><i class="fa fa-weibo"></i></a>
+            </div>
+            <P class="mb-5">
+                已有账号？那直接<a href="{% url 'login' %} " style="color: yellow;">登录</a>吧
+            </P>
+        </div>
+    </div>
+{#    <div class="footer-link">#}
+{#        <p>Copyright © 2018 Take-out:#}
+{#            <a rel="nofollow" href="#" target="_parent">吃外卖</a></p>#}
+{#    </div>#}
+</div>
+</body>
 
-	<script type="text/javascript" src="{% static 'Person/js2/particles.js' %}"></script>
-	<script type="text/javascript" src="{% static 'Person/js2/app.js' %}"></script>
+<script type="text/javascript" src="{% static 'Person/js2/particles.js' %}"></script>
+<script type="text/javascript" src="{% static 'Person/js2/app.js' %}"></script>
 </html>
