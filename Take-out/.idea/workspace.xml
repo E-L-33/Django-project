@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d3fc1e-28fe-4172-b464-4f0780f79846" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Person/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Person/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Person/views.py" afterDir="false" />
@@ -37,6 +38,9 @@
       <change beforePath="$PROJECT_DIR$/templates/Person/wallet.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Person/wallet.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templeate/css/style7.css" beforeDir="false" afterPath="$PROJECT_DIR$/templeate/css/style7.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Take_out/.idea/workspace.xml" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/models.py" afterDir="false" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,15 +87,21 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.38" value="1" />
+<<<<<<< HEAD
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.opened" value="5" />
+=======
+          <entry key="project.opened" value="4" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="css" value="15" />
           <entry key="html" value="43" />
           <entry key="js" value="9" />
@@ -99,10 +109,14 @@
           <entry key="png" value="1" />
           <entry key="py" value="46" />
           <entry key="rnc" value="1" />
+=======
+          <entry key="py" value="57" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="CSS" value="15" />
           <entry key="HTML" value="43" />
           <entry key="Image" value="1" />
@@ -110,22 +124,35 @@
           <entry key="Markdown" value="2" />
           <entry key="Python" value="46" />
           <entry key="RNG Compact" value="1" />
+=======
+          <entry key="Python" value="57" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="css" value="45" />
           <entry key="html" value="808" />
           <entry key="py" value="2719" />
+=======
+          <entry key="py" value="701" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="CSS" value="45" />
           <entry key="HTML" value="808" />
           <entry key="Python" value="2719" />
+=======
+          <entry key="Python" value="701" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
     </session>
     <session id="217217151">
       <usages-collector id="statistics.lifecycle.project">
@@ -160,15 +187,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/Person/mine.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
               <caret line="123" column="63" selection-start-line="123" selection-start-column="63" selection-end-line="123" selection-end-column="63" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.5/dist-packages/django/apps/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="139" selection-start-line="139" selection-end-line="139" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Order/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Order/urls.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -206,13 +261,20 @@
         <option value="$USER_HOME$/Take-out/Take-out/settings.py" />
         <option value="$USER_HOME$/Take-out/Take-out/urls.py" />
         <option value="$USER_HOME$/Take-out/Delicious/models.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Order/urls.py" />
+=======
+        <option value="$PROJECT_DIR$/Person/admin.py" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
         <option value="$PROJECT_DIR$/Order_dinner/urls.py" />
         <option value="$PROJECT_DIR$/Payment/urls.py" />
         <option value="$PROJECT_DIR$/Comment/urls.py" />
         <option value="$PROJECT_DIR$/Delicious/urls.py" />
         <option value="$PROJECT_DIR$/Take_out/settings.py" />
-        <option value="$PROJECT_DIR$/Person/models.py" />
+        <option value="$PROJECT_DIR$/Order/urls.py" />
+        <option value="$PROJECT_DIR$/Inder/urls.py" />
+        <option value="$PROJECT_DIR$/Comment/models.py" />
+        <option value="$PROJECT_DIR$/Take-out/urls.py" />
         <option value="$PROJECT_DIR$/Take-out/settings.py" />
         <option value="$PROJECT_DIR$/Comment/models.py" />
         <option value="$PROJECT_DIR$/Person/admin.py" />
@@ -220,6 +282,7 @@
         <option value="$PROJECT_DIR$/static/Person/css/templatemo-style.css" />
         <option value="$PROJECT_DIR$/Take-out/settings.py" />
         <option value="$PROJECT_DIR$/Take-out/settings.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/templates/Person/index.html" />
         <option value="$PROJECT_DIR$/static/Person/css2/demo.css" />
         <option value="$PROJECT_DIR$/Person/forms.py" />
@@ -244,6 +307,12 @@
         <option value="$PROJECT_DIR$/templates/Person/user.html" />
         <option value="$PROJECT_DIR$/templates/Person/wallet.html" />
         <option value="$PROJECT_DIR$/templates/Person/mine.html" />
+=======
+        <option value="$PROJECT_DIR$/Inder/models.py" />
+        <option value="$PROJECT_DIR$/Order_dinner/models.py" />
+        <option value="$PROJECT_DIR$/Person/models.py" />
+        <option value="$PROJECT_DIR$/Order/models.py" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
       </list>
     </option>
   </component>
@@ -254,10 +323,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="68" />
     <option name="y" value="50" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
+=======
+    <option name="x" value="69" />
+    <option name="y" value="44" />
+    <option name="width" value="1297" />
+    <option name="height" value="528" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -278,6 +354,7 @@
             <path>
               <item name="Take-out" type="b2602c69:ProjectViewProjectNode" />
               <item name="Take-out" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Person" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -290,6 +367,9 @@
               <item name="Take-out" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="Person" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Order" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
             </path>
           </expand>
           <select />
@@ -306,11 +386,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="$PROJECT_DIR$/templates/Person" />
       <recent name="$PROJECT_DIR$/Comment" />
       <recent name="$PROJECT_DIR$/Person" />
       <recent name="$PROJECT_DIR$/Payment" />
       <recent name="$PROJECT_DIR$/Order_dinner" />
+=======
+      <recent name="$PROJECT_DIR$/Inder" />
+      <recent name="$PROJECT_DIR$/Order/migrations" />
+      <recent name="$PROJECT_DIR$/Comment" />
+      <recent name="$PROJECT_DIR$/Person" />
+      <recent name="$PROJECT_DIR$/Payment" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
     </key>
   </component>
   <component name="RunDashboard">
@@ -417,10 +505,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
+    <frame x="62" y="-11" width="1305" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17213663" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23235527" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -434,8 +526,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3290653" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2650231" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32973805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -450,6 +542,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Comment/urls.py" />
     <entry file="file://$PROJECT_DIR$/Delicious/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -684,6 +777,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+=======
+    <entry file="file://$USER_HOME$/Take-out/static/__init__.py" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/contrib/admin/__init__.py" />
+    <entry file="file://$USER_HOME$/Take-out/Delicious/urls.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/__init__.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/settings.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/urls.py" />
+    <entry file="file://$USER_HOME$/Take-out/Take-out/wsgi.py" />
+    <entry file="file://$USER_HOME$/Take-out/Delicious/__init__.py" />
+    <entry file="file://$USER_HOME$/Take-out/Delicious/models.py" />
+    <entry file="file://$PROJECT_DIR$/Person/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Person/admin.py" />
+    <entry file="file://$PROJECT_DIR$/Delicious/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Take-out/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Payment/urls.py" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/urls/resolvers.py" />
+    <entry file="file://$PROJECT_DIR$/static/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/templates/Person/address.html" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/db/models/base.py" />
+    <entry file="file://$PROJECT_DIR$/Order/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Order/admin.py" />
+    <entry file="file://$PROJECT_DIR$/Order/migrations/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Payment/models.py" />
+    <entry file="file://$PROJECT_DIR$/Inder/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Comment/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Comment/models.py" />
+    <entry file="file://$PROJECT_DIR$/Take-out/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Take-out/settings.py" />
+    <entry file="file://$PROJECT_DIR$/Inder/models.py" />
+    <entry file="file://$PROJECT_DIR$/Order_dinner/models.py" />
+    <entry file="file://$PROJECT_DIR$/Order_dinner/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Person/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Person/models.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/django/apps/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+>>>>>>> 85b3591da434b17dc0ec464386151932c46984f9
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
