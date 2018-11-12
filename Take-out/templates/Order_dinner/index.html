@@ -107,7 +107,7 @@
 
 {#        第二#}
         {% for Seller in seller %}
-            <a href="{% url 'xc_cate' %}">
+          <a href="{% url 'cate' Seller.id  %}">
             <div class="yf_first">
 			<div class="yf_first_img"><img src="/static/Order-dinner/img/{{ Seller.pictur }}"/></div>
 			<div class="yf_first_right">
