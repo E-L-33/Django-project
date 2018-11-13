@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+		<meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/static/xp_static/css/waimai.css">
+		<title></title>
+		<style type="text/css">
+            html,body,div,p,form,label,ul,li,dl,dt,dd,ol,img,button,b,em,strong,small,h1,h2,h3,h4,h5,h6{margin:0;padding:0;border:0;list-style:none;font-style:normal;}
+body{font-family:SimHei,'Helvetica Neue',Arial,'Droid Sans',sans-serif;font-size:14px;color:#333;background:#f2f2f2;padding: 0;min-width: 300px; max-width: 640px; margin: 0 auto;}
+a, a.link{color:#666;text-decoration:none;font-weight:500;}
+a, a.link:hover{color:#666;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+
+.main{overflow:hidden;}
+.right-con{display:none;width:100%;float:left;overflow-y:scroll;background:#fff;position:relative;height:500px;}
+.con .con-active{display:block;}
+.right-con li{position:relative;height:75px;border-bottom:1px solid #e7eaeb;border-top:1px solid #fff;padding-bottom:8px;margin-bottom:2px;}
+.right-con li .menu-img{position:absolute;margin-left:10px;top:15px;border-radius:3px;cursor:pointer;}
+.right-con li .menu-img img{height:55px;width:55px;vertical-align:middle;border:0;}
+.right-con li .menu-txt{margin:15px 15px 15px 75px;}
+.right-con li .menu-txt h3{font-size:14px;margin-bottom:10px;margin-top:8px;}
+.right-con li .menu-txt p{font-style:normal;line-height:20px;font-size:12px;vertical-align:bottom;}
+.right-con li .menu-txt p.list2 b{font-size:14px;color:#f00;}
+.right-con li .btn{background-color:transparent;position:absolute;right:0px;top:45%;cursor:pointer;padding:3px;height:38px;}
+.right-con li .btn button.minus{margin-right:-10px;display:none;}
+.right-con li .btn button{width:40px;height:40px;border:0;background:transparent;padding:0;}
+.right-con li .btn button strong{padding:5px 10px;font-size:15px;display:inline-block;text-indent:-3px;padding:5px 11px;height:12px;}
+.right-con li .btn button.minus strong{background:url(/img/down.png) no-repeat;background-size:22px 22px;}
+.right-con li .btn i{display:none;width:22px;text-align:center;font-style:normal;vertical-align:top;margin-top:11px;line-height:18px;}
+.right-con li .btn button.add{margin-left:-10px;}
+.right-con li .btn button.add strong{background:url(img/up.png) no-repeat;background-size:22px 22px;}
+.right-con li .btn .price{display:none;}
+.footer{display:block;position:fixed;width:100%;z-index:3;bottom:0px;color:#f03c03;background:#fff;line-height:35px;font-size:15px;border-top:1px solid #e2e2e2;}
+.footer .left{float:left;margin:5px 10px;}
+.footer .right{float:right;}
+.footer .right .disable{background:#dbdbdb;}
+.footer .xhlbtn{display:block;text-align:center;line-height:45px;background-color:#F03C03;padding:0 15px;color:#fff;font-weight:bold;}
+			*{
+				padding:0;
+				margin:0;
+				border:0;
+				list-style:none;
+				font-family:"微软雅黑";
+			}
+			#wjj_box{
+				width:16rem;
+				overflow:hidden;
+			}
+			header{
+				width:16rem;
+				height:3.125rem;
+				background:url(/static/xp_static/images/logo1.png) no-repeat;
+				background-size:100% 100%;
+				position:relative;
+			}
+			#wjj_back{
+				width:0.775rem;
+				height:0.725rem;
+				margin-top:1rem;
+				margin-left:1.5rem;
+			}
+			#wjj_banner{
+				width:2.65rem;
+				height:2.675rem;
+				margin-top:-3.325rem;
+				margin-left:6.65rem;
+				position:absolute;
+				z-index:99;
+			}
+			#wjj_mc{
+				text-align:center;
+				margin-top:2.125rem;
+				color:#000000;
+				font-size:0.725rem;
+			}
+			#wjj_jj{
+				width:10.2rem;
+				height:1.575rem;
+				margin-left:2.7rem;
+				margin-top:0.625rem;
+			}
+			#wjj_jj img{
+				float:left;
+				width:0.9rem;
+				height:0.825rem;
+				margin-left:0.1rem;
+			}
+			#wjj_jj p{
+				color:#000205;
+				font-size:0.6rem;
+				float:left;
+				margin-left:0.475rem;
+			}
+			#hy{
+				color:#000103;
+				font-size:0.6rem;
+				text-align:center;
+			}
+			#left1{
+				width:4.35rem;
+				height:3.825rem;
+				float:left;
+				margin-left:3.225rem;
+				margin-top:0.675rem;
+				display:inline-block;
+			}
+			#right1{
+				width:4.1rem;
+				height:3.825rem;
+				float:left;
+				margin-left:0.8rem;
+				margin-top:0.675rem;
+				display:inline-block;
+			}
+			#wjj_content2{
+				width:16rem;
+				height:12.525rem;
+				background:#f7f7f7;
+				margin-top:6.15rem;
+				padding-top:0.6rem;
+			}
+			#content_first{
+				width:14.45rem;
+				height:5.45rem;
+				background:#ffffff;
+				margin:0 auto;
+				
+			}
+			#wjj_ps{
+				color:#000000;
+				font-size:0.6rem;
+				padding-top:0.575rem;
+				margin-left:0.75rem;
+			}
+			#wjj_zs{
+				color:#232323;
+				font-size:0.45rem;
+			}
+			#wjj_zs span{
+				display:inline-block;
+				color:#f6fafd;
+				font-size:rem;
+				width:1.95rem;
+				height:0.625rem;
+				background:#1f94fd;
+				margin-left:0.925rem;
+				margin-right:0.65rem;
+				margin-top:0.375rem;
+				text-align:center;
+			}
+			#zsd{
+				color:#232323;
+				font-size:0.45rem;
+			}
+			#zsd span{
+				display:inline-block;
+				color:#60aafd;
+				font-size:rem;
+				width:1.95rem;
+				height:0.625rem;
+				border:0.025rem solid #1f94fd;
+				margin-left:0.925rem;
+				margin-right:0.65rem;
+				margin-top:0.375rem;
+				text-align:center;
+			}
+			#py{
+				color:#232323;
+				font-size:0.45rem;
+				margin-top:0.375rem;
+				margin-left:0.925rem;
+			}
+			#content_two{
+				width:14.45rem;
+				height:5.95rem;
+				background:#ffffff;
+				margin:0 auto;
+				margin-top:0.55rem;
+			}
+			#hd{
+				color:#000000;
+				font-size:0.6rem;
+				padding-top:0.575rem;
+				margin-left:0.75rem;
+			}
+			#jian{
+				color:#232323;
+				font-size:0.45rem;
+				margin-top:0.525rem;
+			}
+			#jian span{
+				display:inline-block;
+				color:#fffefe;
+				font-size:rem;
+				width:0.5rem;
+				height:0.45rem;
+			
+				margin-left:0.925rem;
+				margin-right:0.3rem;
+				line-height:0.45rem;
+				text-align:center;
+				background:#f27f7c;
+			}
+			#xin{
+				color:#232323;
+				font-size:0.45rem;
+				margin-top:0.425rem;
+			}
+			#xin span{
+				display:inline-block;
+				color:#fffefe;
+				font-size:rem;
+				width:0.5rem;
+				height:0.45rem;
+			
+				margin-left:0.925rem;
+				margin-right:0.3rem;
+				line-height:0.45rem;
+				text-align:center;
+				background:#7cb847;
+			}
+			#te{
+				color:#232323;
+				font-size:0.45rem;
+				margin-top:0.425rem;
+			}
+			#te span{
+				display:inline-block;
+				color:#fffefe;
+				font-size:rem;
+				width:0.5rem;
+				height:0.45rem;
+			
+				margin-left:0.925rem;
+				margin-right:0.3rem;
+				line-height:0.45rem;
+				text-align:center;
+				background:#ef8a44;
+			}
+			#cu{
+				color:#232323;
+				font-size:0.45rem;
+				margin-top:0.425rem;
+			}
+			#cu span{
+				display:inline-block;
+				color:#000000;
+				font-size:rem;
+				width:0.5rem;
+				height:0.45rem;
+			
+				margin-left:0.925rem;
+				margin-right:0.3rem;
+				line-height:0.45rem;
+				text-align:center;
+				border:0.025rem solid #e0dedc;
+			}
+		</style>
+		<div id="wjj_box">
+			<header>
+				<img src="/static/xp_static/images/logo6.png" id="wjj_back">
+				
+			</header>
+			<div id="wjj_content1">
+				<img src="/static/xp_static/images/logo7.png" id="wjj_banner">
+				<p id="wjj_mc">小媳妇儿凉皮</p>
+				<div id="wjj_jj">
+					<img src="/static/xp_static/images/logo2.png">
+					<img src="/static/xp_static/images/logo2.png">
+					<img src="/static/xp_static/images/logo2.png">
+					<img src="/static/xp_static/images/logo2.png">
+					<img src="/static/xp_static/images/logo3.png">
+					<p>4.5</p>
+					<p>月售1008单</p>
+				</div>
+				<p id="hy" >欢迎光临，用餐高峰期请提前订单</p>
+				<img src="/static/xp_static/images/logo4.png" id="left1">
+				<img src="/static/xp_static/images/logo5.png" id="right1">
+			</div>
+			<div id="wjj_content2">
+				<div id="content_first">
+					<p id="wjj_ps">配送信息</p>
+					<p id="wjj_zs"><span>蜂鸟专送</span>预计越22分钟送达，距离929Ｍ</p>
+					<p id="zsd"><span>准时达</span>准时必达，超时１０分钟立享赔付</p>
+					<p id="py">配用费￥５</p>
+				</div>
+				<div id="content_two">
+					<p id="hd">活动与服务</p>
+					<p id="jian"><span>减</span>满28减14，满48减17，满60减20</p>
+					<p id="xin"><span>新</span>新用户下单立减23.0元（不与其他活动共享）</p>
+					<p id="te"><span>特</span>每天9.9</p>
+					<p id="cu"><span>促</span>已加入“外面促” 食品安全有保障</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+ <div class="main">
+	<div class="con">
+		<div class="right-con con-active">
+			<ul>
+				<li>
+					<div class="menu-img"><img src="img/pic.png" width="55" height="55" /></div>
+					<div class="menu-txt">
+						<h4>宫保鸡丁</h4>
+						<p class="list1">家常菜</p>
+						<p class="list2">
+							<b>￥25</b>
+							<div class="btn">
+								 <button class="minus">
+									 <strong>-</strong>
+								 </button>
+								 <i>0</i>
+								  <button class="add">
+									 <strong></strong>
+								 </button>
+								 <i class="price">25</i>
+							 </div>
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="left">已选：
+		<span id="cartN">
+			<span id="totalcountshow">0</span>份　总计：￥<span id="totalpriceshow">0</span></span>元
+		</div>
+		<div class="right">
+			<a id="btnselect" class="xhlbtn  disable" href="javascript:void(0)">去结算</a>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function () {
+	//加的效果
+	$(".add").click(function () {
+		$(this).prevAll().css("display", "inline-block");
+		var n = $(this).prev().text();
+		var num = parseInt(n) + 1;
+		if (num == 0) { return; }
+		$(this).prev().text(num);
+		var danjia = $(this).next().text();//获取单价
+		var a = $("#totalpriceshow").html();//获取当前所选总价
+		$("#totalpriceshow").html((a * 1 + danjia * 1).toFixed(2));//计算当前所选总价
+
+		var nm = $("#totalcountshow").html();//获取数量
+		$("#totalcountshow").html(nm*1+1);
+		jss();//<span style='font-family: Arial, Helvetica, sans-serif;'></span>   改变按钮样式
+	});
+	//减的效果
+	$(".minus").click(function () {
+		var n = $(this).next().text();
+		var num = parseInt(n) - 1;
+
+		$(this).next().text(num);//减1
+
+		var danjia = $(this).nextAll(".price").text();//获取单价
+		var a = $("#totalpriceshow").html();//获取当前所选总价
+		$("#totalpriceshow").html((a * 1 - danjia * 1).toFixed(2));//计算当前所选总价
+
+		var nm = $("#totalcountshow").html();//获取数量
+		$("#totalcountshow").html(nm * 1 - 1);
+		//如果数量小于或等于0则隐藏减号和数量
+		if (num <= 0) {
+			$(this).next().css("display", "none");
+			$(this).css("display", "none");
+			jss();//改变按钮样式
+			 return
+		}
+	});
+	function jss() {
+		var m = $("#totalcountshow").html();
+		if (m > 0) {
+			$(".right").find("a").removeClass("disable");
+		} else {
+		   $(".right").find("a").addClass("disable");
+		}
+	};
+
+
+});
+</script>
+        <button margin-top="0">立即购买</button>
+		<script type="text/javascript">
+	      document.documentElement.style.fontSize = innerWidth/16+'px';
+	      onresize = function(){
+		         document.documentElement.style.fontSize = innerWidth/16+'px';
+	        };
+	    </script>
+    <div class="footer">
+			<ul>
+				<li onclick="window.location.href='/index/'">
+					<img src="/static/xp_static/img/wm_a.gif">
+					<p style="color:#3192ef;">外卖</p>
+				</li>
+				<li onclick="window.location.href='/find/'">
+					<img src="/static/xp_static/images/tu_46.png">
+					<p>发现</p>
+				</li>
+				<li onclick="window.location.href='/order/'">
+					<img src="/static/xp_static/images/tu_52.png">
+					<p>订单</p>
+				</li>
+				<li onclick="window.location.href='/mine/'">
+					<img src="/static/xp_static/img/wm_d.gif">
+					<p>我的</p>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
