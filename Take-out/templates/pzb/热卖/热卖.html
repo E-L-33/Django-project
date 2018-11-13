@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+		<meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="/static/xp_static/css/waimai.css">
+		<title>热卖</title>
+		<style type="text/css">
+			*{
+				padding:0;
+				border:0;
+				margin:0;
+				list-style:none;
+				font-family:"微软雅黑";
+			}
+			#wjj_box{
+				width:16rem;
+				overflow:hidden;
+				position:relative;
+			}
+			header{
+				width:16rem;
+				height:2.5rem;
+				background:#000000;
+				position:fixed;
+			}
+			header p{
+				color:#ffffff;
+				font-size:0.75rem;
+				margin-left:0.875rem;
+				line-height:2.5rem;
+			}
+			header p span{
+				color:#ffffff;
+				font-size:rem;
+				margin-left:0.75rem;
+			}
+			#wjj_logo{
+				width:16rem;
+				height:2.025rem;
+				margin-top:2.5rem;
+				border-bottom:0.025rem solid #f0f0f0;
+				position:fixed;
+				background:#fff;
+			}
+			#wjj_logo p{
+				width:3.2rem;
+				height:1.175rem;
+				border:0.025rem solid #dddddd;
+				margin-left:0.45rem;
+				border-radius:0.9rem;
+				line-height:1.175rem;
+				text-align:center;
+				color:#757575;
+				float:left;
+				margin-top:0.425rem;
+				font-size:0.525rem;
+				
+			}
+			#wjj_logo p:hover{
+				color:#0b83fa;
+				border:0.025rem solid #2695ff;
+				background:#ebf5fe;
+			}
+			#wjj_content1{
+				width:8.125rem;
+				height:12.35rem;
+				margin-top:5.25rem;
+				margin-left:0.9rem;
+			}
+			#wjj_content1 img{
+				width:8.125rem;
+				height:8.2rem;
+			}
+			#mc{
+				color:#151515;
+				font-size:0.625rem;
+				margin-top:0.475rem;
+				margin-left:0.225rem;
+			}
+			#qian{
+				color:#f2651a;
+				font-size:0.625rem;
+				margin-top:0.65rem;
+				margin-left:0.225rem;
+				float:left;
+			}
+			#qian span{
+				color:#b0b0b0;
+				font-size:0.45rem;
+				margin-left:0.275rem;
+				display:inline-block;
+				text-decoration:line-through;
+			}
+			#qiang{
+				width:1.925rem;
+				height:1.225rem;
+				background:#f74942;
+				color:#ffffff;
+				line-height:1.225rem;
+				font-size:0.625rem;
+				text-align:center;
+				float:right;
+				margin-top:0.4rem;
+			}
+			#wjj_content2{
+				width:8.125rem;
+				height:13.375rem;
+				
+				margin-left:0.9rem;
+			}
+			#wjj_content2 img{
+				width:8.125rem;
+				height:8.2rem;
+			}
+			#mc2{
+				color:#151515;
+				font-size:0.625rem;
+				margin-top:0.475rem;
+				margin-left:0.225rem;
+			}
+			#qian2{
+				color:#f2651a;
+				font-size:0.625rem;
+				margin-top:0.65rem;
+				margin-left:0.225rem;
+				float:left;
+			}
+			#qian2 span{
+				color:#b0b0b0;
+				font-size:0.45rem;
+				margin-left:0.275rem;
+				display:inline-block;
+				text-decoration:line-through;
+			}
+			#qiang2{
+				width:1.925rem;
+				height:1.225rem;
+				background:#f74942;
+				color:#ffffff;
+				line-height:1.225rem;
+				font-size:0.625rem;
+				text-align:center;
+				float:right;
+				margin-top:0.4rem;
+			}
+			#dz2{
+				width:1.55rem;
+				height:0.7rem;
+				color:#f7f7f7;
+				font-size:0.4rem;
+				background:#4c4c4c;
+				line-height:0.7rem;
+				text-align:center;
+				clear:both;
+				margin-top:2.5rem;
+				margin-left:0.45rem;
+			}
+			#wjj_content3{
+				width:8.2rem;
+				height:11.2rem;
+				
+				margin-left:1.575rem;
+			}
+			#wjj_content3 img{
+				width:8.2rem;
+				height:6.9rem;
+			}
+			#mc3{
+				color:#151515;
+				font-size:0.625rem;
+				margin-top:0.475rem;
+				margin-left:0.225rem;
+			}
+			#qian3{
+				color:#f2651a;
+				font-size:0.625rem;
+				margin-top:0.65rem;
+				margin-left:0.225rem;
+				float:left;
+			}
+			#qian3 span{
+				color:#b0b0b0;
+				font-size:0.45rem;
+				margin-left:0.275rem;
+				display:inline-block;
+				text-decoration:line-through;
+			}
+			#qiang3{
+				width:1.925rem;
+				height:1.225rem;
+				background:#f74942;
+				color:#ffffff;
+				line-height:1.225rem;
+				font-size:0.625rem;
+				text-align:center;
+				float:right;
+				margin-top:0.4rem;
+			}
+			#wjj_content4{
+				width:8.025rem;
+				height:12.275rem;
+				
+				margin-left:1.95rem;
+			}
+			#wjj_content4 img{
+				width:8.025rem;
+				height:8.125rem;
+			}
+			#mc4{
+				color:#151515;
+				font-size:0.625rem;
+				margin-top:0.475rem;
+				margin-left:0.225rem;
+			}
+			#qian4{
+				color:#f2651a;
+				font-size:0.625rem;
+				margin-top:0.65rem;
+				margin-left:0.225rem;
+				float:left;
+			}
+			#qian4 span{
+				color:#b0b0b0;
+				font-size:0.45rem;
+				margin-left:0.275rem;
+				display:inline-block;
+				text-decoration:line-through;
+			}
+			#qiang4{
+				width:1.925rem;
+				height:1.225rem;
+				background:#f74942;
+				color:#ffffff;
+				line-height:1.225rem;
+				font-size:0.625rem;
+				text-align:center;
+				float:right;
+				margin-top:0.4rem;
+			}
+			#wjj_content5{
+				width:8.1rem;
+				height:12.275rem;
+				
+				margin-left:2.05rem;
+			}
+			#wjj_content5 img{
+				width:8.1rem;
+				height:8.125rem;
+			}
+			#mc5{
+				color:#151515;
+				font-size:0.625rem;
+				margin-top:0.475rem;
+				margin-left:0.225rem;
+			}
+			#qian5{
+				color:#f2651a;
+				font-size:0.625rem;
+				margin-top:0.65rem;
+				margin-left:0.225rem;
+				float:left;
+			}
+			#qian5 span{
+				color:#b0b0b0;
+				font-size:0.45rem;
+				margin-left:0.275rem;
+				display:inline-block;
+				text-decoration:line-through;
+			}
+			#qiang5{
+				width:1.925rem;
+				height:1.225rem;
+				background:#f74942;
+				color:#ffffff;
+				line-height:1.225rem;
+				font-size:0.625rem;
+				text-align:center;
+				float:right;
+				margin-top:0.4rem;
+			}
+		</style>
+	</head>
+	<body>
+	    <div id="wjj_box">
+		   <header>
+			   <p onclick="window.location.href='/find/'">X  <span>天天特价</span></p>
+			</header>
+			<div id="wjj_logo">
+				<p>全部</p>
+				<p>火爆特惠</p>
+				<p>下午茶不贵</p>
+				<p>商超百货</p>
+			</div>
+			<div id="wjj_content1">
+				<img src="/static/xp_static/images/tu1.png">
+				<p id="mc">外婆卤肉面</p>
+				<p id="qian">￥12.5<span>￥25</span></p>
+				<p id="qiang">抢</p>
+			</div>
+			<div id="wjj_content2">
+				<img src="/static/xp_static/images/tu2.png">
+				<p id="mc2">宫保鸡丁</p>
+				<p id="qian2">￥14<span>￥29</span></p>
+				<p id="qiang2">抢</p>
+				<p id="dz2">7.2折</p>
+			</div>
+			<div id="wjj_content3">
+				<img src="/static/xp_static/images/tu3.png">
+				<p id="mc3">美式鸡排堡套餐</p>
+				<p id="qian3">￥18<span>￥25</span></p>
+				<p id="qiang3">抢</p>
+			</div>
+			<div id="wjj_content4">
+				<img src="/static/xp_static/images/tu4.png">
+				<p id="mc4">长豆角烧茄子（小碗菜）</p>
+				<p id="qian4">￥9.77<span>￥14.8</span></p>
+				<p id="qiang4">抢</p>
+			</div>
+			<div id="wjj_content5">
+				<img src="/static/xp_static/images/tu5.png">
+				<p id="mc4">辣鱿鱼拌饭B套餐</p>
+				<p id="qian4">￥19.5<span>￥39</span></p>
+				<p id="qiang4">抢</p>
+			</div>
+	    </div>
+		<script type="text/javascript">
+	      document.documentElement.style.fontSize = innerWidth/16+'px';
+	      onresize = function(){
+		         document.documentElement.style.fontSize = innerWidth/16+'px';
+	        };
+	    </script>
+    <div class="footer">
+			<ul>
+				<li onclick="window.location.href='/index/'">
+					<img src="/static/xp_static/img/wm_a.gif">
+					<p style="color:#3192ef;">外卖</p>
+				</li>
+				<li onclick="window.location.href='/find/'">
+					<img src="/static/xp_static/images/tu_46.png">
+					<p>发现</p>
+				</li>
+				<li onclick="window.location.href='/order/'">
+					<img src="/static/xp_static/images/tu_52.png">
+					<p>订单</p>
+				</li>
+				<li onclick="window.location.href='/mine/'">
+					<img src="/static/xp_static/img/wm_d.gif">
+					<p>我的</p>
+				</li>
+			</ul>
+		</div>
+
+	</body>
+</html>
