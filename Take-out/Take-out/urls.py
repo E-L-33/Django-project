@@ -30,7 +30,7 @@ urlpatterns = [
     url(r'^index/', views.xp_index, ),
     url(r'^find/$', views.xp_find, ),
     url('order/', views.xp_order, ),
-    url('mine/', views.xp_mine),
+    # url('mine/', views.xp_mine),
     url('meisi/', views.xp_deli),
     url('search/', views.xp_search),
     url('drink/', views.xp_drink),

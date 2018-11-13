@@ -44,11 +44,12 @@ def xc_store(request):
 
 # 首页
 def xc_index(request):
-    bos = Seller.objects.all()
-
-    context = {}
-    context = {'seller': bos}
-    return render(request, 'Order_dinner/index.html', context)
+    pass
+#     bos = Seller.objects.all()
+#
+#     context = {}
+#     context = {'seller': bos}
+#     return render(request, 'Order_dinner/index.html', context)
 
 
 # 发现
@@ -66,19 +67,20 @@ def xc_discovery(request):
     return render(request, 'Order_dinner/mine.html')
 
 
-
+#商品表/小媳妇
 def xc_cate(request, ids):
 
     context = {}
-    # puantity=Cart.objects.get(Food_id=ids).puantity
-    # context['cart']=puantity
+
+
     a=Cart.objects.all().aggregate(s=Sum('puantity'))['s']
-    if a=="Nane":
+    if a==None:
         a=0
     context['sum']=a
     ss = Food.objects.filter(id=F('cart__Food_id')).annotate(s=F('cart__puantity') * F('price')).values('s')
     ss=ss.aggregate(a=Sum('s'))['a']
-    if ss=="None":
+    print(ss)
+    if ss==None:
         ss=0
     context['sumprice']=ss
     bos1 = Seller.objects.filter(id=ids)
@@ -89,6 +91,7 @@ def xc_cate(request, ids):
     context['food'] = bos
     print(context)
     return render(request, 'Order_dinner/小媳妇儿凉皮.html', context)
+
 
 def xc_food(request):
 
@@ -141,21 +144,25 @@ def xc_add(request,ids):
         cart.save()
     return redirect('cate',d)
 def xc_reduction(request,ids):
-    a = Cart.objects.get(Food_id=ids).Food_id
-    puantity = Cart.objects.get(Food_id=ids).puantity
     d = Seller.objects.get(food__id=ids).id
-    print(puantity)
-    if puantity > 1:
+    try:
+        a = Cart.objects.get(Food_id=ids).Food_id#判断食物id在Cart表中是否存在
+        puantity = Cart.objects.get(Food_id=ids).puantity
+
+        print(puantity)
+        if puantity > 1:
 
 
-        puantity = puantity-1
+            puantity = puantity-1
 
-        cart = Cart.objects.get(Food_id=a)
-        cart.puantity = puantity
-        cart.save()
-    else:
+            cart = Cart.objects.get(Food_id=a)
+            cart.puantity = puantity
+            cart.save()
+        elif puantity>0:
 
-        reduct=Cart.objects.filter(Food_id=ids)
-        reduct.delete()
+            reduct=Cart.objects.filter(Food_id=ids)
+            reduct.delete()
+    except:
+        print(1)
     return redirect('cate',d)
 

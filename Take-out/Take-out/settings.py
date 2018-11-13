@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'Take_out',
         'PORT': 3306,
         'USER': 'root',
-        'PASSWORD': '1',
+        'PASSWORD': 'qwd',
         'HOST': '127.0.0.1',
     }
 }
