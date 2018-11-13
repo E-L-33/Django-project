@@ -66,14 +66,7 @@ def xc_discovery(request):
     return render(request, 'Order_dinner/mine.html')
 
 
-<<<<<<< HEAD
-def xc_cate(request):
-    bos = Seller.objects.all()
-    context = {'seller': bos}
-    bos = Food.objects.all()
-    conten = {'food': bos}
-    return render(request, 'Order_dinner/小媳妇儿凉皮.html', conten, context)
-=======
+
 def xc_cate(request, ids):
 
     context = {}
@@ -96,8 +89,6 @@ def xc_cate(request, ids):
     context['food'] = bos
     print(context)
     return render(request, 'Order_dinner/小媳妇儿凉皮.html', context)
->>>>>>> 367aeec9426339c31732929d544d014d99cb40ec
-
 
 def xc_food(request):
 
