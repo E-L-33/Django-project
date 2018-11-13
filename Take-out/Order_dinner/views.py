@@ -70,12 +70,16 @@ def xc_discovery(request):
 def xc_cate(request, ids):
 
     context = {}
-    # aa=Cart.objects.filter(Food_id=ids)['puantity']
-    # context['cart']=aa
+    # puantity=Cart.objects.get(Food_id=ids).puantity
+    # context['cart']=puantity
     a=Cart.objects.all().aggregate(s=Sum('puantity'))['s']
+    if a=="Nane":
+        a=0
     context['sum']=a
     ss = Food.objects.filter(id=F('cart__Food_id')).annotate(s=F('cart__puantity') * F('price')).values('s')
     ss=ss.aggregate(a=Sum('s'))['a']
+    if ss=="None":
+        ss=0
     context['sumprice']=ss
     bos1 = Seller.objects.filter(id=ids)
     context['seller'] = bos1
@@ -138,8 +142,21 @@ def xc_add(request,ids):
         cart.save()
     return redirect('cate',d)
 def xc_reduction(request,ids):
+    a = Cart.objects.get(Food_id=ids).Food_id
+    puantity = Cart.objects.get(Food_id=ids).puantity
     d = Seller.objects.get(food__id=ids).id
-    reduct=Cart.objects.filter(Food_id=ids)
-    reduct.delete()
+    print(puantity)
+    if puantity > 1:
+
+
+        puantity = puantity-1
+
+        cart = Cart.objects.get(Food_id=a)
+        cart.puantity = puantity
+        cart.save()
+    else:
+
+        reduct=Cart.objects.filter(Food_id=ids)
+        reduct.delete()
     return redirect('cate',d)
 
