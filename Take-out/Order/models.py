@@ -33,7 +33,7 @@ class History(models.Model):
     customer_id = models.ForeignKey(Customer, blank=True, null=True, on_delete=models.SET_NULL)
     seller_id = models.ForeignKey(Seller, blank=True, null=True, on_delete=models.SET_NULL)
     food_id = models.ForeignKey(Food, blank=True, null=True, on_delete=models.SET_NULL)
-    order_id = models.ForeignKey(Order, blank=True, null=True, on_delete=models.SET_NULL)  # 订单外建
+    order_id = models.ForeignKey('Order', blank=True, null=True, on_delete=models.SET_NULL)  # 订单外建
     address_id = models.ForeignKey(Address, blank=True, null=True, on_delete=models.SET_NULL)  # 地址外建
     order_detail_id = models.ForeignKey('order_detail', blank=True, null=True, on_delete=models.SET_NULL)
     order_detail_number = models.IntegerField()
