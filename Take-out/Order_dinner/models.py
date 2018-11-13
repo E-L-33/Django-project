@@ -30,4 +30,11 @@ class Food(models.Model):
     Seller = models.ForeignKey("Seller", on_delete=models.DO_NOTHING)#商铺外键
     Commodity_type=models.CharField(max_length=50,default="早餐/汉堡")#商品类型
     class Meta:
+
         db_table = 'Food'
+class Cart(models.Model):
+    puantity=models.IntegerField(default=0)
+    state=models.BooleanField(default=False)
+    Food=models.ForeignKey("Food", on_delete=models.DO_NOTHING,default=2)
+    class Meta:
+        db_table="Cart"
