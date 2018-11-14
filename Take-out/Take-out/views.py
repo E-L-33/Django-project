@@ -28,12 +28,15 @@ def xp_order(request):
 def xp_mine(request):
     return render(request, 'mine.html')
 
-
+#美食
 def xp_deli(request):
-    foo=Food.objects.all()
-    se=Seller.objects.all()
-    concent={"fwe":foo,"sel":se}
-    return render(request, 'pzb/美食/美食.html',concent)
+    #zjc修改11-14
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+    print(context['seller'])
+
+    return render(request, 'pzb/美食/美食.html',context)
 
 
 def xp_search(request):

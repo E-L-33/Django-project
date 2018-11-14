@@ -6,7 +6,7 @@ from .models import Customer, Address
 @admin.register(Customer)
 class Customer_Admin(admin.ModelAdmin):
     list_display = (
-        'id', 'uname', 'pay_password', 'loyalty', 'address_id', 'ex_password', 'wallet', 'phone', 'add_time')
+        'id', 'uname', 'pay_password', 'loyalty', 'ex_password', 'wallet', 'phone', 'add_time')
 
 
 @admin.register(Address)

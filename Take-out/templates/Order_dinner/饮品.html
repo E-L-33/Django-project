@@ -3,15 +3,15 @@
 	<head>
 		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
 		<meta charset="UTF-8">
-		<title>美食</title>
-        {% load staticfiles %}
-		<style>
+		     <link rel="stylesheet" type="text/css" href="/static/css/waimai.css">
+		<title></title>
+		<style type="text/css">
 			*{
 				padding:0;
 				margin:0;
 				border:0;
-				font-family:"微软雅黑";
 				list-style:none;
+				font-family:"微软雅黑";
 			}
 			#wjj_box{
 				width:16rem;
@@ -65,7 +65,7 @@
 			#wjj_logo3{
 				width:16rem;
 				height:1.925rem;
-
+				
 				margin-top:4.225rem;
 				border-bottom:0.025rem solid #f7f7f7;
 			}
@@ -75,7 +75,7 @@
 				font-size:0.7rem;
 				margin-left:1.3rem;
 				line-height:1.925rem;
-			}
+			} 
 			#wjj_logo3 p:nth-child(1){
 				margin-left:0.275rem;
 			}
@@ -99,6 +99,7 @@
 				width:16rem;
 				height:6.775rem;
 				border-bottom:0.025rem solid #ebebeb;
+				
 			}
 			#left1{
 				float:left;
@@ -126,7 +127,7 @@
 			}
 			#dz1{
 				float:left;
-				margin-left:0.325rem;
+				margin-left:0.225rem;
 				color:#121212;
 				font-size:0.65rem;
 				margin-top:-0.2rem;
@@ -161,7 +162,7 @@
 			}
 			#wjj_pj1 p span{
 				display:inline-block;
-
+				
 				color:#6a6a6a;
 				font-size:0.375rem;
 				margin-left:0.475rem;
@@ -176,7 +177,7 @@
 				font-size:0.45rem;
 				margin-left:rem;
 				float:left;
-
+				
 			}
 			#wjj_xq1 span{
 				width:0.125rem;
@@ -191,7 +192,7 @@
 				margin-top:0.2rem;
 			}
 			#wjj_xq1 p:nth-child(4){
-				margin-left:0.825rem;
+				margin-left:0.625rem;
 			}
 			#wjj_xq1 p:nth-child(5){
 				color:#3b8cd8;
@@ -202,7 +203,7 @@
 				color:#848484;
 				font-size:0.475rem;
 				margin-top:0.4rem;
-
+				
 			}
 			#jian1 span{
 				display:inline-block;
@@ -220,7 +221,7 @@
 				color:#848484;
 				font-size:0.475rem;
 				margin-top:0.4rem;
-
+				
 			}
 			#xin1 span{
 				display:inline-block;
@@ -238,6 +239,7 @@
 				width:16rem;
 				height:6.775rem;
 				border-bottom:0.025rem solid #ebebeb;
+				
 			}
 			#left2{
 				float:left;
@@ -265,7 +267,7 @@
 			}
 			#dz2{
 				float:left;
-				margin-left:0.325rem;
+				margin-left:0.225rem;
 				color:#121212;
 				font-size:0.65rem;
 				margin-top:-0.2rem;
@@ -300,7 +302,7 @@
 			}
 			#wjj_pj2 p span{
 				display:inline-block;
-
+				
 				color:#6a6a6a;
 				font-size:0.375rem;
 				margin-left:0.475rem;
@@ -308,14 +310,14 @@
 			#wjj_xq2{
 				width:12.075rem;
 				height:1rem;
-
+				border-bottom:0.025rem dashed #e6e6e6;
 			}
 			#wjj_xq2 p{
 				color:#747474;
 				font-size:0.45rem;
 				margin-left:rem;
 				float:left;
-
+				
 			}
 			#wjj_xq2 span{
 				width:0.125rem;
@@ -330,17 +332,54 @@
 				margin-top:0.2rem;
 			}
 			#wjj_xq2 p:nth-child(4){
-				margin-left:0.725rem;
+				margin-left:0.625rem;
 			}
 			#wjj_xq2 p:nth-child(5){
 				color:#3b8cd8;
-				float:right;
-				margin-top:-0.6rem;
+				display:inline-block;
+				margin-top:0.2rem;
+			}
+			#jian2{
+				color:#848484;
+				font-size:0.475rem;
+				margin-top:0.4rem;
+				
+			}
+			#jian2 span{
+				display:inline-block;
+				color:#ffffff;
+				font-size:rem;
+				width:0.575rem;
+				height:0.575rem;
+				margin-left:rem;
+				background:#ef7273;
+				line-height:0.575rem;
+				text-align:center;
+				margin-right:0.2rem;
+			}
+			#xin2{
+				color:#848484;
+				font-size:0.475rem;
+				margin-top:0.4rem;
+				
+			}
+			#xin2 span{
+				display:inline-block;
+				color:#ffffff;
+				font-size:rem;
+				width:0.575rem;
+				height:0.575rem;
+				margin-left:rem;
+				background:#6dbc42;
+				line-height:0.575rem;
+				text-align:center;
+				margin-right:0.2rem;
 			}
 			#wjj_content3{
 				width:16rem;
 				height:6.775rem;
 				border-bottom:0.025rem solid #ebebeb;
+				
 			}
 			#left3{
 				float:left;
@@ -368,7 +407,7 @@
 			}
 			#dz3{
 				float:left;
-				margin-left:0.325rem;
+				margin-left:0.225rem;
 				color:#121212;
 				font-size:0.65rem;
 				margin-top:-0.2rem;
@@ -403,7 +442,7 @@
 			}
 			#wjj_pj3 p span{
 				display:inline-block;
-
+				
 				color:#6a6a6a;
 				font-size:0.375rem;
 				margin-left:0.475rem;
@@ -418,7 +457,7 @@
 				font-size:0.45rem;
 				margin-left:rem;
 				float:left;
-
+				
 			}
 			#wjj_xq3 span{
 				width:0.125rem;
@@ -433,18 +472,18 @@
 				margin-top:0.2rem;
 			}
 			#wjj_xq3 p:nth-child(4){
-				margin-left:0.825rem;
+				margin-left:0.625rem;
 			}
 			#wjj_xq3 p:nth-child(5){
 				color:#3b8cd8;
-				float:right;
-				margin-top:-0.6rem;
+				display:inline-block;
+				margin-top:0.2rem;
 			}
 			#jian3{
 				color:#848484;
 				font-size:0.475rem;
 				margin-top:0.4rem;
-
+				
 			}
 			#jian3 span{
 				display:inline-block;
@@ -462,7 +501,7 @@
 				color:#848484;
 				font-size:0.475rem;
 				margin-top:0.4rem;
-
+				
 			}
 			#xin3 span{
 				display:inline-block;
@@ -480,6 +519,7 @@
 				width:16rem;
 				height:6.775rem;
 				border-bottom:0.025rem solid #ebebeb;
+				
 			}
 			#left4{
 				float:left;
@@ -507,7 +547,7 @@
 			}
 			#dz4{
 				float:left;
-				margin-left:0.325rem;
+				margin-left:0.225rem;
 				color:#121212;
 				font-size:0.65rem;
 				margin-top:-0.2rem;
@@ -542,7 +582,7 @@
 			}
 			#wjj_pj4 p span{
 				display:inline-block;
-
+				
 				color:#6a6a6a;
 				font-size:0.375rem;
 				margin-left:0.475rem;
@@ -557,7 +597,7 @@
 				font-size:0.45rem;
 				margin-left:rem;
 				float:left;
-
+				
 			}
 			#wjj_xq4 span{
 				width:0.125rem;
@@ -572,18 +612,18 @@
 				margin-top:0.2rem;
 			}
 			#wjj_xq4 p:nth-child(4){
-				margin-left:0.825rem;
+				margin-left:0.625rem;
 			}
 			#wjj_xq4 p:nth-child(5){
 				color:#3b8cd8;
-				float:right;
-				margin-top:-0.6rem;
+				display:inline-block;
+				margin-top:0.2rem;
 			}
 			#jian4{
 				color:#848484;
 				font-size:0.475rem;
 				margin-top:0.4rem;
-
+				
 			}
 			#jian4 span{
 				display:inline-block;
@@ -597,10 +637,29 @@
 				text-align:center;
 				margin-right:0.2rem;
 			}
+			#xin4{
+				color:#848484;
+				font-size:0.475rem;
+				margin-top:0.4rem;
+				
+			}
+			#xin4 span{
+				display:inline-block;
+				color:#ffffff;
+				font-size:rem;
+				width:0.575rem;
+				height:0.575rem;
+				margin-left:rem;
+				background:#6dbc42;
+				line-height:0.575rem;
+				text-align:center;
+				margin-right:0.2rem;
+			}
 			#wjj_content5{
 				width:16rem;
 				height:6.775rem;
 				border-bottom:0.025rem solid #ebebeb;
+				
 			}
 			#left5{
 				float:left;
@@ -628,7 +687,7 @@
 			}
 			#dz5{
 				float:left;
-				margin-left:0.325rem;
+				margin-left:0.225rem;
 				color:#121212;
 				font-size:0.65rem;
 				margin-top:-0.2rem;
@@ -663,7 +722,7 @@
 			}
 			#wjj_pj5 p span{
 				display:inline-block;
-
+				
 				color:#6a6a6a;
 				font-size:0.375rem;
 				margin-left:0.475rem;
@@ -678,7 +737,7 @@
 				font-size:0.45rem;
 				margin-left:rem;
 				float:left;
-
+				
 			}
 			#wjj_xq5 span{
 				width:0.125rem;
@@ -693,18 +752,18 @@
 				margin-top:0.2rem;
 			}
 			#wjj_xq5 p:nth-child(4){
-				margin-left:0.825rem;
+				margin-left:0.625rem;
 			}
 			#wjj_xq5 p:nth-child(5){
 				color:#3b8cd8;
-				float:right;
-				margin-top:-0.6rem;
+				display:inline-block;
+				margin-top:0.2rem;
 			}
 			#jian5{
 				color:#848484;
 				font-size:0.475rem;
 				margin-top:0.4rem;
-
+				
 			}
 			#jian5 span{
 				display:inline-block;
@@ -718,10 +777,29 @@
 				text-align:center;
 				margin-right:0.2rem;
 			}
+			#xin5{
+				color:#848484;
+				font-size:0.475rem;
+				margin-top:0.4rem;
+				
+			}
+			#xin5 span{
+				display:inline-block;
+				color:#ffffff;
+				font-size:rem;
+				width:0.575rem;
+				height:0.575rem;
+				margin-left:rem;
+				background:#6dbc42;
+				line-height:0.575rem;
+				text-align:center;
+				margin-right:0.2rem;
+			}
 			#wjj_content6{
 				width:16rem;
 				height:6.775rem;
 				border-bottom:0.025rem solid #ebebeb;
+				
 			}
 			#left6{
 				float:left;
@@ -749,7 +827,7 @@
 			}
 			#dz6{
 				float:left;
-				margin-left:0.325rem;
+				margin-left:0.225rem;
 				color:#121212;
 				font-size:0.65rem;
 				margin-top:-0.2rem;
@@ -784,7 +862,7 @@
 			}
 			#wjj_pj6 p span{
 				display:inline-block;
-
+				
 				color:#6a6a6a;
 				font-size:0.375rem;
 				margin-left:0.475rem;
@@ -799,7 +877,7 @@
 				font-size:0.45rem;
 				margin-left:rem;
 				float:left;
-
+				
 			}
 			#wjj_xq6 span{
 				width:0.125rem;
@@ -814,18 +892,18 @@
 				margin-top:0.2rem;
 			}
 			#wjj_xq6 p:nth-child(4){
-				margin-left:0.825rem;
+				margin-left:0.625rem;
 			}
 			#wjj_xq6 p:nth-child(5){
 				color:#3b8cd8;
-				float:right;
-				margin-top:-0.6rem;
+				display:inline-block;
+				margin-top:0.2rem;
 			}
 			#jian6{
 				color:#848484;
 				font-size:0.475rem;
 				margin-top:0.4rem;
-
+				
 			}
 			#jian6 span{
 				display:inline-block;
@@ -839,13 +917,171 @@
 				text-align:center;
 				margin-right:0.2rem;
 			}
+			#xin6{
+				color:#848484;
+				font-size:0.475rem;
+				margin-top:0.4rem;
+				
+			}
+			#xin6 span{
+				display:inline-block;
+				color:#ffffff;
+				font-size:rem;
+				width:0.575rem;
+				height:0.575rem;
+				margin-left:rem;
+				background:#6dbc42;
+				line-height:0.575rem;
+				text-align:center;
+				margin-right:0.2rem;
+			}
+			#wjj_content7{
+				width:16rem;
+				height:6.775rem;
+				border-bottom:0.025rem solid #ebebeb;
+				
+			}
+			#left7{
+				float:left;
+				width:2.725rem;
+				height:2.75rem;
+				margin-left:0.425rem;
+				margin-top:0.625rem;
+			}
+			#right7{
+				float:left;
+				margin-left:0.425rem;
+				width:12.025rem;
+				height:5.475rem;
+				margin-top:0.825rem;
+			}
+			#pp7{
+				width:1.325rem;
+				height:0.65rem;
+				float:left;
+				background:#fed61a;
+				color:#3c1104;
+				font-size:0.45rem;
+				line-height:0.65rem;
+				text-align:center;
+			}
+			#dz7{
+				float:left;
+				margin-left:0.225rem;
+				color:#121212;
+				font-size:0.65rem;
+				margin-top:-0.2rem;
+			}
+			#dz7 span{
+				display:inline-block;
+				width:0.625rem;
+				height:0.65rem;
+				margin-left:1.9rem;
+				color:#c0c0c0;
+				font-size:0.425rem;
+				text-align:center;
+				line-height:0.65rem;
+				border:0.025rem solid #eeeeee;
+			}
+			#wjj_pj7{
+				width:10.375rem;
+				height:0.95rem;
+				margin-top:1.2rem;
+			}
+			#wjj_pj7 img{
+				float:left;
+				margin-left:0.075rem;
+				width:0.525rem;
+				height:0.5rem;
+			}
+			#wjj_pj7 p{
+				float:left;
+				color:#e16b22;
+				font-size:0.375rem;
+				margin-left:0.3rem;
+			}
+			#wjj_pj7 p span{
+				display:inline-block;
+				
+				color:#6a6a6a;
+				font-size:0.375rem;
+				margin-left:0.475rem;
+			}
+			#wjj_xq7{
+				width:12.075rem;
+				height:1rem;
+				border-bottom:0.025rem dashed #e6e6e6;
+			}
+			#wjj_xq7 p{
+				color:#747474;
+				font-size:0.45rem;
+				margin-left:rem;
+				float:left;
+				
+			}
+			#wjj_xq7 span{
+				width:0.125rem;
+				height:0.525rem;
+				display:inline-block;
+				margin-left:0.375rem;
+				margin-right:0.375rem;
+				background:#dedede;
+				margin-top:0.2rem;
+			}
+			#wjj_xq7 p:nth-child(3){
+				margin-top:0.2rem;
+			}
+			#wjj_xq7 p:nth-child(4){
+				margin-left:0.625rem;
+			}
+			#wjj_xq7 p:nth-child(5){
+				color:#3b8cd8;
+				display:inline-block;
+				margin-top:0.2rem;
+			}
+			#jian7{
+				color:#848484;
+				font-size:0.475rem;
+				margin-top:0.4rem;
+				
+			}
+			#jian7 span{
+				display:inline-block;
+				color:#ffffff;
+				font-size:rem;
+				width:0.575rem;
+				height:0.575rem;
+				margin-left:rem;
+				background:#ef7273;
+				line-height:0.575rem;
+				text-align:center;
+				margin-right:0.2rem;
+			}
+			#xin7{
+				color:#848484;
+				font-size:0.475rem;
+				margin-top:0.4rem;
+				
+			}
+			#xin7 span{
+				display:inline-block;
+				color:#ffffff;
+				font-size:rem;
+				width:0.575rem;
+				height:0.575rem;
+				margin-left:rem;
+				background:#6dbc42;
+				line-height:0.575rem;
+				text-align:center;
+				margin-right:0.2rem;
+			}
 		</style>
 	</head>
 	<body>
 		<div id="wjj_box">
-			<header>
+					<header>
 				<div id="logo1">
-					<p onclick="window.location.href='/index/'"><- <span>美食</span></p>
+					<p onclick="window.location.href='/index/'"><- <span>饮品</span></p>
 				    <img src="/static/xp_static/images/logo.png">
 				</div>
 				<div id="logo2">
@@ -863,150 +1099,182 @@
 				<p>筛选</p>
 				<img src="/static/xp_static/images/logo3.png">
 			</div>
-第一个
-            {% for sel in seller %}
+{#            第一个#}
+
+                    {% for sel in seller %}
+                        <a href="{% url 'cate' sel.id  %}">
 			<div id="wjj_content1">
-				<img src="/static/xp_static/images/{{ sel.pictur }}" id="left1">
+				<img src="/static/Order-dinner/img/{{ sel.pictur }}" id="left1">
 				<div id="right1">
 					<p id="pp1">品牌</p>
-					<p id="dz1">{{ sel.Sname }}<span>票</span></p>
+					<p id="dz1">{{ sel.Sname }}<span>保</span></p>
 					<div id="wjj_pj1">
-						<img src="{% static 'static/xp_static/images/tu2.png' %}">
 						<img src="/static/xp_static/images/tu2.png">
 						<img src="/static/xp_static/images/tu2.png">
 						<img src="/static/xp_static/images/tu2.png">
 						<img src="/static/xp_static/images/tu2.png">
-						<p>4.9<span>月销售单</span></p>
+						<img src="/static/xp_static/images/tu2.png">
+						<p>4.9<span>月销售{{ sel.Monthle_sale }}单</span></p>
 					</div>
 					<div id="wjj_xq1">
-						<p>￥0元起送<span></span></p>
-						<p>配送费9￥<span></span></p>
-						<p>￥45/人</p>
-						<p>1.1km<span></span></p>
-						<p>36分钟</p>
+						<p>￥{{ sel.starting_price }}元起送<span></span></p>
+						<p>配送费￥{{ sel.dist_price }}<span></span></p>
+						<p>￥11/人</p>
+						<p> <span></span></p>
+						<p>22分钟</p>
 					</div>
-					<p id="jian1"><span>减</span>满50减6，满90减20</p>
-					<p id="xin1"><span>新</span>新用户下单立减17.0元</p>
+					<p id="jian1"><span>减</span>满{{ sel.reduce }}减{{ sel.price_reduction }}</p>
+					<p id="xin1"><span>新</span>新用户下单立减{{ sel.new_price }}.0元</p>
 				</div>
 			</div>
+
+                                                     </a>
             {% endfor %}
-			<div id="wjj_content2">
+        			<div id="wjj_content2">
 				<img src="/static/xp_static/images/tu3.png" id="left2">
 				<div id="right2">
-
-					<p id="dz2">谷粥道</p>
+					<!--<p id="pp2">品牌</p>-->
+					<p id="dz2">鲜芋仙（龙湖时代天街店）<span>保</span></p>
 					<div id="wjj_pj2">
 						<img src="/static/xp_static/images/tu2.png">
 						<img src="/static/xp_static/images/tu2.png">
 						<img src="/static/xp_static/images/tu2.png">
 						<img src="/static/xp_static/images/tu2.png">
 						<img src="/static/xp_static/images/tu4.png">
-						<p>4.6<span>月销售1306单</span></p>
+						<p>5.0<span>月销售104单</span></p>
 					</div>
 					<div id="wjj_xq2">
-						<p>￥200000000元起送<span></span></p>
-						<p>配送费5￥<span></span></p>
-						<p>￥23/人</p>
-						<p>1.1km<span></span></p>
-						<p>36分钟</p>
-					</div>
-
-				</div>
-			</div>
-			<div id="wjj_content3">
-                <a>
-				<img src="/static/xp_static/images/tu5.png" id="left3">
-				<div id="right3">
-					<p id="dz3">小媳妇儿凉皮<span>票</span></p>
-					<div id="wjj_pj3">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu4.png">
-                        <p>4.5<span>月销售991单</span></p>
-					</div>
-                </a>
-					<div id="wjj_xq3">
 						<p>￥20元起送<span></span></p>
 						<p>配送费￥5<span></span></p>
-						<p>￥15/人</p>
+						<p>￥13/人</p>
 						<p>1.1km<span></span></p>
 						<p>23分钟</p>
 					</div>
-					<p id="jian3"><span>减</span>满28减14，满40减17</p>
-					<p id="xin3"><span>新</span>新用户下单立减23.0元</p>
+				<!--	<p id="jian2"><span>减</span>满35减10，满55减20</p>-->
+					<p id="xin2"><span>新</span>新用户下单立减17.0元</p>
 				</div>
 			</div>
-			<div id="wjj_content4">
-				<img src="/static/xp_static/images/tu6.png" id="left4">
-				<div id="right4">
-					<p id="dz4">麦多馅饼<span>票</span></p>
-					<div id="wjj_pj4">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu4.png">
-						<p>4.7<span>月销售241单</span></p>
-					</div>
-					<div id="wjj_xq4">
-						<p>￥20元起送<span></span></p>
-						<p>配送费￥5<span></span></p>
-						<p>￥20/人</p>
-						<p>558km<span></span></p>
-						<p>23分钟</p>
-					</div>
-					<p id="jian4"><span>减</span>满28减14，满40减17</p>
-
-				</div>
-			</div>
-			<div id="wjj_content5">
-				<img src="/static/xp_static/images/tu7.png" id="left5">
-				<div id="right5">
-					<p id="dz5">坚强混沌<span>票</span></p>
-					<div id="wjj_pj5">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu4.png">
-						<p>4.4<span>月销售86单</span></p>
-					</div>
-					<div id="wjj_xq5">
-						<p>￥20元起送<span></span></p>
-						<p>配送费￥5<span></span></p>
-						<p>￥26/人</p>
-						<p>1.3/km<span></span></p>
-						<p>26分钟</p>
-					</div>
-					<p id="jian5"><span>减</span>满28减14，满40减17</p>
-
-				</div>
-			</div>
-			<div id="wjj_content6">
-				<img src="/static/xp_static/images/tu8.png" id="left6">
-				<div id="right6">
-					<p id="dz6">古城羊汤<span>票</span></p>
-					<div id="wjj_pj6">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu2.png">
-						<img src="/static/xp_static/images/tu4.png">
-						<p>4.6<span>月销售186单</span></p>
-					</div>
-					<div id="wjj_xq6">
-						<p>￥20元起送<span></span></p>
-						<p>配送费￥5<span></span></p>
-						<p>￥25/人</p>
-						<p>1.1/km<span></span></p>
-						<p>22分钟</p>
-					</div>
-					<p id="jian6"><span>减</span>满28减14，满40减17</p>
-
-				</div>
-			</div>
+{#			<div id="wjj_content3">#}
+{#				<img src="/static/xp_static/images/tu5.png" id="left3">#}
+{#				<div id="right3">#}
+{#					<p id="pp3">品牌</p>#}
+{#					<p id="dz3">快乐柠檬（北京大兴店）<span>保</span></p>#}
+{#					<div id="wjj_pj3">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<p>5.0<span>月销售104单</span></p>#}
+{#					</div>#}
+{#					<div id="wjj_xq3">#}
+{#						<p>￥20元起送<span></span></p>#}
+{#						<p>配送费￥5<span></span></p>#}
+{#						<p>￥13/人</p>#}
+{#						<p>1.1km<span></span></p>#}
+{#						<p>23分钟</p>#}
+{#					</div>#}
+{#				<!--	<p id="jian2"><span>减</span>满35减10，满55减20</p>-->#}
+{#					<p id="xin3"><span>新</span>新用户下单立减17.0元</p>#}
+{#				</div>#}
+{#			</div>#}
+{##}
+{#			<div id="wjj_content4">#}
+{#				<img src="/static/xp_static/images/tu6.png" id="left4">#}
+{#				<div id="right4">#}
+{#					<!--<p id="pp4">品牌</p>-->#}
+{#					<p id="dz4">爱蒂宝（北京大兴店）<span>保</span></p>#}
+{#					<div id="wjj_pj4">#}
+{#						<img src="/static/xp_static/images/tu7.png">#}
+{#						<img src="/static/xp_static/images/tu7.png">#}
+{#						<img src="/static/xp_static/images/tu7.png">#}
+{#						<img src="/static/xp_static/images/tu7.png">#}
+{#						<img src="/static/xp_static/images/tu7.png">#}
+{#						<p>5.0<span>月销售5单</span></p>#}
+{#					</div>#}
+{#					<div id="wjj_xq4">#}
+{#						<p>￥20元起送<span></span></p>#}
+{#						<p>配送费￥5<span></span></p>#}
+{#						<p>￥26/人</p>#}
+{#						<p>1.1km<span></span></p>#}
+{#						<!--<p>23分钟</p>-->#}
+{#					</div>#}
+{#				<!--	<p id="jian2"><span>减</span>满35减10，满55减20</p>-->#}
+{#					<p id="xin4"><span>新</span>新用户下单立减23.0元</p>#}
+{#				</div>#}
+{#			</div>#}
+{#			<div id="wjj_content5">#}
+{#				<img src="/static/xp_static/images/tu7-10.png" id="left5">#}
+{#				<div id="right5">#}
+{#					<!--<p id="pp5">品牌</p>-->#}
+{#					<p id="dz5">密斯甜心<span>保</span></p>#}
+{#					<div id="wjj_pj5">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<p>5.0<span>月销售21单</span></p>#}
+{#					</div>#}
+{#					<div id="wjj_xq5">#}
+{#						<p>￥20元起送<span></span></p>#}
+{#						<p>配送费￥5<span></span></p>#}
+{#						<p>￥26/人</p>#}
+{#						<p>1.2km<span></span></p>#}
+{#						<p>25分钟</p>#}
+{#					</div>#}
+{#				<!--	<p id="jian5"><span>减</span>满35减10，满55减20</p>-->#}
+{#					<p id="xin5"><span>新</span>新用户下单立减23.0元</p>#}
+{#				</div>#}
+{#			</div>#}
+{#			<div id="wjj_content6">#}
+{#				<img src="/static/xp_static/images/tu8.png" id="left6">#}
+{#				<div id="right6">#}
+{#					<p id="pp6">品牌</p>#}
+{#					<p id="dz6">周黑鸭（北京龙湖时代店）<span>保</span></p>#}
+{#					<div id="wjj_pj6">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<p>4.8<span>月销售250单</span></p>#}
+{#					</div>#}
+{#					<div id="wjj_xq6">#}
+{#						<p>￥20元起送<span></span></p>#}
+{#						<p>配送费￥5<span></span></p>#}
+{#						<p>￥34/人</p>#}
+{#						<p>1.2km<span></span></p>#}
+{#						<p>25分钟</p>#}
+{#					</div>#}
+{#					<p id="jian6"><span>减</span>满160减12</p>#}
+{#					<p id="xin6"><span>新</span>新用户下单立减23.0元</p>#}
+{#				</div>#}
+{#			</div>#}
+{#			<div id="wjj_content7">#}
+{#				<img src="/static/xp_static/images/tu9.png" id="left7">#}
+{#				<div id="right7">#}
+{#					<!--<p id="pp7">品牌</p>-->#}
+{#					<p id="dz7">雪冰（北京龙湖时代店）<span>保</span></p>#}
+{#					<div id="wjj_pj7">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu2.png">#}
+{#						<img src="/static/xp_static/images/tu4.png">#}
+{#						<p>4.7<span>月销售62单</span></p>#}
+{#					</div>#}
+{#					<div id="wjj_xq7">#}
+{#						<p>￥20元起送<span></span></p>#}
+{#						<p>配送费￥5<span></span></p>#}
+{#						<p>￥40/人</p>#}
+{#						<p>1.2km<span></span></p>#}
+{#						<p>25分钟</p>#}
+{#					</div>#}
+{#					<!--<p id="jian7"><span>减</span>满160减12</p>-->#}
+{#					<p id="xin7"><span>新</span>新用户下单立减23.0元</p>#}
+{#				</div>#}
+{#			</div>#}
 		</div>
 		<script type="text/javascript">
 	      document.documentElement.style.fontSize = innerWidth/16+'px';
@@ -1014,5 +1282,26 @@
 		         document.documentElement.style.fontSize = innerWidth/16+'px';
 	        };
 	    </script>
+{##}
+{#		<div class="footer">#}
+{#			<ul>#}
+{#				<li onclick="window.location.href='/index/'">#}
+{#					<img src="/static/xp_static/img/wm_a.gif">#}
+{#					<p style="color:#3192ef;">外卖</p>#}
+{#				</li>#}
+{#				<li onclick="window.location.href='/find/'">#}
+{#					<img src="/static/xp_static/images/tu_46.png">#}
+{#					<p>发现</p>#}
+{#				</li>#}
+{#				<li onclick="window.location.href='/order/'">#}
+{#					<img src="/static/xp_static/images/tu_52.png">#}
+{#					<p>订单</p>#}
+{#				</li>#}
+{#				<li onclick="window.location.href='/mine/'">#}
+{#					<img src="/static/xp_static/img/wm_d.gif">#}
+{#					<p>我的</p>#}
+{#				</li>#}
+{#			</ul>#}
+{#		</div>#}
 	</body>
 </html>
