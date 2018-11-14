@@ -1,12 +1,16 @@
 from django.shortcuts import render, redirect
-from django.db.models import Q
+from django.db.models import *
 from Order.models import *
+from Order_dinner.models import *
 
 
 def xp_index(request):
-    xp_se = '这里可以删除'
-    concent = {'xp_se': xp_se}
-    return render(request, 'pzb/index.html', concent)
+    # zjc修改11-13
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+    print(context['seller'])
+    return render(request, 'pzb/index.html', context)
 
 
 def xp_find(request):
@@ -17,17 +21,17 @@ def xp_order(request):
     return render(request, 'pzb/订单/订单.html')
 
 
-def xp_mine(request):
-    return render(request, 'pzb/mine.html')
-
-
 def xp_deli(request):
-    return render(request, 'pzb/美食/美食.html')
+    foo = Food.objects.all()
+    se = Seller.objects.all()
+    concent = {"fwe": foo, "sel": se}
+    return render(request, 'pzb/美食/美食.html', concent)
 
 
 def xp_search(request):
     se = request.POST.get('search')
-    obj = Seller.objects.filter(Q(sname__contain=se) | Q(Food__fname__contain=se))
+
+    obj = Seller.objects.filter(Q(sname__contains=se) | Q(Food__fname__contains=se))
     content = {'obj': obj}
     return redirect(request, 'index', content)
 
