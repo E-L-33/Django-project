@@ -1,27 +1,29 @@
 from django.shortcuts import render, redirect
-from django.db.models import Q
-from Order_dinner.models import Seller
+from django.db.models import *
+# from Order_dinner.models import *
+from django.db.models import *
 from Order.models import *
+from Order_dinner.models import *
 from django.core.paginator import Paginator
 
 
-def helps(request):
-    return render(request, 'help.html')
-
-
 def xp_index(request):
-    # xp_se=Seller.objects.values()
-    xp_se = '这里可以删除'
-    concent = {'xp_se': xp_se}
-    return render(request, 'index.html', concent)
 
+    #zjc修改11-13
+    bos = Seller.objects.all()
 
+    context = {'seller': bos}
+    print(context['seller'])
+    return render(request, 'pzb/index.html',context)
+
+def xp_inte(request):
+    return render(request,'pzb/integral.html')
 def xp_find(request):
-    return render(request, 'faxian.html')
+    return render(request, 'pzb/faxian.html')
 
 
 def xp_order(request):
-    return render(request, '订单/订单.html')
+    return render(request, 'pzb/订单/订单.html')
 
 
 def xp_mine(request):
@@ -29,34 +31,37 @@ def xp_mine(request):
 
 
 def xp_deli(request):
-    return render(request, '美食/美食.html')
+    foo=Food.objects.all()
+    se=Seller.objects.all()
+    concent={"fwe":foo,"sel":se}
+    return render(request, 'pzb/美食/美食.html',concent)
 
 
 def xp_search(request):
     se = request.POST.get('search')
-    obj = Seller.objects.filter(Q(sname__contain=se) | Q(Food__fname__contain=se))
+    obj = Seller.objects.filter(Q(sname__contains=se) | Q(Food__fname__contains=se))
     content = {'obj': obj}
     return redirect(request, 'index', content)
 
 
 def xp_drink(request):
-    return render(request, '饮品/饮品.html')
+    return render(request, 'pzb/饮品/饮品.html')
 
 
 def xp_supermarket(request):
-    return render(request, '超市/超市.html')
+    return render(request, 'pzb/超市/超市.html')
 
 
 def xp_near_deli(request):
-    return render(request, '附近美食/附近美食.html')
+    return render(request, 'pzb/附近美食/附近美食.html')
 
 
 def xp_hot_sale(request):
-    return render(request, '热卖/热卖.html')
+    return render(request, 'pzb/热卖/热卖.html')
 
 
 def xp_order_show(request):
     # order=Order()
     orde = Order_detail.objects.all()
     cont = {'orde': orde}
-    return render(request, '订单/订单2.html', cont)
+    return render(request, 'pzb/订单/订单2.html', cont)

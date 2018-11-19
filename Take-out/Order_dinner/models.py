@@ -1,4 +1,5 @@
 from django.db import models
+from Person.models import Customer
 
 
 # Create your models here.
@@ -30,4 +31,13 @@ class Food(models.Model):
     Seller = models.ForeignKey("Seller", on_delete=models.DO_NOTHING)#商铺外键
     Commodity_type=models.CharField(max_length=50,default="早餐/汉堡")#商品类型
     class Meta:
+
         db_table = 'Food'
+class Cart(models.Model):
+    puantity=models.IntegerField(default=0)#数量
+    state=models.BooleanField(default=False)#是否支付
+    Food=models.ForeignKey("Food", on_delete=models.DO_NOTHING,default=2)#食物表外键
+    Customer=models.ForeignKey(Customer, on_delete=models.DO_NOTHING,default=1)
+    Seller = models.ForeignKey("Seller", on_delete=models.DO_NOTHING,default=1)  # 商铺外键
+    class Meta:
+        db_table="Cart"

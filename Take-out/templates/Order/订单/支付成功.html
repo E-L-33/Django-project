@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>微信支付成功</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="/static/xp_static/css/wxzf.css">
+<script src="/static/xp_static/js/jquery.js"></script>
+    <script>
+window.onload=function(){
+
+//定时器每秒调用一次fnDate()
+setInterval(function(){
+fnDate();
+},1000);
+}
+
+//js 获取当前时间
+function fnDate(){
+var oDiv=document.getElementById("div1");
+var date=new Date();
+var year=date.getFullYear();//当前年份
+var month=date.getMonth();//当前月份
+var data=date.getDate();//天
+var hours=date.getHours();//小时
+var minute=date.getMinutes();//分
+var second=date.getSeconds();//秒
+var time=year+"-"+fnW((month+1))+"-"+fnW(data)+" "+fnW(hours)+":"+fnW(minute)+":"+fnW(second);
+oDiv.innerHTML=time;
+}
+//补位 当某个字段不是两位数时补0
+function fnW(str){
+var num;
+str>10?num=str:num="0"+str;
+return num;
+}
+</script>
+</head>
+<body >
+<div class="header">
+  <div class="all_w" style="position:relative; z-index:1;">
+    <div class="ttwenz" style=" text-align:center; width:100%;">
+      <h4>交易详情</h4>
+      <h5>微信安全支付</h5>
+    </div>
+    <a href="/index/" class="fh_but">返回</a> </div>
+</div>
+
+<div class="zfcg_box ">
+<div class="all_w">
+<img src="/static/xp_static/images/cg_03.jpg" > 支付成功 </div>
+
+</div>
+<div class="cgzf_info">
+<div class="wenx_xx">
+  <div class="mz">{{ sid }}</div>
+  <div class="wxzf_price">￥{{ cost }}</div>
+</div>
+
+<div class="spxx_shop">
+ <div class=" mlr_pm">
+ 
+ <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>商品</td>
+    <td align="right">钱包支付缴费</td>
+  </tr>
+   <tr>
+    <td>交易时间</td>
+    <td align="right"><div id="div1"> </div></td>
+  </tr>
+   <tr>
+    <td>支付方式</td>
+    <td align="right">招商银行</td>
+  </tr>
+   <tr>
+    <td>交易单号</td>
+    <td align="right">1205329821521545465665855444</td>
+  </tr>
+</table>
+
+ 
+ 
+ 
+ 
+ 
+ </div>
+
+</div>
+</div>
+
+
+<div class="wzxfcgde_tb"><img src="/static/xp_static/images/cg_07.jpg" ></div>
+  
+</body>
+</html>

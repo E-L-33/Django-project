@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from .models import *
+from django.db.models import *
 
 
 # Create your views here.
@@ -30,7 +31,6 @@ def xc_store(request):
     seller.address = address
     seller.starting_price = starting_price
     seller.dist_price = dist_price
-
     seller.Sphone = Sphone
     seller.Monthle_sale = Monthle_sale
     seller.new_price = new_price
@@ -44,9 +44,14 @@ def xc_store(request):
 
 # 首页
 def xc_index(request):
-    bos = Seller.objects.all()
-    context = {'seller': bos}
-    return render(request, 'Order_dinner/index.html', context)
+    pass
+
+
+#     bos = Seller.objects.all()
+#
+#     context = {}
+#     context = {'seller': bos}
+#     return render(request, 'Order_dinner/index.html', context)
 
 
 # 发现
@@ -64,12 +69,30 @@ def xc_discovery(request):
     return render(request, 'Order_dinner/mine.html')
 
 
-def xc_cate(request):
-    bos = Seller.objects.all()
-    context = {'seller': bos}
-    bos = Food.objects.all()
-    conten = {'food': bos}
-    return render(request, 'Order_dinner/小媳妇儿凉皮.html', conten, context)
+# 商品表/小媳妇
+def xc_cate(request, ids):
+    context = {}
+    context['sid']= ids
+    a = Cart.objects.all().aggregate(s=Sum('puantity'))['s']
+    if a == None:
+        a = 0
+    context['sum'] = a
+    ss = Food.objects.filter(id=F('cart__Food_id')).annotate(s=F('cart__puantity') * F('price')).values('s')
+    ss = ss.aggregate(a=Sum('s'))['a']
+    print(ss)
+    if ss == None:
+        ss = 0
+    context['sumprice'] = ss
+    bos1 = Seller.objects.filter(id=ids)
+    context['seller'] = bos1
+    # context = {'seller': bos}
+    bos = Food.objects.filter(Seller_id=ids)
+    # context = {'food': bos}
+    context['food'] = bos
+
+    print(context)
+
+    return render(request, 'Order_dinner/小媳妇儿凉皮.html', context)
 
 
 def xc_food(request):
@@ -96,3 +119,156 @@ def xc_food(request):
     food.Commodity_type = Commodity_type
     food.save()
     return redirect('/order_dinner/xc_cate')
+
+
+# 购物车
+def xc_add(request, ids):
+    d = Seller.objects.get(food__id=ids).id
+    try:
+        a = Cart.objects.get(Food_id=ids).Food_id
+        puantity = Cart.objects.get(Food_id=ids).puantity
+        puantity = puantity + 1
+        print(type(puantity))
+        cart = Cart.objects.get(Food_id=a)
+        cart.puantity = puantity
+        cart.save()
+    except:
+
+        puantity = 1
+
+        Customer = 1
+        food_id = ids
+        seller = 1
+        state = 0
+        cart = Cart()
+        cart.puantity = puantity
+        cart.Food_id = food_id
+        cart.state = state
+        cart.Seller_id = seller
+        cart.Customer_id = Customer
+        cart.save()
+    return redirect('cate', d)
+
+
+def xc_reduction(request, ids):
+    d = Seller.objects.get(food__id=ids).id
+    try:
+        a = Cart.objects.get(Food_id=ids).Food_id  # 判断食物id在Cart表中是否存在
+        puantity = Cart.objects.get(Food_id=ids).puantity
+
+        print(puantity)
+        if puantity > 1:
+
+            puantity = puantity - 1
+
+            cart = Cart.objects.get(Food_id=a)
+            cart.puantity = puantity
+            cart.save()
+        elif puantity > 0:
+
+            reduct = Cart.objects.filter(Food_id=ids)
+            reduct.delete()
+    except:
+        print(1)
+    return redirect('cate', d)
+
+
+# 11_13增加
+# 食品
+def xc_Delicious_food(request):
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+    print(context['seller'])
+    return render(request, 'Order_dinner/美食.html', context)
+
+
+# 饮品
+def xc_drink(request):
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+    print(context['seller'])
+    return render(request, 'Order_dinner/饮品.html', context)
+
+
+# 超市
+def xc_supermarket(request):
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+    print(context['seller'])
+    return render(request, 'Order_dinner/超市.html', context)
+
+
+#早餐
+def xc_breakfast(request):
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+
+    return render(request, 'Order_dinner/饮品.html', context)
+# 蔬果
+def xc_vegetable(request):
+
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+
+    return render(request,'Order_dinner/饮品.html',context)
+#新店
+def xc_new_store(request):
+
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+
+    return render(request,'Order_dinner/饮品.html',context)
+# 外卖
+def xc_buy_out(request):
+
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+
+    return render(request,'Order_dinner/饮品.html',context)
+# 午饭
+def xc_lunch(request):
+
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+
+    return render(request,'Order_dinner/饮品.html',context)
+# 附近美食
+def xc_nearby_gourmet(request):
+
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+
+    return render(request,'Order_dinner/饮品.html',context)
+# 霸王餐
+def xc_dine(request):
+
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+
+    return render(request,'Order_dinner/饮品.html',context)
+# 零食
+def xc_snacks(request):
+
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+
+    return render(request,'Order_dinner/饮品.html',context)
+#精品
+def xc_boutique(request):
+
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+
+    return render(request,'Order_dinner/饮品.html',context)

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+		     <link rel="stylesheet" type="text/css" href="/static/css/waimai.css">
+        <meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding:0;
+				margin:0;
+				border:0;
+				list-style:none;
+				font-family:"微软雅黑";
+			}
+			#wjj_box{
+				width:16rem;
+				overflow:hidden;
+				background:#f5f5f5;
+				position:relative;
+			}
+			header{
+				width:16rem;
+				height:2.475rem;
+				background:#2194fe;
+				position:fixed;
+			}
+			#dd{
+				color:#ffffff;
+				font-size:0.725rem;
+				line-height:2.475rem;
+				float:left;
+				margin-left:1.075rem;
+			}
+			#zc{
+				color:#ffffff;
+				font-size:0.725rem;
+				line-height:2.475rem;
+				float:right;
+				margin-right:1rem;
+			}
+            .ddxq{
+
+                position: relative;
+                width: 100%;
+                height: 90px;
+                margin-top:49px;
+                font-size: 10px;
+            }
+
+            .dpm{
+                float: left;
+                position: relative;
+                left: 31px;
+                top:36px;
+                color:gray;
+            }
+            .ddxq img{
+                width:60px;
+                height: 50px;
+
+            }
+            .ddt{
+                position: relative;
+                float: left;
+            }
+            .q{
+                position: relative;
+                float: right;
+                top:14px;
+                left: -19px;
+            }
+            .jg{
+                position: relative;
+                float: right;
+                left:37px;
+                top:1px;
+
+            }
+            .ddzt{
+                position: relative;
+                float: right;
+                left: -13px;
+                top: 0px;
+            }
+            .hj{
+                position: relative;
+                float:right ;
+                left:-17px;
+                top:36px;
+            }
+            .psf{
+                position: relative;
+                float: left;
+                left:-160px;
+                top:36px;
+            }
+            #kh{
+                width: 100%;
+                height: 20px;
+            }
+            .n{
+                left: 5px;
+            }
+		</style>
+	</head>
+	<body>
+		<div id="wjj_box">
+			<header>
+				<p id="dd">订单</p>
+				<p id="zc">全部订单</p>
+			</header>
+
+			<div >
+                {% for a in user  %}
+                    {% for b in user2 %}
+                        {% for c in user3 %}
+                    <div class="ddxq">
+                    <div id="kh"></div>
+                    <div class="ddzt"></div>
+                    <div class="q">商品数量：{{ a.order_number }}</div>
+                    <div class="jg">商品价格：{{ c.price }}</div>
+                    <div class="ddt"><img src=/static/Order-dinner/img/{{ b.pictur }}></div>
+                        <div class="n">
+                            <p>{{ b.Sname }}</p>
+                            <p>{{ c.Fname }} 等商品</p>
+                    </div>
+                    <div class="dpm">{{a.odate}}</div>
+                    <div class="psf">配送费：{{ b.dist_price }}</div>
+                    <div class="hj">商品总价：{{ a.order_money }}</div>
+                 </div>
+                 {% endfor %}
+                 {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+			<!-- 底部 -->
+		<div class="footer">
+			<ul>
+				<li onclick="window.location.href='/index/'">
+					<img src="/static/images/footer1.png">
+					<p>外卖</p>
+				</li>
+				<li onclick="window.location.href='/find/'">
+					<img src="/static/images/footer2.png">
+					<p>发现</p>
+				</li>
+				<li onclick="window.location.href='/order/'">
+					<img src="/static/images/footer3.png">
+					<p style="color:#3192ef;">订单</p>
+				</li>
+				<li onclick="window.location.href='/mine/'">
+					<img src="/static/images/footer4.png">
+					<p>我的</p>
+				</li>
+			</ul>
+		</div>
+		</div>
+		<script type="text/javascript">
+	      document.documentElement.style.fontSize = innerWidth/16+'px';
+	      onresize = function(){
+		         document.documentElement.style.fontSize = innerWidth/16+'px';
+	        };
+	    </script>
+	</body>
+</html>

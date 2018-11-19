@@ -1,80 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>服务中心</title>
     {% load staticfiles %}
-	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
-	<link rel="stylesheet" href="{% static 'Person/css/style5.css' %}">
-	<script src="{% static 'app.js' %}"></script>
+    <meta name="viewport"
+          content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="{% static 'Person/css/style5.css' %}">
+    <script src="{% static 'app.js' %}"></script>
 </head>
 <body>
-	<div class="main">
-		<!-- 头部 -->
-		<div class="header">
-			<div class="JUZ">
-				<a href="{% url 'mine' %}"><img src="{% static 'Person/images/qian_03.png' %}"></a>
-				<p>服务中心</p>
-			</div>
-		</div>
-		<!-- 头部结束 -->
-		<!-- nav导航 -->
-		<div class="nav">
-			<ul>
-				<li style="border-right:0.015625rem solid #dedfde">
-					<img src="{% static 'Person/images/fuwu_03.png' %}">
-					<p>在线客服</p>
-				</li>
-				<li>
-					<img src="{% static 'Person/images/fuwu_05.png' %}">
-					<p>客服热线</p>
-				</li>
-			</ul>
-		</div>
-		<!-- nav结束 -->
-		<!-- 内容 -->
-		<div class="content">
-				<ul>
-					<li>
-						<h3>热门问题</h3>
-					</li>
-					<li>
-						<p>准时达问题</p>
-						<img src="{% static 'Person/images/qian_09.png' %}">
-					</li>
-					<li>
-						<p>支付问题</p>
-						<img src="{% static 'Person/images/qian_09.png' %}">
-					</li>
-					<li>
-						<p>余额问题</p>
-						<img src="{% static 'Person/images/qian_09.png' %}">
-					</li>
-					<li>
-						<p>红包问题</p>
-						<img src="{% static 'Person/images/qian_09.png' %}">
-					</li>
-					<li>
-						<p>积分问题</p>
-						<img src="{% static 'Person/images/qian_09.png' %}">
-					</li>
-					<li>
-						<p>会员问题</p>
-						<img src="{% static 'Person/images/qian_09.png' %}">
-					</li>
-					<li>
-						<p>活动问题</p>
-						<img src="{% static 'Person/images/qian_09.png' %}">
-					</li>
-					<li>
-						<p>其他问题</p>
-						<img src="{% static 'Person/images/qian_09.png' %}">
-					</li>
-				</ul>
-	
+<div class="main">
+    <!-- 头部 -->
+    <div class="header">
+        <div class="JUZ">
+            <a href="{% url 'mine' %}"><img src="{% static 'Person/images/qian_03.png' %}"></a>
+            <p>服务中心</p>
+        </div>
+    </div>
+    <!-- 头部结束 -->
+    <!-- nav导航 -->
+    <div class="nav">
+        <ul>
+            <li style="border-right:0.015625rem solid #dedfde">
+                <img src="{% static 'Person/images/fuwu_03.png' %}">
+                <p>在线客服</p>
+            </li>
+            <li>
+                <img src="{% static 'Person/images/fuwu_05.png' %}">
+                <p>客服热线</p>
+            </li>
+        </ul>
+    </div>
+    <!-- nav结束 -->
+    <!-- 内容 -->
+    <div class="content">
+        <ul>
+            <li>
+                <h3>热门问题</h3>
+            </li>
+            <li>
+                <p>准时达问题</p>
+                <img src="{% static 'Person/images/qian_09.png' %}">
+            </li>
+            <li>
+                <p>支付问题</p>
+                <img src="{% static 'Person/images/qian_09.png' %}">
+            </li>
+            <li>
+                <p>余额问题</p>
+                <img src="{% static 'Person/images/qian_09.png' %}">
+            </li>
+            <li>
+                <p>红包问题</p>
+                <img src="{% static 'Person/images/qian_09.png' %}">
+            </li>
+            <li>
+                <p>积分问题</p>
+                <img src="{% static 'Person/images/qian_09.png' %}">
+            </li>
+            <li>
+                <p>会员问题</p>
+                <img src="{% static 'Person/images/qian_09.png' %}">
+            </li>
+            <li>
+                <p>活动问题</p>
+                <img src="{% static 'Person/images/qian_09.png' %}">
+            </li>
+            <li>
+                <p>其他问题</p>
+                <img src="{% static 'Person/images/qian_09.png' %}">
+            </li>
+        </ul>
 
-		</div>
-		<!-- 内容结束 -->
-	</div>
+
+    </div>
+    <!-- 内容结束 -->
+</div>
 </body>
 </html>

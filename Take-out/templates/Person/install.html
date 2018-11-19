@@ -1,45 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>Document</title>
     {% load staticfiles %}
-	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
-	<link rel="stylesheet" href="{% static 'Person/css/style3.css' %}">
-	<script src="{% static 'app.js' %}"></script>
+    <meta name="viewport"
+          content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="{% static 'Person/css/style3.css' %}">
+    <script src="{% static 'app.js' %}"></script>
 </head>
 <body>
-	<div class="main">
-		<!-- 头部 -->
-		<div class="header">
-			<div class="JUZ">
-				<a href="{% url 'mine' %}"><img src="{% static 'Person/images/tong_03.png' %}"></a>
-				<p>设置</p>
-			</div>
-		</div>
-		<!-- 头部结束 -->
-		<!-- 内容 -->
-		<div class="content">
-			<div class="content-t">
-				<ul>
-					<li>
-						<p><b>账户与安全</b></p>
-						<span>开启小额免密支付</span>
-					</li>
-					<li>
-						<p><b>通用</b></p>
-					</li>
-				</ul>
-			</div>
-			<div class="content-c">
-				<p><b>关于饿了就吃</b></p>
-			</div>
-			<div class="content-b">
-				<a href="#"><p>退出登入</p></a>
-			</div>
-		</div>
-		<!-- 内容结束 -->
+<div class="main">
+    <!-- 头部 -->
+    <div class="header">
+        <div class="JUZ">
+            <a href="{% url 'mine' %}"><img src="{% static 'Person/images/tong_03.png' %}"></a>
+            <p>设置</p>
+        </div>
+    </div>
+    <!-- 头部结束 -->
+    <!-- 内容 -->
+    <div class="content">
+        <div class="content-t">
+            <ul>
+                <li>
+                    <p><b>账户与安全</b></p>
+                    <span>开启小额免密支付</span>
+                </li>
+                <li>
+                    <p><b>通用</b></p>
+                </li>
+            </ul>
+        </div>
+        <div class="content-c">
+            <p><b>关于饿了就吃</b></p>
+        </div>
+{#        {% if request.use.is_authenticated %}#}
+            <div class="content-b">
+                <a href="#"><p>退出登入</p></a>
+            </div>
+{#        {% else %}#}
+{#            <div class="content-b">#}
+{#                <a href="{% url 'login' %}"><p>先登录呀</p></a>#}
+{#            </div>#}
+{#        {% endif %}#}
 
-	</div>
+    </div>
+    <!-- 内容结束 -->
+
+</div>
 </body>
 </html>

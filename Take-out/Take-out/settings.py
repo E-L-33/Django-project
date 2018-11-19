@@ -35,10 +35,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Delicious',
+    # 'Delicious',
     'Order',
     'Order_dinner',
-    'Payment',
+    #'Payment',
     'Person',
     'Comment',
 ]
@@ -82,8 +82,8 @@ DATABASES = {
         'NAME': 'Take_out',
         'PORT': 3306,
         'USER': 'root',
-        'PASSWORD': '1',
-        'HOST': 'localhost',
+        'PASSWORD': 'qwd',
+        'HOST': '127.0.0.1',
     }
 }
 
@@ -123,5 +123,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, 'static')
 ]
