@@ -13,7 +13,7 @@ def xp_index(request):
     bos = Seller.objects.all()
 
     context = {'seller': bos}
-    print(context['seller'])
+    # print(context['seller'])
     return render(request, 'pzb/index.html',context)
 
 def xp_inte(request):
@@ -23,7 +23,13 @@ def xp_find(request):
 
 
 def xp_order(request):
-    return render(request, 'pzb/订单/订单.html')
+    order=Order.objects.filter(order_money='null').values()
+    order.delete()
+    userid = request.session.get('userid', '')
+    # Sname=Seller.objects.filter()
+    context={'order':order}
+
+    return render(request, 'pzb/订单/订单.html',context)
 
 
 def xp_mine(request):

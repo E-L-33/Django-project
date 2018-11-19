@@ -25,12 +25,13 @@ def xc_store(request):
     Business_hours = request.POST.get('Business_hours')
     Sphone = request.POST.get('Sphone')
     Sphone = int(Sphone)
-    print(type(new_price), new_price, reduce)
+    # print(type(new_price), new_price, reduce)
     seller = Seller()
     seller.Sname = Sname
     seller.address = address
     seller.starting_price = starting_price
     seller.dist_price = dist_price
+
     seller.Sphone = Sphone
     seller.Monthle_sale = Monthle_sale
     seller.new_price = new_price
@@ -72,14 +73,15 @@ def xc_discovery(request):
 # 商品表/小媳妇
 def xc_cate(request, ids):
     context = {}
-    context['sid']= ids
+    sid=ids
+    context['sid']=sid
     a = Cart.objects.all().aggregate(s=Sum('puantity'))['s']
     if a == None:
         a = 0
     context['sum'] = a
     ss = Food.objects.filter(id=F('cart__Food_id')).annotate(s=F('cart__puantity') * F('price')).values('s')
     ss = ss.aggregate(a=Sum('s'))['a']
-    print(ss)
+    # print(ss)
     if ss == None:
         ss = 0
     context['sumprice'] = ss
@@ -89,9 +91,7 @@ def xc_cate(request, ids):
     bos = Food.objects.filter(Seller_id=ids)
     # context = {'food': bos}
     context['food'] = bos
-
-    print(context)
-
+    # print(context)
     return render(request, 'Order_dinner/小媳妇儿凉皮.html', context)
 
 
@@ -106,7 +106,7 @@ def xc_food(request):
     Seller = request.POST.get('Seller')
     Commodity_type = request.POST.get('Commodity_type')
     Seller = int(Seller)
-    print(price, type(msq))
+    # print(price, type(msq))
     food = Food()
     food.Fname = Fname
     food.msq = msq
@@ -128,7 +128,7 @@ def xc_add(request, ids):
         a = Cart.objects.get(Food_id=ids).Food_id
         puantity = Cart.objects.get(Food_id=ids).puantity
         puantity = puantity + 1
-        print(type(puantity))
+        # print(type(puantity))
         cart = Cart.objects.get(Food_id=a)
         cart.puantity = puantity
         cart.save()
@@ -156,7 +156,7 @@ def xc_reduction(request, ids):
         a = Cart.objects.get(Food_id=ids).Food_id  # 判断食物id在Cart表中是否存在
         puantity = Cart.objects.get(Food_id=ids).puantity
 
-        print(puantity)
+        # print(puantity)
         if puantity > 1:
 
             puantity = puantity - 1
@@ -185,10 +185,10 @@ def xc_Delicious_food(request):
 
 # 饮品
 def xc_drink(request):
-    bos = Seller.objects.all()
+    bos = Seller.objects.filter(id__gt=11).values()
 
     context = {'seller': bos}
-    print(context['seller'])
+    # print(context['seller'])
     return render(request, 'Order_dinner/饮品.html', context)
 
 
@@ -197,7 +197,7 @@ def xc_supermarket(request):
     bos = Seller.objects.all()
 
     context = {'seller': bos}
-    print(context['seller'])
+    # print(context['seller'])
     return render(request, 'Order_dinner/超市.html', context)
 
 
@@ -270,5 +270,37 @@ def xc_boutique(request):
     bos = Seller.objects.all()
 
     context = {'seller': bos}
-
     return render(request,'Order_dinner/饮品.html',context)
+def xc_find(request):
+
+    bos = Seller.objects.all()
+
+    context = {'seller': bos}
+    # bos = Food.objects.filter(id3)
+    #
+    # context = {'foods': bos}
+    # bos = Food.objects.filter(id<3)
+    #
+    # context = {'food': bos}
+
+    return render(request,'Order_dinner/faxian.html',context)
+# def xc_payment(request,ids):
+#     id=request.POST.get('seller')
+#     Sname=Seller.objects.get(id=id).Sname
+#     bos = Food.objects.values()
+#     # cont={}
+#     # cont['bos']=bos
+#     # for fod in bos:
+#
+#         # print(fod)
+#     food = request.POST.get('food1')
+#     qu = request.POST.get('qu1')
+#     price = request.POST.get('price1')
+#     cost = request.POST.get('cost')
+#     # print(id,type(id),ids,price,qu,food,Sname)
+#
+#     context={}
+#     context['Sname']=Sname
+#     context['cost'] = cost
+#
+#     return render(request,'Order_dinner/微信支付.html',context)

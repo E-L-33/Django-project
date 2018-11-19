@@ -19,7 +19,7 @@ def uregister(request):
             # 用户登录
             user = auth.authenticate(username=username, password=password)
             auth.login(request, user)
-            return redirect(request.GET.get('from', reverse('test')))
+            return redirect(request.GET.get('from', reverse('login')))
     else:
         register = Register_Forms()
 
@@ -38,7 +38,8 @@ def ulogin(request):
         if forms.is_valid():
             user = forms.cleaned_data['user']
             auth.login(request, user)
-            return redirect(request.GET.get('form', reverse('test')))
+            request.session['userid']=user.id # 将用户id保存到session
+            return redirect(request.GET.get('form', reverse('index')))
     else:
         forms = Login_Forms()
 

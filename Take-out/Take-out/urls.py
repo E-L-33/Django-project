@@ -1,4 +1,4 @@
-"""Take_out URL Configuration
+"""Take-out URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.1/topics/http/urls/
@@ -27,7 +27,7 @@ urlpatterns = [
     # path('Payment/', include('Payment.urls')),
     path('Comment/', include('Comment.urls')),
     # path('Delicious/', include('Delicious.urls')),
-    url(r'^index/', views.xp_index, ),
+    url(r'^index/', views.xp_index,name='index' ),
     url(r'^find/$', views.xp_find, ),
     url('order/', views.xp_order, ),
     # url('mine/', views.xp_mine),

@@ -8,10 +8,6 @@
 <script src="/static/xp_static/js/jquery.js"></script>
 <script type="text/javascript">
      var li=new Array()
-function ts(){
-            var t=setTimeout(document.getElementById('tsd').style.display='none',500)}
-
-
 $(function(){
 	//出现浮动层
 	$(".ljzf_but").click(function(){
@@ -67,27 +63,34 @@ $(function(){
 			//alert(i);
 		});
 });
-
 </script>
+    <style>
+              #back{
+                background-image: url("/static/Order-dinner/xc_images/logo6.png");
+                width:31px;
+                height:29px;
+            }
+    </style>
 </head>
 <body>
 <div class="header">
   <div class="all_w ">
-    <div class="gofh"> <a href="#"><img src="/static/xp_static/images/jt_03.jpg" ></a> </div>
+{#    <div class="gofh"> <a href="{% url 'cate' %}"><img src="/static/xp_static/images/jt_03.jpg" ></a> </div>#}
+      <div class="gofh"><input id="back" type="button" name="back" onclick="javascript:history.back()"></div>
     <div class="ttwenz">
       <h4>确认交易</h4>
       <h5>微信安全支付</h5>
     </div>
   </div>
 </div>
-    <div id='tsd' onload="">{{ 提示 }}</div>
 <div class="wenx_xx">
   <div class="mz">{{ sname.0.Sname }}</div>
   <div class="wxzf_price">￥{{  cost }}</div>
 </div>
 <div class="skf_xinf">
-  <div class="all_w"> <span class="bt">收款方</span> <span class="fr">{{ sname.0.Sname }}{{ sid }}</span> </div>
+  <div class="all_w"> <span class="bt">收款方</span> <span class="fr">{{ sname.0.Sname }}</span> </div>
 </div>
+<input type="hidden" id='passwd' value="">
 
 <a href="javascript:void(0)" class="ljzf_but all_w">立即支付</a>
 <!--浮动层-->
@@ -95,8 +98,7 @@ $(function(){
   <div class="srzfmm_box">
     <div class="qsrzfmm_bt clear_wl"> <img src="/static/xp_static/images/xx_03.jpg" class="tx close fl" > <img src="/static/xp_static/images/jftc_03.jpg" class="tx fl" ><span class="fl">请输入支付密码</span> </div>
     <div class="zfmmxx_shop">
-
-      <div class="mz">{{ sname.0.Sname}}</div>
+      <div class="mz">{{ sname.0.Sname }}</div>
       <div class="wxzf_price">￥{{ cost }}</div>
     </div>
     <a href="cg.html" class="blank_yh"> <img src="/static/xp_static/images/jftc_07.jpg" class="fl"  ><span class="fl ml5">招商银行信用卡</span> <img src="/static/xp_static/images/jftc_09.jpg" class="fr"></a>
@@ -128,13 +130,8 @@ $(function(){
   </div>
     <form id="bd" action="/Order/paysu/" method="post">
         <input type="hidden" id="pwd" name="pwd" value="">
-        <input type="hidden" name="sid" value="{{ sname.0.Sname  }}">
-        <input type="hidden" id="uid" name="uid" value="{{ uid }}">
-        <input type="hidden" id="uid" name="si" value="{{ sid }}">
-        <input type="hidden" id="qu" name="qu" value="{{ qu}}">
-        <input type="hidden" id="food" name="food" value="{{ li }}">
-        <input type="hidden" id="price" name="price" value="{{ per }}">
-          <input type="hidden" id="cost" name="cost" value="{{ cost }}">
+        <input type="hidden" id="pwd" name="cost" value="{{ cost }}">
+        <input type="hidden" id="pwd" name="Sname" value="{{ sname.0.Sname }}">
         {% csrf_token %}
     </form>
   <div class="hbbj"></div>

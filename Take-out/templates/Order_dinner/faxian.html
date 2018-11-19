@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+	    <link rel="stylesheet" type="text/css" href="/static/Order-dinner/css/faxian.css">
+	</head>
+	<body>
+		<div class="yf_box">
+			<div class="yf_header">
+				<p>发现</p>
+			</div>
+			<div class="yf_active">
+				<div class="yf_active_top">
+					<div class="yf_active_topleft">
+						<a href="/inte/"><div class="yf_active_topleft_font">
+							<p>积分商城</p>
+							<p>0元好物在这里！</p>
+                    </div></a>
+						<div class="yf_active_topleft_img">
+							<img src="/static/xp_static/img/fx-1.gif"/>
+						</div>
+					</div>
+					<div class="yf_active_topright">
+						<div class="yf_active_toprightfirst">
+							<div class="yf_active_topleft_font1">
+								<p>美味爆料</p>
+								<p>想吃零食快来点我</p>
+							</div>
+							<div class="yf_active_toprightfirst_img">
+								<img src="/static/xp_static/img/fx-2.gif"/>
+							</div>
+						</div>
+						<div class="yf_active_toprightfirst">
+							<div class="yf_active_topleft_font1">
+								<p style="color: #2F2FF6;">推荐有奖</p>
+								<p>十元现金不停</p>
+							</div>
+							<div class="yf_active_toprightfirst_img">
+								<img src="/static/xp_static/img/fx-3.gif"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="yf_active_bottom">
+				    <div class="yf_active_bottomleft">
+				    	<div class="yf_active_topleft_font">
+								<p style="color: #FC9AF4;">推荐有奖</p>
+								<p>每月最高500M</p>
+						</div>
+						<div class="yf_active_bottomleft_img">
+							<img src="/static/xp_static/img/fx-4.gif"/>
+						</div>
+				    </div>
+				    <div class="yf_active_bottomleft">
+				    	<div class="yf_active_topleft_font">
+								<p style="color: #2EED7A;">推荐有奖</p>
+								<p>每月最高500M</p>
+						</div>
+						<div class="yf_active_bottomleft_img">
+							<img src="/static/xp_static/img/fx-5.gif"/>
+						</div>
+				    </div>	
+				</div> 
+			</div>
+			<div class="yf_banner">
+				<img src="/static/xp_static/img/fx-banner.gif"/>
+			</div>
+			<div class="yf_first">
+				<div class="yf_first_top">
+					<div class="yf_first_topfont">
+						<img src="/static/xp_static/img/fx-7.gif"/>
+						<p>特价商品，一网打尽</p>
+					</div>
+				</div>
+{#                第一个#}
+                       {% for sel in seller %}
+                        <a href="{% url 'cate' sel.id  %}">
+			<div id="wjj_content1">
+				<img src="/static/Order-dinner/img/{{ sel.pictur }}" id="left1">
+				<div id="right1">
+					<p id="pp1">品牌</p>
+					<p id="dz1">{{ sel.Sname }}<span>保</span></p>
+					<div id="wjj_pj1">
+						<img src="/static/xp_static/images/tu2.png">
+						<img src="/static/xp_static/images/tu2.png">
+						<img src="/static/xp_static/images/tu2.png">
+						<img src="/static/xp_static/images/tu2.png">
+						<img src="/static/xp_static/images/tu2.png">
+						<p>4.9<span>月销售{{ sel.Monthle_sale }}单</span></p>
+					</div>
+					<div id="wjj_xq1">
+						<p>￥{{ sel.starting_price }}元起送<span></span></p>
+						<p>配送费￥{{ sel.dist_price }}<span></span></p>
+						<p>￥11/人</p>
+						<p> <span></span></p>
+						<p>22分钟</p>
+					</div>
+					<p id="jian1"><span>减</span>满{{ sel.reduce }}减{{ sel.price_reduction }}</p>
+					<p id="xin1"><span>新</span>新用户下单立减{{ sel.new_price }}.0元</p>
+				</div>
+			</div>
+
+                                                     </a>
+            {% endfor %}
+
+
+{#            #}
+{#            #}
+{#                {% for Fod in food %}#}
+{#				<div class="yf_first_cen">/hotsa/#}
+{#					<div class="yf_first_cen_first" onclick="window.location.href='/hotsa/'">#}
+{#						<div class="yf_first_cen_first_img">#}
+{#                              <img src="/static/Order-dinner/xc_imge/{{ Fod.photo }}"/>#}
+{#						</div>#}
+{#						<p>{{ Fod.Fname }}</p>#}
+{#						<p><span>￥1</span><span>&nbsp;&nbsp;<del>￥10</del></span></p>#}
+{#					</div>#}
+{#					<div class="yf_first_cen_first" onclick="window.location.href='/hotsa/'">#}
+{#						<div class="yf_first_cen_first_img">#}
+{#                              <img src="/static/xp_static/img/fx-b.gif"/>#}
+{#						</div>#}
+{#						<p>单人套餐</p>#}
+{#						<p><span>￥16.08</span><span><del>￥24</del></span></p>#}
+{#					</div>#}
+{#					<div class="yf_first_cen_first" onclick="window.location.href='/hotsa/'">#}
+{#						<div class="yf_first_cen_first_img">#}
+{#                              <img src="/static/xp_static/img/fx-c.gif"/>#}
+{#						</div>#}
+{#						<p>咖喱鸡饭</p>#}
+{#						<p><span>￥10</span><span><del>￥20</del></span></p>#}
+{#					</div>#}
+{#					</div>#}
+{#                {% endfor %}#}
+{#增加#}
+{#                		<div class="yf_first_cen">/hotsa/#}
+{#					<div class="yf_first_cen_first" onclick="window.location.href='/hotsa/'">#}
+{#						<div class="yf_first_cen_first_img">#}
+{#                              <img src="/static/xp_static/img/fx-a.gif"/>#}
+{#						</div>#}
+{#						<p>香辣鸡腿堡</p>#}
+{#						<p><span>￥1</span><span>&nbsp;&nbsp;<del>￥10</del></span></p>#}
+{#					</div>#}
+{#					<div class="yf_first_cen_first" onclick="window.location.href='/hotsa/'">#}
+{#						<div class="yf_first_cen_first_img">#}
+{#                              <img src="/static/xp_static/img/fx-b.gif"/>#}
+{#						</div>#}
+{#						<p>单人套餐</p>#}
+{#						<p><span>￥16.08</span><span><del>￥24</del></span></p>#}
+{#					</div>#}
+{#					<div class="yf_first_cen_first" onclick="window.location.href='/hotsa/'">#}
+{#						<div class="yf_first_cen_first_img">#}
+{#                              <img src="/static/xp_static/img/fx-c.gif"/>#}
+{#						</div>#}
+{#						<p>咖喱鸡饭</p>#}
+{#						<p><span>￥10</span><span><del>￥20</del></span></p>#}
+{#					</div>#}
+{#					</div>#}
+
+				</div>
+			</div>
+			<!-- 底部 -->
+		<div class="footer">
+			<ul>
+				<li onclick="window.location.href='/index/'">
+					<img src="/static/xp_static/images/tu_43.png">
+					<p>外卖</p>
+				</li>
+				<li onclick="window.location.href='/find/'">
+					<img src="/static/xp_static/images/faxian_03.png">
+					<p style="color:#3192ef;">发现</p>
+				</li>
+				<li onclick="window.location.href='/order/'">
+					<img src="/static/xp_static/images/tu_52.png">
+					<p>订单</p>
+				</li>
+				<li onclick="window.location.href='{% url 'mine' %}'">
+					<img src="/static/xp_static/img/wm_d.gif">
+					<p>我的</p>
+				</li>
+			</ul>
+		</div>
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</div>
+	</body>
+</html>

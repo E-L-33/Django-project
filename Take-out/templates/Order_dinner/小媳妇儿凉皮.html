@@ -483,9 +483,9 @@
 
                             <p id="btn4">
 {#                                <input id="foodid" value="{{ Food.id }}">#}
-                            <button onclick="add{{ Food.id }}()" value="+">+</button>
+                                <button onclick="add{{ Food.id }}()" value="+"><b>+</b></button>
                             <span id="count{{ Food.id }}">0</span>份</span>
-                            <button onclick="dec{{ Food.id }}()">-</button>
+                                <button onclick="dec{{ Food.id }}()"><b>-</b></button>
 
                             </p>
 
@@ -538,7 +538,7 @@
                     <input type="hidden" name="price" id="price{{  Food.id }}" value="">
                     {% endfor %}
                     <input type="hidden" name="cost" id="cost" value="">
-                    <input type="hidden" name="uid" id="uid" value="4">
+                    <input type="hidden" name="uid" id="uid" value="1">
                     <input type="submit" id="d" value="去结算">
                 </form>
                 </div>
